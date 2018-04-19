@@ -1,3 +1,3 @@
 as yet unclassified
 setUp
-	counter := Counter new
+	counter := AutoCorrection new

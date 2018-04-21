@@ -1,9 +1,5 @@
-as yet unclassified
+testcases
 testReset
-	self assert: 1 equals: counter currentValue.
-	2 to: 10 do: [:ea |
-		counter increment.
-		self assert: ea equals: counter currentValue ].
-	counter reset.
-	self assert: 1 equals: counter currentValue
+
+	self assert: Set new equals: corrector reset
 	

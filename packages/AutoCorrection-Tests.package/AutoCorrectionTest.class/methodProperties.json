@@ -1,7 +1,8 @@
 {
 	"class" : {
-		 },
+		"lastStoredRun" : "lb 4/21/2018 17:47" },
 	"instance" : {
-		"setUp" : "fn 4/17/2018 11:18",
-		"testIncrement" : "fn 4/17/2018 11:19",
-		"testReset" : "fn 4/17/2018 12:19" } }
+		"setUp" : "lb 4/21/2018 18:57",
+		"testCalcCorrectionForClasses" : "lb 4/21/2018 18:31",
+		"testCalcCorrectionForMessages" : "lb 4/21/2018 18:33",
+		"testReset" : "lb 4/21/2018 18:57" } }

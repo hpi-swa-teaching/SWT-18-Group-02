@@ -1,0 +1,14 @@
+{
+	"category" : "AutoCorrection-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lb 4/21/2018 17:12",
+	"instvars" : [
+		"expected" ],
+	"name" : "ACModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

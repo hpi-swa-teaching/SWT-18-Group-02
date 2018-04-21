@@ -1,5 +1,5 @@
 OrderedDictionary {
-	'packages\/BaselineOfAutoCorrection.package' : #SquotCypressCodeSerializer,
 	'packages\/AutoCorrection-Core.package' : #SquotCypressCodeSerializer,
-	'packages\/AutoCorrection-Tests.package' : #SquotCypressCodeSerializer
+	'packages\/AutoCorrection-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/BaselineOfAutoCorrection.package' : #SquotCypressCodeSerializer
 }

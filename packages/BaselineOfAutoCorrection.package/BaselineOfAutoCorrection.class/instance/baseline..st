@@ -6,10 +6,12 @@ baseline: spec
 		do: [
 			spec
 				
-				package: 'AutoCorrection-Core';
-				package: 'AutoCorrection-Tests' with: [spec requires: #('AutoCorrection-Core')];
+				package: 'Autocorrect-Core';
+				package: 'Autocorrect-Modules';
+				package: 'Autocorrect-Tests-Core' with: [spec requires: #('Autocorrect-Core')];
+				package: 'Autocorrect-Tests-Modules' with: [spec requires: #('Autocorrect-Modules')];
 				yourself.
 			spec
-				group: 'default' with: #('AutoCorrection-Core');
-				group: 'tests' with: #('AutoCorrection-Tests')];
+				group: 'default' with: #('Autocorrect-Core', 'Autocorrect-Modules');
+				group: 'tests' with: #('Autocorrect-Tests-Core', 'Autocorrect-Tests-Modules')];
 				yourself

@@ -1,14 +1,14 @@
 {
-	"category" : "BaselineOfAutoCorrection",
+	"category" : "Autocorrect-Tests-Modules",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "BaselineOfAutoCorrection",
+		"corrector" ],
+	"name" : "AutoCorrectionTest",
 	"pools" : [
 		 ],
-	"super" : "BaselineOf",
+	"super" : "TestCase",
 	"type" : "normal" }

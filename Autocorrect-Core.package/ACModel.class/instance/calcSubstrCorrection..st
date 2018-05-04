@@ -7,4 +7,4 @@ calcSubstrCorrection: aString
 		(aString first: ((aString size) - 1))].
 	lastEx do: [ :match |
 		shortEx := match contents asString first: (aString size).
-		((aString alike: shortEx) >= aString size) ifTrue: [self expected add: match]]
+		((aString alike: shortEx) >= aString size) ifTrue: [self expected add: match]] 

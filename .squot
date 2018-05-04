@@ -1,5 +1,7 @@
 OrderedDictionary {
-	'packages\/AutoCorrection-Core.package' : #SquotCypressCodeSerializer,
-	'packages\/AutoCorrection-Tests.package' : #SquotCypressCodeSerializer,
+	'Autocorrect-Core.package' : #SquotCypressCodeSerializer,
+	'Autocorrect-Modules.package' : #SquotCypressCodeSerializer,
+	'Autocorrect-Tests-Core.package' : #SquotCypressCodeSerializer,
+	'Autocorrect-Tests-Modules.package' : #SquotCypressCodeSerializer,
 	'packages\/BaselineOfAutoCorrection.package' : #SquotCypressCodeSerializer
 }

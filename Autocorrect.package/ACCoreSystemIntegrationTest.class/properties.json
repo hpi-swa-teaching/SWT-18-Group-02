@@ -1,14 +1,14 @@
 {
-	"category" : "BaselineOfAutoCorrection",
+	"category" : "Autocorrect-Tests-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"TestVar" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "BaselineOfAutoCorrection",
+	"name" : "ACCoreSystemIntegrationTest",
 	"pools" : [
 		 ],
-	"super" : "BaselineOf",
+	"super" : "TestCase",
 	"type" : "normal" }

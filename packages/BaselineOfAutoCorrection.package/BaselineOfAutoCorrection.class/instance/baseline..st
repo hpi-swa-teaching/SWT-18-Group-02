@@ -2,10 +2,11 @@ baseline
 baseline: spec
 	<baseline>
 	spec
-		for: #'common'
+		for: #common
 		do: [
 			spec
 				
+				package: 'Autocorrect' with: [spec postLoadDoIt: #acPostLoad];
 				package: 'Autocorrect-Core';
 				package: 'Autocorrect-Modules';
 				package: 'Autocorrect-Tests-Core' with: [spec requires: #('Autocorrect-Core')];

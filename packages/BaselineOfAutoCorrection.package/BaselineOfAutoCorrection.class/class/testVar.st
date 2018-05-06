@@ -1,0 +1,3 @@
+accessing
+testVar
+	^ TestVar

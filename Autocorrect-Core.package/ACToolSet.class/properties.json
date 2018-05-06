@@ -1,14 +1,14 @@
 {
-	"category" : "BaselineOfAutoCorrection",
+	"category" : "Autocorrect-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"TestVar" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "BaselineOfAutoCorrection",
+	"name" : "ACToolSet",
 	"pools" : [
 		 ],
-	"super" : "BaselineOf",
+	"super" : "Object",
 	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Autocorrect-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"corrector" ],
+	"name" : "ACCoreInfrastructureTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

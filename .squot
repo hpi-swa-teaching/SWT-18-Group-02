@@ -3,5 +3,6 @@ OrderedDictionary {
 	'Autocorrect-Modules.package' : #SquotCypressCodeSerializer,
 	'Autocorrect-Tests-Core.package' : #SquotCypressCodeSerializer,
 	'Autocorrect-Tests-Modules.package' : #SquotCypressCodeSerializer,
+	'Autocorrect.package' : #SquotCypressCodeSerializer,
 	'packages\/BaselineOfAutoCorrection.package' : #SquotCypressCodeSerializer
 }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"calcCorrection:" : "lb 4/21/2018 18:15",
+		"calcSubstrCorrection:" : "lb 4/27/2018 11:56",
+		"expected" : "lb 4/21/2018 17:13",
+		"expected:" : "lb 4/21/2018 17:13",
+		"initialize" : "lb 4/21/2018 19:07",
+		"reset" : "lb 4/21/2018 19:07" } }

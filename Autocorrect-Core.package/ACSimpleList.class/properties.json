@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "lb 4/21/2018 17:12",
+	"commentStamp" : "",
 	"instvars" : [
-		"expected" ],
-	"name" : "ACModel",
+		 ],
+	"name" : "ACSimpleList",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Dictionary",
 	"type" : "normal" }

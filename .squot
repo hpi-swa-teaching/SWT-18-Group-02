@@ -1,8 +1,8 @@
 OrderedDictionary {
-	'Autocorrect-Core.package' : #SquotCypressCodeSerializer,
-	'Autocorrect-Modules.package' : #SquotCypressCodeSerializer,
-	'Autocorrect-Tests-Core.package' : #SquotCypressCodeSerializer,
-	'Autocorrect-Tests-Modules.package' : #SquotCypressCodeSerializer,
-	'Autocorrect.package' : #SquotCypressCodeSerializer,
+	'packages\/Autocorrect-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/Autocorrect-Modules.package' : #SquotCypressCodeSerializer,
+	'packages\/Autocorrect-Tests-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/Autocorrect-Tests-Modules.package' : #SquotCypressCodeSerializer,
+	'packages\/Autocorrect.package' : #SquotCypressCodeSerializer,
 	'packages\/BaselineOfAutoCorrection.package' : #SquotCypressCodeSerializer
 }

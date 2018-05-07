@@ -1,4 +1,4 @@
 as yet unclassified
 testExecutionAfterLoad
 
-	self assert: BaselineOfAutoCorrection testVar equals: 'test'
+	self assert: 'test' equals: BaselineOfAutoCorrection testVar

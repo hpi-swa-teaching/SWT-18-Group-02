@@ -1,4 +1,4 @@
 as yet unclassified
 testACisDefaultToolset
 	
-	self assert: ToolSet default equals: ACToolSet
+	self assert:  ACToolSet equals:ToolSet default

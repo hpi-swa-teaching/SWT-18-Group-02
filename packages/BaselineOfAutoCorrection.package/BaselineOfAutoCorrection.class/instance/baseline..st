@@ -5,10 +5,8 @@ baseline: spec
 		for: #common
 		do: [
 			spec
-				
-				package: 'Autocorrect' with: [spec postLoadDoIt: #acPostLoad];
 				package: 'Autocorrect-Core';
-				package: 'Autocorrect-Modules';
+				package: 'Autocorrect-Modules' with: [spec requires: #('Autocorrect-Core')];
 				package: 'Autocorrect-Tests-Core' with: [spec requires: #('Autocorrect-Core')];
 				package: 'Autocorrect-Tests-Modules' with: [spec requires: #('Autocorrect-Modules')];
 				yourself.

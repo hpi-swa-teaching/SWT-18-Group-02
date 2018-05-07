@@ -11,6 +11,6 @@ baseline: spec
 				package: 'Autocorrect-Tests-Modules' with: [spec requires: #('Autocorrect-Modules')];
 				yourself.
 			spec
-				group: 'default' with: #('Autocorrect-Core', 'Autocorrect-Modules');
-				group: 'tests' with: #('Autocorrect-Tests-Core', 'Autocorrect-Tests-Modules')];
+				group: 'default' with: #('Autocorrect-Core' 'Autocorrect-Modules');
+				group: 'tests' with: #('Autocorrect-Tests-Core' 'Autocorrect-Tests-Modules')];
 				yourself

@@ -1,4 +1,6 @@
 as yet unclassified
 testACisDefaultToolset
 	
-	self assert:  ACToolSet equals:ToolSet default
+	ACSystemIntegration setAsDefault.
+	self assert:  ACToolSet equals: ToolSet default.
+	ACSystemIntegration resetDefault

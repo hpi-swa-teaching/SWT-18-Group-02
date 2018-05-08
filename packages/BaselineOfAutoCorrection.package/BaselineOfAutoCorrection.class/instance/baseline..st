@@ -4,8 +4,15 @@ baseline: spec
 	spec
 		for: #common
 		do: [
+			
+			spec project: 'OCompletion' with: [
+				spec
+					className: 'ConfigurationOfOCompletion';
+					repository: 'http://www.squeaksource.com/MetacelloRepository';
+					version: #stable].
+			
 			spec
-				package: 'Autocorrect-Core';
+				package: 'Autocorrect-Core' with: [spec requires: #(OCompletion)];
 				package: 'Autocorrect-Modules' with: [spec requires: #('Autocorrect-Core')];
 				package: 'Autocorrect-Tests-Core' with: [spec requires: #('Autocorrect-Core')];
 				package: 'Autocorrect-Tests-Modules' with: [spec requires: #('Autocorrect-Modules')];

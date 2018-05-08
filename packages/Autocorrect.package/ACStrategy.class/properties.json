@@ -1,0 +1,15 @@
+{
+	"category" : "Autocorrect-Modules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"list",
+		"suggestions" ],
+	"name" : "ACStrategy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -2,10 +2,6 @@
 	"class" : {
 		"lastStoredRun" : "lb 4/21/2018 17:47" },
 	"instance" : {
-		"setUp" : "lb 4/21/2018 18:57",
-		"testCalcCorrectionForClasses" : "lb 4/21/2018 18:31",
-		"testCalcCorrectionForMessages" : "lb 4/21/2018 18:33",
-		"testReset" : "lb 5/4/2018 11:40",
 		"testStrategyCompletionClassesGetSuggestionsFor" : "NK 5/6/2018 00:13",
 		"testStrategyCompletionDefaultGetSuggestionsFor" : "NK 5/6/2018 00:10",
 		"testStrategyGetSuggestionsFor" : "NK 5/5/2018 17:43",

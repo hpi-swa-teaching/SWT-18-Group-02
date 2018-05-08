@@ -1,0 +1,14 @@
+{
+	"category" : "Autocorrect-Modules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lb 4/21/2018 17:12",
+	"instvars" : [
+		"expected" ],
+	"name" : "ACSimpleStrategy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

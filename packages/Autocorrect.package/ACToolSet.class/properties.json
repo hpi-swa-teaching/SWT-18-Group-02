@@ -1,0 +1,14 @@
+{
+	"category" : "Autocorrect-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ACToolSet",
+	"pools" : [
+		 ],
+	"super" : "ECToolSet",
+	"type" : "normal" }

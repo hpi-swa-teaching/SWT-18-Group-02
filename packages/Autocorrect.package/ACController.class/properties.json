@@ -1,0 +1,15 @@
+{
+	"category" : "Autocorrect-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"simpleList",
+		"strategies" ],
+	"name" : "ACController",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

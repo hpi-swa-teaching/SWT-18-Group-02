@@ -1,0 +1,14 @@
+{
+	"category" : "Autocorrect-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"OldDefault" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ACSystemIntegration",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

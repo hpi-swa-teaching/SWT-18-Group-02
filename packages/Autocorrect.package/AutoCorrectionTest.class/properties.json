@@ -1,0 +1,14 @@
+{
+	"category" : "Autocorrect-Tests-Modules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"corrector" ],
+	"name" : "AutoCorrectionTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

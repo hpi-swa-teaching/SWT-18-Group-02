@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "lb 4/21/2018 17:12",
+	"commentStamp" : "",
 	"instvars" : [
-		"expected" ],
-	"name" : "ACModel",
+		 ],
+	"name" : "ACToolSet",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ECToolSet",
 	"type" : "normal" }

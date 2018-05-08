@@ -5,7 +5,7 @@ baseline: spec
 		for: #common
 		do: [
 			spec
-				package: 'Autocorrect-Core';
+				package: 'Autocorrect-Core' with: [spec requires: #(OCompletion)];
 				package: 'Autocorrect-Modules' with: [spec requires: #('Autocorrect-Core')];
 				package: 'Autocorrect-Tests-Core' with: [spec requires: #('Autocorrect-Core')];
 				package: 'Autocorrect-Tests-Modules' with: [spec requires: #('Autocorrect-Modules')];

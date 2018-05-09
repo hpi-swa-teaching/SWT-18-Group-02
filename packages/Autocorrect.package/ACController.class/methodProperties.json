@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addStrategy:" : "jah 5/5/2018 20:31",
-		"getListOfType:" : "jah 5/5/2018 20:09",
-		"initialize" : "jah 5/5/2018 20:18",
+		"addStrategy:" : "lb 5/9/2018 15:51",
+		"getListOfType:" : "lb 5/9/2018 15:19",
+		"initialize" : "lb 5/9/2018 15:53",
 		"removeStrategy:" : "jah 5/5/2018 20:28",
 		"simpleList" : "jah 5/5/2018 20:31",
 		"simpleList:" : "jah 5/5/2018 20:16",

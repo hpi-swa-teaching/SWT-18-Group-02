@@ -1,3 +1,4 @@
+running
 setUp
-setUp 
+	
 	controller := ACController new

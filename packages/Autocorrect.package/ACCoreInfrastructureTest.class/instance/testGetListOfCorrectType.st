@@ -1,5 +1,5 @@
 testcases
 testGetListOfCorrectType 
 
-	self assert: (self corrector getListOfType: #SimpleList) 
+	self assert: (self controller getListOfType: #SimpleList) 
 		class equals: ACSimpleList 

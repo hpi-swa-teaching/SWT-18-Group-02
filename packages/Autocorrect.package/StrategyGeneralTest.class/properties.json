@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"corrector" ],
-	"name" : "AutoCorrectionTest",
+		"corrector",
+		"controller" ],
+	"name" : "StrategyGeneralTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

@@ -1,6 +1,6 @@
 testcases
 testStrategyCompletionDefaultGetSuggestionsFor
 	|suggestions|
-	suggestions:= ACStrategyCompletionDefault new getSuggestionsFor: 'ifTr'.	
+	suggestions:= (ACStrategyCompletionDefault registerTo: controller) getSuggestionsFor: 'ifTr'.	
 	self assert: (suggestions at: 1) key equals: 'ifTrue:'
 	

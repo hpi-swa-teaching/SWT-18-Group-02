@@ -1,3 +1,3 @@
 as yet unclassified
 getNewList 
-	self list: OCompletionTable classes 
+	self list: (self controller getListOfType: #OTableClasses)

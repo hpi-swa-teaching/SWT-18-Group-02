@@ -1,15 +1,14 @@
 {
-	"category" : "Autocorrect-Core",
+	"category" : "Autocorrect-Tests-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"simpleList",
-		"strategies" ],
-	"name" : "ACController",
+		"controller" ],
+	"name" : "ACCoreControllerTest",
 	"pools" : [
 		 ],
-	"super" : "OController",
+	"super" : "TestCase",
 	"type" : "normal" }

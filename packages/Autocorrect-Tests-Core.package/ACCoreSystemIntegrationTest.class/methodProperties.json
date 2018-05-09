@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testACisDefaultToolset" : "lb 5/8/2018 11:17",
+		"testACisDefaultToolset" : "lb 5/9/2018 11:23",
+		"testControllerAttatchedToStringholder" : "lb 5/9/2018 11:22",
 		"testToolsetRegistered" : "lb 5/6/2018 14:48" } }

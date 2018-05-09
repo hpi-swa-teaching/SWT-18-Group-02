@@ -1,10 +1,10 @@
 {
 	"class" : {
-		 },
+		"defaultModules" : "lb 5/9/2018 17:51" },
 	"instance" : {
 		"addStrategy:" : "lb 5/9/2018 15:51",
 		"getListOfType:" : "lb 5/9/2018 15:19",
-		"initialize" : "lb 5/9/2018 15:53",
+		"initialize" : "lb 5/9/2018 18:56",
 		"removeStrategy:" : "jah 5/5/2018 20:28",
 		"simpleList" : "jah 5/5/2018 20:31",
 		"simpleList:" : "jah 5/5/2018 20:16",

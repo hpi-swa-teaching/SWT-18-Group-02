@@ -1,6 +1,6 @@
 initialization
 initialize 
-	strategies := Bag new.
-	ACStrategyCompletionDefault registerTo: self.
-	ACStrategyCompletionClasses registerTo: self.
+	strategies := Set new.
+	self class defaultModules do: [
+		:module | module registerTo: self].
 	^ self

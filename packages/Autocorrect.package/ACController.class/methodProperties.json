@@ -4,6 +4,7 @@
 	"instance" : {
 		"addStrategy:" : "jah 5/5/2018 20:31",
 		"getListOfType:" : "jah 5/5/2018 20:09",
+		"handleKeystrokeBefore:editor:" : "lb 5/9/2018 12:53",
 		"initialize" : "lb 5/8/2018 12:14",
 		"removeStrategy:" : "jah 5/5/2018 20:28",
 		"simpleList" : "jah 5/5/2018 20:31",

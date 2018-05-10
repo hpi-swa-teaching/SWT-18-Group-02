@@ -6,4 +6,5 @@
 		"controller:" : "lb 5/9/2018 18:00",
 		"setUp" : "lb 5/9/2018 18:04",
 		"testDefaultModuleDeployment" : "lb 5/9/2018 19:03",
+		"testGetSuggestionsFor" : "jah 5/10/2018 13:31",
 		"testProvideListOfGivenType" : "lb 5/9/2018 19:14" } }

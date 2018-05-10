@@ -1,4 +1,4 @@
 as yet unclassified
 testCotrollerContextClass
 	
-	self assert: OContext equals: self controller contextClass
+	self assert: ACContext equals: self controller contextClass

@@ -1,9 +1,11 @@
 {
 	"class" : {
-		 },
+		"registerTo:" : "lb 5/9/2018 15:51" },
 	"instance" : {
-		"getNewList" : "NK 5/5/2018 23:49",
-		"getSuggestionsFor:" : "NK 5/5/2018 18:06",
+		"controller" : "lb 5/9/2018 15:21",
+		"controller:" : "lb 5/9/2018 15:21",
+		"getNewList" : "lb 5/9/2018 15:38",
+		"getSuggestionsFor:" : "lb 5/9/2018 15:38",
 		"list" : "NK 5/5/2018 18:24",
 		"list:" : "NK 5/5/2018 17:33",
 		"suggestions" : "NK 5/5/2018 18:23",

@@ -1,3 +1,3 @@
 as yet unclassified
 getNewList 
-	self list: Array new
+	^ self subclassResponsibility

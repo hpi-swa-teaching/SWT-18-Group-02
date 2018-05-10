@@ -1,5 +1,6 @@
 initialization
 initialize 
-	super initialize.
-	strategies := Bag new.
+	strategies := Set new.
+	self class defaultModules do: [
+		:module | module registerTo: self].
 	^ self

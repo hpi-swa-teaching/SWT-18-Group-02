@@ -1,8 +1,10 @@
 testcases
 testAddAndRemoveStrategy 
+	|strategiesBeforeTest|
 	
-	self corrector addStrategy: #abc.
-	self assert: (self corrector strategies includes: #abc).
+	strategiesBeforeTest := self controller strategies.
+	self controller addStrategy: #abc.
+	self assert: (self controller strategies includes: #abc).
 	
-	self corrector removeStrategy: #abc.
-	self assert: (self corrector strategies isEmpty)
+	self controller removeStrategy: #abc.
+	self assert: (self controller strategies) equals: strategiesBeforeTest

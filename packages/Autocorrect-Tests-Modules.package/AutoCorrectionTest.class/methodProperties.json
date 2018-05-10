@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"lastStoredRun" : "lb 4/21/2018 17:47" },
-	"instance" : {
-		"testStrategyCompletionClassesGetSuggestionsFor" : "NK 5/6/2018 00:13",
-		"testStrategyCompletionDefaultGetSuggestionsFor" : "NK 5/6/2018 00:10",
-		"testStrategyGetSuggestionsFor" : "NK 5/5/2018 17:43",
-		"testStrategyList" : "NK 5/5/2018 17:30" } }

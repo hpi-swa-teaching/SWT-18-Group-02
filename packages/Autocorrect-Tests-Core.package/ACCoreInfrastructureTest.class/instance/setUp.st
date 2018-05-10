@@ -1,3 +1,3 @@
 setUp
 setUp 
-	corrector := ACController new
+	controller := ACController new

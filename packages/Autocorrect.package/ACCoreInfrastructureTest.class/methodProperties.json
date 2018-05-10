@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"corrector" : "jah 5/5/2018 19:39",
-		"corrector:" : "jah 5/5/2018 19:39",
-		"setUp" : "jah 5/5/2018 19:35",
-		"testAddAndRemoveStrategy" : "jah 5/5/2018 20:33",
-		"testGetListOfCorrectType" : "jah 5/5/2018 20:34" } }
+		"controller" : "lb 5/9/2018 15:56",
+		"controller:" : "lb 5/9/2018 15:57",
+		"setUp" : "lb 5/9/2018 15:56",
+		"testAddAndRemoveStrategy" : "lb 5/9/2018 15:56",
+		"testProvideList" : "lb 5/9/2018 19:14" } }

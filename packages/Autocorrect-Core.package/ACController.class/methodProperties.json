@@ -3,8 +3,9 @@
 		"defaultModules" : "lb 5/9/2018 17:51" },
 	"instance" : {
 		"addStrategy:" : "lb 5/9/2018 15:51",
+		"context" : "jah 5/11/2018 12:34",
 		"getListOfType:" : "lb 5/9/2018 15:19",
-		"getSuggestionsFor:" : "jah 5/10/2018 13:28",
+		"getSuggestionsFor:" : "jah 5/11/2018 12:22",
 		"handleKeystrokeBefore:editor:" : "lb 5/9/2018 12:53",
 		"initialize" : "lb 5/10/2018 17:25",
 		"removeStrategy:" : "jah 5/5/2018 20:28",

@@ -5,7 +5,7 @@
 		"addStrategy:" : "lb 5/9/2018 15:51",
 		"getListOfType:" : "lb 5/9/2018 15:19",
 		"getSuggestionsFor:" : "jah 5/10/2018 13:28",
-		"handleKeystrokeBefore:editor:" : "lb 5/9/2018 12:53",
+		"handleKeystrokeBefore:editor:" : "jah 5/11/2018 19:40",
 		"initialize" : "lb 5/10/2018 17:25",
 		"menuMorph" : "lb 5/11/2018 18:26",
 		"removeStrategy:" : "jah 5/5/2018 20:28",

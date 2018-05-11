@@ -5,8 +5,6 @@ testSimpleStrategyGetSuggestionsFor
 	self assert: (suggestions at: 1) key equals: 'Morph'.
 	suggestions:= (ACSimpleStrategy  registerTo: controller) getSuggestionsFor:'Moroh'.	
 	self assert: (suggestions at: 1) key equals: 'Morph'.
-	suggestions:= (ACSimpleStrategy  registerTo: controller) getSuggestionsFor:'Mrph'.	
-	self assert: (suggestions at: 1) key equals: 'Morph'.
 	suggestions:= (ACSimpleStrategy  registerTo: controller) getSuggestionsFor:'ifTure'.	
 	self assert: (suggestions at: 1) key equals: 'ifTrue:'
 	

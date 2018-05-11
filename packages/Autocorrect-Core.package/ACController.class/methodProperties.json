@@ -3,7 +3,7 @@
 		"defaultModules" : "lb 5/9/2018 17:51" },
 	"instance" : {
 		"addStrategy:" : "lb 5/9/2018 15:51",
-		"getListOfType:" : "lb 5/9/2018 15:19",
+		"getListOfType:" : "az 5/11/2018 12:23",
 		"getSuggestionsFor:" : "jah 5/10/2018 13:28",
 		"initialize" : "lb 5/9/2018 18:56",
 		"removeStrategy:" : "jah 5/5/2018 20:28",

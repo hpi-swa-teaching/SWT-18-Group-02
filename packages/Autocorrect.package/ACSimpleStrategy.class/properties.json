@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "lb 4/21/2018 17:12",
 	"instvars" : [
-		"expected" ],
+		"classesStrategy",
+		"defaultStrategy" ],
 	"name" : "ACSimpleStrategy",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ACStrategy",
 	"type" : "normal" }

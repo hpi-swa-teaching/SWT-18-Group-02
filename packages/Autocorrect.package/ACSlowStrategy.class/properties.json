@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "lb 4/21/2018 17:12",
+	"commentStamp" : "",
 	"instvars" : [
-		"classesStrategy",
-		"defaultStrategy" ],
-	"name" : "ACSimpleStrategy",
+		 ],
+	"name" : "ACSlowStrategy",
 	"pools" : [
 		 ],
 	"super" : "ACStrategy",

@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "lb 4/21/2018 17:12",
+	"commentStamp" : "",
 	"instvars" : [
-		"classesStrategy",
-		"defaultStrategy" ],
-	"name" : "ACSimpleStrategy",
+		"collection" ],
+	"name" : "ACList",
 	"pools" : [
 		 ],
-	"super" : "ACStrategy",
+	"super" : "Object",
 	"type" : "normal" }

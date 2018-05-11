@@ -1,0 +1,15 @@
+{
+	"category" : "Autocorrect-Tests-Modules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"corrector",
+		"controller" ],
+	"name" : "ListGeneralTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

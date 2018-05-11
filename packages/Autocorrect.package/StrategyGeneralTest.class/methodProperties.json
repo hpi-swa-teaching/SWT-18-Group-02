@@ -3,6 +3,8 @@
 		"lastStoredRun" : "lb 4/21/2018 17:47" },
 	"instance" : {
 		"setUp" : "lb 5/9/2018 15:40",
+		"testSimpleStrategyGetSuggestionsFor" : "az 5/11/2018 11:11",
+		"testSlowStrategyGetSuggestionsFor" : "az 5/11/2018 12:40",
 		"testStrategyCompletionClassesGetSuggestionsFor" : "lb 5/9/2018 15:40",
 		"testStrategyCompletionDefaultGetSuggestionsFor" : "lb 5/9/2018 15:44",
 		"testStrategyGetSuggestionsFor" : "lb 5/9/2018 15:46",

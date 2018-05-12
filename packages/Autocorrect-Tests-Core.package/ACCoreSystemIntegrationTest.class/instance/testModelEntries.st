@@ -3,6 +3,7 @@ testModelEntries
 	|targetCollection model counter|
 	targetCollection := {#ACToolSet . #ACModel . #ACController} asOrderedCollection.
 	model := ACModel new.
+	model generateEntries.
 	counter := 1.
 	targetCollection do: [
 		:content |

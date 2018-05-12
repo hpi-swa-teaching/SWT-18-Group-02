@@ -14,7 +14,10 @@ handleKeystrokeBefore: kbEvent editor: theEditor
 		ifTrue: [ 
 			theEditor text ifEmpty: [^ false].  
 			theEditor selection ifNotEmpty: [theEditor replaceSelectionWith: ''].
-			self isMenuOpen ifFalse: [ self openMenuFor: theEditor ].
+			self initializeContextFor: theEditor.
+			context model generateEntries.
+			
+			self isMenuOpen ifFalse: [ self openMenuFor: theEditor].
 			theEditor text ifNotNil: [ menuMorph changed ]. 
 			^ false]
 		ifFalse: [

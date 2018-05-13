@@ -9,5 +9,6 @@ getSuggestionsFor: aString
 	self strategies 
 		do: [:strategy | (strategy getSuggestionsFor: aString) 
 			do:	[:suggestion | suggestions add: suggestion]].
-	
+		
+	suggestions asOrderedCollection.
 	^suggestions 

@@ -7,5 +7,6 @@ createModel
 		additionals: controller additionals
 		variables: variables
 		selectors: selectors.
+	model controller: controller.
 	controller expanded ifTrue: [model expand].
 	^ model 

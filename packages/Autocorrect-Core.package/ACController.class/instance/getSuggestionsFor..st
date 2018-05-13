@@ -1,7 +1,7 @@
 system interface
 getSuggestionsFor: aString
 
-	| suggestions |
+	| suggestions|
 	
 	suggestions := SortedCollection new 
 		sortBlock: [:a :b | a value <= b value].

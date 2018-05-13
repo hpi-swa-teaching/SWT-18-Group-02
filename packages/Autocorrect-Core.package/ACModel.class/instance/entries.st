@@ -1,8 +1,3 @@
-as yet unclassified
+accessing
 entries
-	| result|
-
-	result := self controller getSuggestionsFor: narrowString.
-	entries := result.
-	
-	^ result
+	^ entries 

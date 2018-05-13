@@ -1,6 +1,16 @@
 as yet unclassified
 generateEntries
-	|testEntry1 testEntry2 testEntry3 result|
+	| result suggestions |
+
+	suggestions := self controller getSuggestionsFor: narrowString.
+	result := OrderedCollection new.	
+	suggestions
+		do: [:suggestion |
+			result add: (ODatedEntry contents: suggestion key type: #selector)].
+	entries := result.
+	^ result
+
+	"|testEntry1 testEntry2 testEntry3 result|
 
 	testEntry1 := ODatedEntry contents: #ACToolSet type: #selector.
 	testEntry1 
@@ -12,4 +22,4 @@ generateEntries
 	result := {testEntry1 . testEntry2 . testEntry3} asOrderedCollection.
 	entries := result.
 	
-	^ result
+	^ result"

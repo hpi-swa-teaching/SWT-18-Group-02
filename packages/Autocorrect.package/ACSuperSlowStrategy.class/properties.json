@@ -1,0 +1,14 @@
+{
+	"category" : "Autocorrect-Modules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ACSuperSlowStrategy",
+	"pools" : [
+		 ],
+	"super" : "ACSlowStrategy",
+	"type" : "normal" }

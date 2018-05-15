@@ -1,7 +1,7 @@
 system interface
 getSuggestionsFor: aString
 
-	| suggestions |
+	| suggestions|
 	
 	suggestions := SortedCollection new 
 		sortBlock: [:a :b | a value <= b value].
@@ -9,5 +9,6 @@ getSuggestionsFor: aString
 	self strategies 
 		do: [:strategy | (strategy getSuggestionsFor: aString) 
 			do:	[:suggestion | suggestions add: suggestion]].
-	
+		
+	suggestions asOrderedCollection.
 	^suggestions 

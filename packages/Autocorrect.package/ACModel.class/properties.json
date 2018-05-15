@@ -1,0 +1,14 @@
+{
+	"category" : "Autocorrect-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"controller" ],
+	"name" : "ACModel",
+	"pools" : [
+		 ],
+	"super" : "OModel",
+	"type" : "normal" }

@@ -11,5 +11,5 @@
 	"name" : "ACController",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "OController",
 	"type" : "normal" }

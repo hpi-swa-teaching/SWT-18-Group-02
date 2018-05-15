@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"originalToolset",
+		"messagesSupressed" ],
 	"name" : "ACCoreSystemIntegrationTest",
 	"pools" : [
 		 ],

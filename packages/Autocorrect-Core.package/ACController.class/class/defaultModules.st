@@ -1,4 +1,4 @@
 as yet unclassified
 defaultModules
 
-	^ {ACStrategyCompletionClasses  . ACStrategyCompletionDefault}
+	^ {ACStrategyCompletionClasses  . ACStrategyCompletionDefault . ACSuperSlowStrategy }

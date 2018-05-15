@@ -1,6 +1,7 @@
 initialize-release
 getSuggestionsFor: aString
 	|counter subString|
+	self suggestions removeAll.
 	counter := 0.
 	[self suggestions isEmpty] whileTrue:[ 
 		subString := (aString first:((aString size) - counter)).

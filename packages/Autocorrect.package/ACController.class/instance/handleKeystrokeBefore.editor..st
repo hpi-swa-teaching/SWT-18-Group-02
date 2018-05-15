@@ -12,6 +12,7 @@ handleKeystrokeBefore: kbEvent editor: theEditor
 
 	(ctrl not & cmd not & alphanum) 
 		ifTrue: [ 
+			self closeMenu.
 			theEditor text ifEmpty: [^ false].  
 			theEditor selection ifNotEmpty: [theEditor replaceSelectionWith: ''].
 			self initializeContextFor: theEditor.
@@ -20,8 +21,7 @@ handleKeystrokeBefore: kbEvent editor: theEditor
 			
 			self isMenuOpen ifFalse: [ self openMenuFor: theEditor].
 			theEditor text ifNotNil: [ menuMorph changed ]. 
-			^ false]
-		ifFalse: [
-			^ super handleKeystrokeBefore: kbEvent editor: theEditor]
+			^ false].
+		^ super handleKeystrokeBefore: kbEvent editor: theEditor
 	
 	

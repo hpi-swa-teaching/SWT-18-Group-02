@@ -1,4 +1,4 @@
 running
 setUp
 	
-	controller := ACController new
+	model := ACModel new

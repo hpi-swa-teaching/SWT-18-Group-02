@@ -1,5 +1,5 @@
 testcases
 testStrategyList
-	self assert: (ACStrategyCompletionClasses registerTo: controller) list notNil.
-	self assert: (ACStrategyCompletionDefault registerTo: controller) list notNil 
+	self assert: (ACStrategyCompletionClasses registerTo: model) list notNil.
+	self assert: (ACStrategyCompletionDefault registerTo: model) list notNil 
 	

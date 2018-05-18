@@ -2,7 +2,8 @@
 	"category" : "Autocorrect-Core",
 	"classinstvars" : [
 		"enabled",
-		"enableFastModules" ],
+		"enableFastModules",
+		"completionDefault" ],
 	"classvars" : [
 		"OldDefault",
 		"SupressMessages" ],

@@ -4,8 +4,10 @@
 	"instance" : {
 		"acmodel" : "jah 5/15/2018 14:26",
 		"acmodel:" : "jah 5/15/2018 14:26",
-		"handleKeystrokeAfter:editor:" : "jah 5/18/2018 12:05",
-		"handleKeystrokeBefore:editor:" : "jah 5/18/2018 14:11",
+		"expand" : "lb 5/18/2018 14:56",
+		"handleKeystrokeAfter:editor:" : "lb 5/18/2018 23:10",
+		"handleKeystrokeBefore:editor:" : "lb 5/18/2018 14:42",
 		"initialize" : "jah 5/18/2018 10:53",
-		"menuMorph" : "lb 5/11/2018 18:26",
-		"openMenuFor:" : "jah 5/18/2018 12:00" } }
+		"menuMorph" : "lb 5/18/2018 14:55",
+		"openMenuFor:" : "jah 5/18/2018 12:00",
+		"openXMenuFor:" : "lb 5/18/2018 16:24" } }

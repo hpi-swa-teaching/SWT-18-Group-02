@@ -1,0 +1,14 @@
+{
+	"category" : "Autocorrect-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ACXMenuMorph",
+	"pools" : [
+		 ],
+	"super" : "ACMenuMorph",
+	"type" : "normal" }

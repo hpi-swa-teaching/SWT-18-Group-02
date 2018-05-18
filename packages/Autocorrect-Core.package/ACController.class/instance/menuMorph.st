@@ -1,4 +1,4 @@
 accessing
 menuMorph
 
-	^ self expanded ifTrue: [OXMenuMorph] ifFalse: [ACMenuMorph]
+	^ self expanded ifTrue: [ACXMenuMorph] ifFalse: [ACMenuMorph]

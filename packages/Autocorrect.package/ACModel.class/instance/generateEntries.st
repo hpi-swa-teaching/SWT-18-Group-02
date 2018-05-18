@@ -1,12 +1,15 @@
 as yet unclassified
 generateEntries
-	| result suggestions |
+	| result suggestions alreadyAdded|
 
 	suggestions := self getSuggestionsFor: narrowString.
+	alreadyAdded := Set new.
 	result := OrderedCollection new.	
 	suggestions
 		do: [:suggestion |
-			result add: (ODatedEntry contents: suggestion key type: #selector)].
+			(alreadyAdded includes: suggestion key) ifFalse: [
+				alreadyAdded add: suggestion key.
+				result add: (ODatedEntry contents: suggestion key type: #selector)]].
 	entries := result.
 	^ result
 

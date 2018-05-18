@@ -1,3 +1,3 @@
 as yet unclassified
 narrowWith: aString
-	^ self
+	self shouldNotImplement 

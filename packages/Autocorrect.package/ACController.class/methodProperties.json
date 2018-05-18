@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"defaultModules" : "NK 5/15/2018 10:47" },
+		"defaultModules" : "HB 5/18/2018 10:48",
+		"defaultModules:" : "HB 5/18/2018 10:46" },
 	"instance" : {
 		"addStrategy:" : "lb 5/9/2018 15:51",
 		"context" : "jah 5/11/2018 12:34",

@@ -1,7 +1,7 @@
 {
 	"category" : "Autocorrect-Core",
 	"classinstvars" : [
-		 ],
+		"defaultModules" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

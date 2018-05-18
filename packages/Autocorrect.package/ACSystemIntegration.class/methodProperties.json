@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"enabled" : "HB 5/16/2018 16:49",
+		"enableFastModules" : "HB 5/18/2018 10:40",
+		"enableFastModules:" : "HB 5/18/2018 10:47",
+		"enabled" : "HB 5/18/2018 10:37",
 		"enabled:" : "HB 5/18/2018 10:11",
 		"initialize" : "lb 5/15/2018 10:28",
 		"oldDefault" : "lb 5/7/2018 17:22",

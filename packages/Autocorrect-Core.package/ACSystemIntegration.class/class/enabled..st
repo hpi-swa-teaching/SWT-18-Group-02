@@ -1,4 +1,4 @@
-accessing
+preference
 enabled: aBoolean
 	enabled := aBoolean.
 	

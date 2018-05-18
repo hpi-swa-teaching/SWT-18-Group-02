@@ -6,5 +6,6 @@ testContextCreateModel
 		class: nil
 		source: 'test'
 		position: 0.
+	context model initialize.
 	self assert: context model class equals: ACModel
 		

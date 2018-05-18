@@ -7,6 +7,7 @@ openMenuFor: anEditor
 	self editor: anEditor.
 	theMenu := self menuMorph
 		controller: self
-		position: (anEditor selectionPosition: context completionToken).
+		position: (anEditor selectionPosition: acmodel completionToken).
+	theMenu model: self acmodel.
 	theMenu open.
 	menuMorph := theMenu

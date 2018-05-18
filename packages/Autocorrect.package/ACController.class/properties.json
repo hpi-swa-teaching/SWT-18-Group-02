@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"simpleList",
-		"strategies" ],
+		"strategies",
+		"acmodel" ],
 	"name" : "ACController",
 	"pools" : [
 		 ],

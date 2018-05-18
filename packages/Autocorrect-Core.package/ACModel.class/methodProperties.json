@@ -1,10 +1,20 @@
 {
 	"class" : {
-		 },
+		"defaultModules" : "jah 5/15/2018 11:47" },
 	"instance" : {
-		"controller" : "jah 5/11/2018 12:41",
-		"controller:" : "jah 5/11/2018 12:41",
+		"addStrategy:" : "lb 5/9/2018 15:51",
+		"completionToken" : "jah 5/18/2018 11:04",
+		"context" : "jah 5/18/2018 11:17",
+		"contextClass" : "jah 5/15/2018 12:05",
 		"entries" : "NK 5/15/2018 10:59",
 		"entries:" : "jah 5/12/2018 14:37",
-		"generateEntries" : "NK 5/15/2018 11:05",
-		"narrowWith:" : "jah 5/12/2018 15:00" } }
+		"generateEntries" : "jah 5/18/2018 10:45",
+		"getListOfType:" : "az 5/11/2018 12:23",
+		"getSuggestionsFor:" : "jah 5/13/2018 12:09",
+		"initialize" : "jah 5/15/2018 12:21",
+		"initializeContextFor:" : "jah 5/18/2018 10:45",
+		"narrowWith:" : "jah 5/12/2018 15:00",
+		"removeStrategy:" : "jah 5/5/2018 20:28",
+		"simpleList" : "jah 5/5/2018 20:31",
+		"simpleList:" : "jah 5/5/2018 20:16",
+		"strategies" : "jah 5/5/2018 20:22" } }

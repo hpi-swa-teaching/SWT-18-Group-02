@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"controller" ],
+		"controller",
+		"strategies",
+		"contextClass",
+		"context" ],
 	"name" : "ACModel",
 	"pools" : [
 		 ],

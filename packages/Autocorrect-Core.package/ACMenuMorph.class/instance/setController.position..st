@@ -1,6 +1,6 @@
 initialization
 setController: anACController position: aPoint
 	controller := anACController.
-	context := controller context.
+	context := nil.
 	self createTitle.
 	self position: aPoint - (20 @ 0)

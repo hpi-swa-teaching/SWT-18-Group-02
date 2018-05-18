@@ -2,7 +2,7 @@ as yet unclassified
 generateEntries
 	| result suggestions |
 
-	suggestions := self controller getSuggestionsFor: narrowString.
+	suggestions := self getSuggestionsFor: narrowString.
 	result := OrderedCollection new.	
 	suggestions
 		do: [:suggestion |

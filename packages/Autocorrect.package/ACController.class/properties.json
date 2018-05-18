@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"simpleList",
-		"strategies",
 		"acmodel" ],
 	"name" : "ACController",
 	"pools" : [

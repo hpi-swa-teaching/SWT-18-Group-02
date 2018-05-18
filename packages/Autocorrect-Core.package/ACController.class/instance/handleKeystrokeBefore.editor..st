@@ -23,7 +23,7 @@ handleKeystrokeBefore: kbEvent editor: theEditor
 			theEditor text ifEmpty: [^ false].  
 			theEditor selection ifNotEmpty: [theEditor replaceSelectionWith: ''].
 			self acmodel initializeContextFor: theEditor.
-			self acmodel narrowString: theEditor wordAtCaret.
+			self acmodel narrowString: (theEditor wordAtCaret , kbEvent keyCharacter).
 			self acmodel generateEntries.
 			
 			self isMenuOpen ifFalse: [ self openMenuFor: theEditor].

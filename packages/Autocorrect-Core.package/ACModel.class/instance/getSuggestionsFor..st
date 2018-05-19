@@ -11,7 +11,7 @@ getSuggestionsFor: aString
 			do:	[:suggestion | 
 				((strategy isKindOf: ACStrategyCompletionClasses) | 
 					(strategy isKindOf: ACStrategyCompletionDefault)) ifTrue:
-					[suggestion value: (suggestion value + 1)].
+					[suggestion value: (suggestion value * 2)].
 				suggestions add: suggestion]].
 		
 	suggestions asOrderedCollection.

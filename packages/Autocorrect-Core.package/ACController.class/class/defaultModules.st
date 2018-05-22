@@ -1,4 +1,6 @@
 as yet unclassified
 defaultModules
 
-	^ {ACStrategyCompletionClasses  . ACStrategyCompletionDefault . ACSlowStrategy }
+	defaultModules ifNil: 
+		[self defaultModules: {ACStrategyCompletionClasses  . ACStrategyCompletionDefault . 			ACSuperSlowStrategy}].
+	^ defaultModules

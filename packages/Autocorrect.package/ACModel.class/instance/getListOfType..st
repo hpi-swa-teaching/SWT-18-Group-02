@@ -1,12 +1,11 @@
 as yet unclassified
 getListOfType: aType
-	(aType = #SimpleList)
-		ifTrue: [^ self simpleList].
+
 	(aType = #OTableClasses)
 		ifTrue: [^ OCompletionTable classes].
 	(aType = #OTableDefault)
 		ifTrue: [^ OCompletionTable default].
 	(aType = #ACSlowList )
-		ifTrue: [^ ACSlowList new].
+		ifTrue: [^ self lookupTables at: aType ifAbsent: self initializeSlowList].
 		
 	^ self error: 'There is no reference to a List of Type: #', aType

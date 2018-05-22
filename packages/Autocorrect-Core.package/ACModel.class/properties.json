@@ -8,7 +8,8 @@
 	"instvars" : [
 		"strategies",
 		"contextClass",
-		"context" ],
+		"context",
+		"lookupTables" ],
 	"name" : "ACModel",
 	"pools" : [
 		 ],

@@ -10,5 +10,5 @@
 	"name" : "ACSimpleList",
 	"pools" : [
 		 ],
-	"super" : "Dictionary",
+	"super" : "Collection",
 	"type" : "normal" }

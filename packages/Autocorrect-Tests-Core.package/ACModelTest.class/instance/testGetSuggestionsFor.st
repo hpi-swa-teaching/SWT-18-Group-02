@@ -3,7 +3,7 @@ testGetSuggestionsFor
 
 	| suggestions currentConfidenceRating mockModel |
 	
-	mockModel := ACMockController new.
+	mockModel := ACMockModel new.
 	self assert: (mockModel respondsTo: #getSuggestionsFor:).
 	
 	suggestions := mockModel getSuggestionsFor: 'Mor'.

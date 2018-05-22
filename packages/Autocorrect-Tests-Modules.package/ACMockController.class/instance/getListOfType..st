@@ -5,7 +5,7 @@ getListOfType: aType
 	(aType = #OTableDefault)
 		ifTrue: [^ self mockOCompletionTableDefault].
 	(aType = #ACSlowList )
-		ifTrue: [^ self slowList ].
+		ifTrue: [^ super getListOfType: aType ].
 		
 	^ self error: 'There is no reference to a List of Type: #', aType
 

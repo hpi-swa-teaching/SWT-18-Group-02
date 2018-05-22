@@ -10,5 +10,5 @@
 	"name" : "ACMockController",
 	"pools" : [
 		 ],
-	"super" : "ACController",
+	"super" : "ACModel",
 	"type" : "normal" }

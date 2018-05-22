@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"defaultModules" : "lb 5/22/2018 11:40",
+		"defaultModules" : "lb 5/22/2018 14:48",
 		"defaultModules:" : "lb 5/22/2018 11:36" },
 	"instance" : {
 		"addStrategy:" : "lb 5/9/2018 15:51",
@@ -14,7 +14,7 @@
 		"getSuggestionsFor:" : "lb 5/19/2018 12:08",
 		"initialize" : "lb 5/22/2018 14:09",
 		"initializeContextFor:" : "jah 5/18/2018 10:45",
-		"initializeSlowList" : "lb 5/22/2018 14:21",
+		"initializeSlowList" : "lb 5/22/2018 14:47",
 		"lookupTables" : "lb 5/22/2018 13:56",
 		"lookupTables:" : "lb 5/22/2018 13:56",
 		"narrowWith:" : "jah 5/18/2018 22:03",

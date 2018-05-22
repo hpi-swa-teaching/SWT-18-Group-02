@@ -1,6 +1,6 @@
 accessing
 initializeSlowList
 	|list|
-	list := ACSlowList new.
+	list := ACSlowList newWith: self.
 	self lookupTables add: (Association key: #ACSlowList value: list).
 	^ list

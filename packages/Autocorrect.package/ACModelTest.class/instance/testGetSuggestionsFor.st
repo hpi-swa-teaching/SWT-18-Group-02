@@ -1,10 +1,12 @@
 testcases
 testGetSuggestionsFor
 
-	| suggestions currentConfidenceRating |
-	self assert: (model respondsTo: #getSuggestionsFor:).
+	| suggestions currentConfidenceRating mockModel |
 	
-	suggestions := model getSuggestionsFor: 'Mor'.
+	mockModel := ACMockController new.
+	self assert: (mockModel respondsTo: #getSuggestionsFor:).
+	
+	suggestions := mockModel getSuggestionsFor: 'Mor'.
 	self assert: suggestions class equals: SortedCollection.
 	
 	"suggestions should be sorted by ascending confidence rating"

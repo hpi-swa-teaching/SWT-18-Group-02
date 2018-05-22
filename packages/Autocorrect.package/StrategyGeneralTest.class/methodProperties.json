@@ -2,10 +2,10 @@
 	"class" : {
 		"lastStoredRun" : "lb 4/21/2018 17:47" },
 	"instance" : {
-		"setUp" : "az 5/18/2018 14:21",
+		"setUp" : "lb 5/22/2018 14:41",
 		"testEditDistance" : "az 5/18/2018 12:16",
-		"testMockController" : "az 5/18/2018 14:42",
-		"testRatherSlowStrategyGetSuggestionsFor" : "az 5/18/2018 12:06",
+		"testMockController" : "lb 5/22/2018 14:41",
+		"testRatherSlowStrategyGetSuggestionsFor" : "lb 5/22/2018 14:41",
 		"testSimpleStrategyGetSuggestionsFor" : "lb 5/18/2018 13:55",
 		"testSlowStrategyGetSuggestionsFor" : "lb 5/18/2018 13:55",
 		"testStrategyCompletionClassesGetSuggestionsFor" : "lb 5/18/2018 13:55",

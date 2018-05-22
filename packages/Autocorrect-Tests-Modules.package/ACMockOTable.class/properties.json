@@ -1,0 +1,14 @@
+{
+	"category" : "Autocorrect-Tests-Modules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ACMockOTable",
+	"pools" : [
+		 ],
+	"super" : "OCompletionTable",
+	"type" : "normal" }

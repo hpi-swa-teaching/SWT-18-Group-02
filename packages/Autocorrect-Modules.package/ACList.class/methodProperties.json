@@ -1,9 +1,10 @@
 {
 	"class" : {
-		 },
+		"newWith:" : "az 5/18/2018 13:37" },
 	"instance" : {
 		"alphabetNotFInalDontUse" : "az 5/11/2018 12:19",
 		"collection" : "az 5/11/2018 11:35",
-		"collection:" : "az 5/11/2018 11:34",
-		"fillCollection" : "az 5/11/2018 11:38",
-		"initialize" : "az 5/11/2018 12:04" } }
+		"collection:" : "az 5/18/2018 14:44",
+		"controller" : "az 5/18/2018 13:40",
+		"controller:" : "az 5/18/2018 13:41",
+		"fillCollection" : "az 5/11/2018 11:38" } }

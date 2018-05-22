@@ -1,4 +1,5 @@
 running
 setUp
 	
-	model := ACModel new
+	controller := ACMockController new.
+	

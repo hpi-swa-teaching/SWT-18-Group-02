@@ -1,0 +1,14 @@
+{
+	"category" : "Autocorrect-Tests-Modules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ACMockController",
+	"pools" : [
+		 ],
+	"super" : "ACController",
+	"type" : "normal" }

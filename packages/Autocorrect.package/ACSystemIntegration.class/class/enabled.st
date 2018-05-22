@@ -5,4 +5,4 @@ enabled
 		category: 'Autocorrection'
 		description: 'Enable or disable Autocorrection'
 		type: #Boolean>
-	^enabled ifNil: [false]
+	^enabled ifNil: [true]

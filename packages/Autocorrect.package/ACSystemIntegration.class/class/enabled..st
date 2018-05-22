@@ -6,4 +6,4 @@ enabled: aBoolean
 						self completionDefault: ECPreferences  enabled.
 						ECPreferences enabled: false]
 		ifFalse: [self resetDefault.
-				ECPreferences enabled:  self completionDefault]
+				ECPreferences enabled:  (self completionDefault ifNil: [true])]

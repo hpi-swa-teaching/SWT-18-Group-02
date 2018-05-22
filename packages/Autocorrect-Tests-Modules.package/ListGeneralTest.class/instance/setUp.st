@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 	
-	controller := ACMockController new.
+	controller := ACMockModel new.

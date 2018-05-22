@@ -1,15 +1,14 @@
 {
-	"category" : "Autocorrect-Modules",
+	"category" : "Autocorrect-Tests-Modules",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"collection",
-		"controller" ],
-	"name" : "ACList",
+		 ],
+	"name" : "ACMockOTable",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "OCompletionTable",
 	"type" : "normal" }

@@ -5,6 +5,6 @@ getListOfType: aType
 	(aType = #OTableDefault)
 		ifTrue: [^ OCompletionTable default].
 	(aType = #ACSlowList )
-		ifTrue: [^ ACSlowList new].
+		ifTrue: [^ self slowList ].
 		
 	^ self error: 'There is no reference to a List of Type: #', aType

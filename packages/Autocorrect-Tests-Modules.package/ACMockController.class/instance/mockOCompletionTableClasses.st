@@ -1,3 +1,3 @@
 as yet unclassified
 mockOCompletionTableClasses
-	^OCompletionTable classes
+	^ACMockOTable classes 

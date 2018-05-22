@@ -4,7 +4,7 @@
 	"instance" : {
 		"addStrategy:" : "lb 5/9/2018 15:51",
 		"context" : "jah 5/11/2018 12:34",
-		"getListOfType:" : "az 5/18/2018 13:24",
+		"getListOfType:" : "az 5/18/2018 13:33",
 		"getSuggestionsFor:" : "jah 5/13/2018 12:09",
 		"handleKeystrokeBefore:editor:" : "lb 5/15/2018 10:20",
 		"initialize" : "lb 5/10/2018 17:25",
@@ -12,4 +12,6 @@
 		"menuMorph" : "lb 5/11/2018 18:26",
 		"openMenuFor:" : "jah 5/12/2018 14:53",
 		"removeStrategy:" : "jah 5/5/2018 20:28",
+		"slowList" : "az 5/18/2018 13:42",
+		"slowList:" : "az 5/18/2018 13:31",
 		"strategies" : "jah 5/5/2018 20:22" } }

@@ -1,3 +1,3 @@
 as yet unclassified
 defaultModules: aCollection 
-	defaultModules := aCollection
+	DefaultModules := aCollection

@@ -2,5 +2,5 @@ preference
 enableFastModules: aBoolean
 	enableFastModules := aBoolean.
 	
-	aBoolean ifTrue:[ ACController defaultModules: {ACStrategyCompletionClasses  . ACStrategyCompletionDefault}]
-			ifFalse: [ ACController  defaultModules: {ACStrategyCompletionClasses  . ACStrategyCompletionDefault . ACSuperSlowStrategy}]
+	aBoolean ifTrue:[ ACModel defaultModules: {ACStrategyCompletionClasses  . ACStrategyCompletionDefault . ACSlowStrategy}]
+			ifFalse: [ ACModel  defaultModules: {ACStrategyCompletionClasses  . ACStrategyCompletionDefault . ACSuperSlowStrategy}]

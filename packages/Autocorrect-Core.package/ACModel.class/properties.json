@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"DefaultModules" ],
 	"commentStamp" : "lb 4/21/2018 17:12",
 	"instvars" : [
 		"strategies",

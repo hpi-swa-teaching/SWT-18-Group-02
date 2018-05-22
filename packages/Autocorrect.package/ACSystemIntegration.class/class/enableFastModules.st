@@ -5,4 +5,4 @@ enableFastModules
 		category: 'Autocorrection'
 		description: 'Enable just fast modules for autocorrection'
 		type: #Boolean>
-	^enableFastModules ifNil: [false]
+	^enableFastModules ifNil: [true]

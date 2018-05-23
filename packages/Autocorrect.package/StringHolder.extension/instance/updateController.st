@@ -1,10 +1,9 @@
 *Autocorrect-Core
 updateController
 
+	self removePreviousController.
 	((ToolSet default) = ACToolSet) 
 		ifTrue: 
-			[self dependents do: [ :dept | (dept isKindOf: ECController) ifTrue: [self removeDependent: dept]].
-			^ self initializeCorrectionController ]
+			[^ self initializeCorrectionController ]
 		ifFalse: 
-			[self dependents do: [ :dept | (dept isKindOf: ACController) ifTrue: [self removeDependent: dept]].
-			^ self initializeCompletionController ].
+			[^ self initializeCompletionController ].

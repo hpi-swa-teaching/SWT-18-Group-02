@@ -1,4 +1,4 @@
-as yet unclassified
+stringHolderRelated
 testStringHolderToolSetSwapUpdate
 |testStringHolder currentController|
 

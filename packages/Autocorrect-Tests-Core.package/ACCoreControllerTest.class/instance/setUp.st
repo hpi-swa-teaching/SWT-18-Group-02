@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 
-	self controller: ACController new
+	controller := ACController new

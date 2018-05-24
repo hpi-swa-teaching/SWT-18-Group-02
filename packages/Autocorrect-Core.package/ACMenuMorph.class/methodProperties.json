@@ -2,6 +2,7 @@
 	"class" : {
 		"backgroundColor" : "lb 5/15/2018 11:48" },
 	"instance" : {
+		"controller" : "lb 5/24/2018 10:15",
 		"drawOn:" : "jah 5/18/2018 11:46",
 		"firstVisible" : "jah 5/18/2018 11:34",
 		"insertCompletion:" : "lb 5/19/2018 10:49",

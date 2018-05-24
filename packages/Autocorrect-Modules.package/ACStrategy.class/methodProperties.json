@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"registerTo:" : "lb 5/9/2018 15:51" },
+		"registerTo:" : "lb 5/9/2018 15:51",
+		"use:" : "NK 5/24/2018 11:16" },
 	"instance" : {
 		"controller" : "jah 5/15/2018 11:58",
 		"controller:" : "lb 5/9/2018 15:21",
@@ -9,5 +10,6 @@
 		"getSuggestionsFor:" : "lb 5/9/2018 15:38",
 		"list" : "NK 5/5/2018 18:24",
 		"list:" : "NK 5/5/2018 17:33",
+		"maxMistakes" : "NK 5/24/2018 10:36",
 		"suggestions" : "NK 5/5/2018 18:23",
 		"suggestions:" : "NK 5/5/2018 18:06" } }

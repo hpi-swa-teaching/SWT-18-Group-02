@@ -1,3 +1,3 @@
 initialize-release
 getNewList 
-	^ self shouldNotImplement.
+	^ self shouldNotImplement

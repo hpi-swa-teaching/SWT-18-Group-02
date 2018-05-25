@@ -11,4 +11,6 @@ initializeContextFor: anEditor
 		controller: nil
 		class: class
 		source: anEditor text string
-		position: anEditor startIndex - 1
+		position: anEditor startIndex - 1.
+		
+	context compute.

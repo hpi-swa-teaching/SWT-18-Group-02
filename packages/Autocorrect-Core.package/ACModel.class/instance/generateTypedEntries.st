@@ -1,10 +1,8 @@
 as yet unclassified
-generateEntries
+generateTypedEntries
 	| result suggestions alreadyAdded|
-	
-	(self context receiverClass = nil) ifFalse: [
-		^ self generateTypedEntries].
-	suggestions := self getSuggestionsFor: narrowString.
+
+	suggestions := self getSuggestionsFor: narrowString preferablyFrom: (self getPossibleSelectors).
 	alreadyAdded := Set new.
 	result := OrderedCollection new.	
 	suggestions

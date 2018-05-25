@@ -73,7 +73,7 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 	pageDown 
 		ifTrue: [menuMorph pageDown. ^ true].
 
-	space
+	(space and:  [ACSystemIntegration spaceCorrection])
 		ifTrue: [menuMorph insertSelected].
 
 	(colon | up | down | tab | del) 

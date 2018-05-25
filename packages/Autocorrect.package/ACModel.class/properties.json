@@ -9,9 +9,11 @@
 		"strategies",
 		"contextClass",
 		"context",
-		"lookupTables" ],
+		"lookupTables",
+		"entries",
+		"narrowString" ],
 	"name" : "ACModel",
 	"pools" : [
 		 ],
-	"super" : "OModel",
+	"super" : "Object",
 	"type" : "normal" }

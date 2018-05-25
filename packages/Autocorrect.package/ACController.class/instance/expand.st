@@ -1,4 +1,3 @@
 UI
 expand
-	expanded := true.
-	(self model isKindOf: OModel) ifTrue: [self model expand]
+	expanded := true

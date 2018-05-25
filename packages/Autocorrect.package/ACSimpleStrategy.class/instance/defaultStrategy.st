@@ -1,4 +1,4 @@
 accessing
 defaultStrategy
 	^ defaultStrategy ifNil:
-			[defaultStrategy := ACStrategyCompletionDefault  registerTo: controller].
+			[defaultStrategy := ACStrategyCompletionDefault  registerTo: controller]

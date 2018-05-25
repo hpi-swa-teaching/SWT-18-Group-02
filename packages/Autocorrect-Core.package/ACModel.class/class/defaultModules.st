@@ -2,5 +2,5 @@ as yet unclassified
 defaultModules
 
 	DefaultModules ifNil: 
-		[self defaultModules: {ACStrategyCompletionClasses  . ACStrategyCompletionDefault . ACSlowStrategy . ACRatherSlowStrategy}].
+		[self defaultModules: {ACStrategyCompletionClasses . ACStrategyCompletionDefault . ACSlowStrategy . ACSuperSlowStrategy . ACRatherSlowStrategy . ACSmartStrategy . ACSimpleStrategy}].
 	^ DefaultModules

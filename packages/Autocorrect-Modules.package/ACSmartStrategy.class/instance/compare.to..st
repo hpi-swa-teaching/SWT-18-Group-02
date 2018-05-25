@@ -1,10 +1,6 @@
 accessing
 compare: firstString to: secondString
-	|aSet dif|
+
 	firstString size >= secondString size ifTrue: [^ self editDistanceBetween: firstString and: secondString].
-	dif := secondString size - firstString size.
-	aSet := Set new.
-	(1 to: dif) do: [:i |
-		aSet add: (self editDistanceBetween: firstString and: (secondString copyFrom: i to: i + firstString size))].
-	^ aSet min
-		+ ((dif +1)log)
+	^ (self editDistanceBetween: firstString and: (secondString first: firstString size)) +
+		(secondString size - firstString size +1)log

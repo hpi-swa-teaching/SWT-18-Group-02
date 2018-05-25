@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		"enabled",
 		"enableFastModules",
-		"completionDefault" ],
+		"completionDefault",
+		"spaceCorrection" ],
 	"classvars" : [
 		"OldDefault",
 		"SupressMessages" ],

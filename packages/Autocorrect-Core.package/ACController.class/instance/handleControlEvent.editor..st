@@ -2,7 +2,7 @@ keyboard
 handleControlEvent: aKeyboardEvent editor: theEditor
 	"Returns a boolean. true when the event was handled and no futher processing is needed by the caller."
 	
-	| keyValue ctrl cmd tab enter colon del down esc up left right pageDown pageUp end home |
+	| keyValue ctrl cmd tab enter colon del down esc up left right pageDown pageUp end home space|
 	
 	self isMenuOpen
 		ifFalse: [^ false].
@@ -22,6 +22,7 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 	right := keyValue = 29.
 	up := keyValue = 30.
 	down := keyValue = 31.
+	space := keyValue = 32.
 	colon := aKeyboardEvent keyCharacter = $:.
 	
 	"del ifTrue: [ self smartBackspace ]."
@@ -71,6 +72,9 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 
 	pageDown 
 		ifTrue: [menuMorph pageDown. ^ true].
+
+	space
+		ifTrue: [menuMorph insertSelected].
 
 	(colon | up | down | tab | del) 
 		ifFalse: [self retract; closeMenu. ^ false].

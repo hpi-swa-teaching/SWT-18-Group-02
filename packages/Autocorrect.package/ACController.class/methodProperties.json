@@ -4,7 +4,7 @@
 	"instance" : {
 		"acmodel" : "jah 5/15/2018 14:26",
 		"acmodel:" : "jah 5/15/2018 14:26",
-		"closeMenu" : "jah 5/25/2018 11:09",
+		"closeMenu" : "jah 5/27/2018 21:51",
 		"editor" : "jah 5/25/2018 11:36",
 		"editor:" : "jah 5/25/2018 11:36",
 		"expand" : "jah 5/25/2018 12:18",
@@ -15,10 +15,11 @@
 		"initialize" : "jah 5/18/2018 21:40",
 		"isMenuOpen" : "jah 5/25/2018 11:34",
 		"menuClosed" : "jah 5/25/2018 11:42",
-		"menuMorph" : "lb 5/18/2018 14:55",
+		"menuMorph" : "jah 5/27/2018 21:55",
 		"menuMorph:" : "jah 5/25/2018 11:09",
+		"menuMorphClass" : "jah 5/27/2018 21:53",
 		"model" : "jah 5/25/2018 11:16",
 		"model:" : "jah 5/25/2018 11:16",
-		"openMenuFor:" : "jah 5/18/2018 12:00",
-		"openXMenuFor:" : "lb 5/18/2018 16:24",
+		"openMenuFor:" : "jah 5/27/2018 21:53",
+		"openXMenuFor:" : "jah 5/27/2018 21:48",
 		"retract" : "jah 5/25/2018 12:19" } }

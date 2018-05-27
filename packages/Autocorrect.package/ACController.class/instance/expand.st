@@ -1,5 +1,3 @@
-as yet unclassified
+UI
 expand
-	
-	expanded := true.
-	(self acmodel isKindOf: ACModel) ifTrue: [self acmodel expand].
+	expanded := true

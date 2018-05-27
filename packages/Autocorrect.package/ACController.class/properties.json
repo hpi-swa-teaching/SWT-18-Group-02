@@ -6,9 +6,13 @@
 		"DefaultModules" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"acmodel" ],
+		"acmodel",
+		"menuMorph",
+		"expanded",
+		"model",
+		"editor" ],
 	"name" : "ACController",
 	"pools" : [
 		 ],
-	"super" : "OController",
+	"super" : "Object",
 	"type" : "normal" }

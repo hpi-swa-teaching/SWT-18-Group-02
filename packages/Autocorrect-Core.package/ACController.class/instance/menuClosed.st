@@ -1,0 +1,3 @@
+UI
+menuClosed
+	menuMorph := nil

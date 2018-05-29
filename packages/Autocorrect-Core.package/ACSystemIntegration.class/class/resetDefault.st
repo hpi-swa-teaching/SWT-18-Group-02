@@ -16,4 +16,5 @@ Do you want to choose again which ToolSet you would like to use?'
 						ifTrue: [ToolSet default: ECToolSet]]]
 		ifFalse: [ (self supressMessages) ifFalse: [
 				UIManager default inform: 'We could not reset your default ToolSet, as we are not currently the default.
-Please check if you had any other ToolSet enabled.']]
+Please check if you had any other ToolSet enabled.']].
+	StringHolder allInstances do: [ :aStringHolder | aStringHolder updateController]

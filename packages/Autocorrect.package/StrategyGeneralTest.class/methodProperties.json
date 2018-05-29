@@ -8,6 +8,8 @@
 		"testRatherSlowStrategyGetSuggestionsFor" : "lb 5/22/2018 14:41",
 		"testSimpleStrategyGetSuggestionsFor" : "lb 5/18/2018 13:55",
 		"testSlowStrategyGetSuggestionsFor" : "lb 5/18/2018 13:55",
+		"testSmartStrategyGetSuggestionsFor" : "NK 5/24/2018 09:57",
+		"testSmartStrategyGetSuggestionsForPreferablyFrom" : "NK 5/25/2018 12:11",
 		"testStrategyCompletionClassesGetSuggestionsFor" : "lb 5/18/2018 13:55",
 		"testStrategyCompletionDefaultGetSuggestionsFor" : "lb 5/18/2018 13:55",
 		"testStrategyGetSuggestionsFor" : "lb 5/18/2018 13:55",

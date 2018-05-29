@@ -1,9 +1,12 @@
 {
 	"class" : {
-		"backgroundColor" : "lb 5/15/2018 11:48" },
+		"backgroundColor" : "lb 5/25/2018 10:11",
+		"colorSky" : "lb 5/25/2018 10:11" },
 	"instance" : {
+		"controller" : "lb 5/24/2018 10:15",
 		"drawOn:" : "jah 5/18/2018 11:46",
 		"firstVisible" : "jah 5/18/2018 11:34",
+		"firstVisible:" : "lb 5/29/2018 11:17",
 		"insertCompletion:" : "lb 5/19/2018 10:49",
 		"insertSelected" : "jah 5/18/2018 14:13",
 		"itemsCount" : "lb 5/18/2018 10:35",

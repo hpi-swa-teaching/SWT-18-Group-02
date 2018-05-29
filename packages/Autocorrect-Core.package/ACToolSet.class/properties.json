@@ -10,5 +10,5 @@
 	"name" : "ACToolSet",
 	"pools" : [
 		 ],
-	"super" : "ECToolSet",
+	"super" : "StandardToolSet",
 	"type" : "normal" }

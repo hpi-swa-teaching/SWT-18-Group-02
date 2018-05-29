@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"setUp" : "lb 5/24/2018 10:12",
+		"testInsertCompletion" : "lb 5/26/2018 14:27",
+		"testInsertSelection" : "lb 5/26/2018 14:42",
 		"testInstanceInitialization" : "lb 5/24/2018 10:16",
 		"testItemCount" : "lb 5/24/2018 10:26",
 		"testSelectedEntry" : "lb 5/24/2018 10:36" } }

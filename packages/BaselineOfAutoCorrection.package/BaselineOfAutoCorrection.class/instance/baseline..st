@@ -15,9 +15,8 @@ baseline: spec
 				package: 'Autocorrect-Core' with: [spec requires: #(OCompletion)];
 				package: 'Autocorrect-Modules' with: [spec requires: #('Autocorrect-Core')];
 				package: 'Autocorrect-Tests-Core' with: [spec requires: #('Autocorrect-Core')];
-				package: 'Autocorrect-Tests-Modules' with: [spec 
-					requires: #('Autocorrect-Modules');
-					postLoadDoIt: #postLoad];
+				package: 'Autocorrect-Tests-Modules' with: [spec requires: #('Autocorrect-Modules')];
+				postLoadDoIt: #postLoad;
 				yourself.
 			spec
 				group: 'default' with: #('Autocorrect-Core' 'Autocorrect-Modules');

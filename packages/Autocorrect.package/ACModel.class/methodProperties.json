@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"defaultModules" : "NK 5/25/2018 12:31",
+		"defaultModules" : "lb 5/29/2018 11:10",
 		"defaultModules:" : "lb 5/22/2018 11:36" },
 	"instance" : {
 		"addStrategy:" : "NK 5/24/2018 11:36",
@@ -11,7 +11,7 @@
 		"entries" : "lb 5/24/2018 10:11",
 		"entries:" : "jah 5/12/2018 14:37",
 		"entryCount" : "jah 5/25/2018 12:11",
-		"generateEntries" : "lb 5/25/2018 12:08",
+		"generateEntries" : "lb 5/26/2018 13:18",
 		"generateTypedEntries" : "lb 5/25/2018 12:18",
 		"getListOfType:" : "lb 5/22/2018 14:21",
 		"getPossibleSelectors" : "lb 5/25/2018 12:17",

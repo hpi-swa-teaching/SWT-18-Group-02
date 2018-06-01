@@ -10,7 +10,9 @@
 		"menuMorph",
 		"expanded",
 		"model",
-		"editor" ],
+		"editor",
+		"lastSpaceChange",
+		"lastSpaceChangeTime" ],
 	"name" : "ACController",
 	"pools" : [
 		 ],

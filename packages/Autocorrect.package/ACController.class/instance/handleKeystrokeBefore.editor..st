@@ -1,9 +1,10 @@
-event handling
+keyboard
 handleKeystrokeBefore: aKeyboardEvent editor: theEditor 
 	"Returns a boolean. true when the event was handled and no futher processing is needed by the caller."
 	"events completing started Syntax are handled here, as well as navigation through the completion menu"
 	
 	| ctrl cmd alphanum |
+	self halt.
 	
 	"self editor: theEditor.
 	self setModel: theEditor model."

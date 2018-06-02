@@ -7,4 +7,3 @@ compare: firstString to: secondString
 	(1 to: dif) do: [:i |
 		aSet add: (self editDistanceBetween: firstString and: (secondString copyFrom: i to: i + firstString size))].
 	^ aSet min
-		+ ((dif +1)log)

@@ -9,9 +9,9 @@ generateEntries
 	result := OrderedCollection new.	
 	suggestions
 		do: [:suggestion |
-			(alreadyAdded includes: suggestion key) ifFalse: [
-				alreadyAdded add: suggestion key.
-				result add: (ODatedEntry contents: suggestion key type: #selector)]].
+			(alreadyAdded includes: suggestion suggestion) ifFalse: [
+				alreadyAdded add: suggestion suggestion.
+				result add: (ODatedEntry contents: suggestion suggestion type: #selector)]].
 	entries := result.
 	^ result
 

@@ -4,14 +4,14 @@ getSuggestionsFor: aString
 	| suggestions|
 	
 	suggestions := SortedCollection new 
-		sortBlock: [:a :b | a value <= b value].
+		sortBlock: [:a :b | a <= b ].
 	
 	self strategies 
 		do: [:strategy | (strategy getSuggestionsFor: aString) 
 			do:	[:suggestion | 
 				((strategy isKindOf: ACStrategyCompletionClasses) | 
 					(strategy isKindOf: ACStrategyCompletionDefault)) ifTrue:
-					[suggestion value: (suggestion value * 2)].
+					[suggestion faults: (suggestion faults * 2)].
 				suggestions add: suggestion]].
 		
 	suggestions asOrderedCollection.

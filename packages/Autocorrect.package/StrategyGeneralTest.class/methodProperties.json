@@ -2,16 +2,17 @@
 	"class" : {
 		"lastStoredRun" : "lb 4/21/2018 17:47" },
 	"instance" : {
+		"assert:corrects:to:" : "NK 6/2/2018 14:20",
 		"setUp" : "lb 5/22/2018 15:05",
 		"testEditDistance" : "lb 5/22/2018 15:05",
 		"testMockController" : "lb 5/22/2018 14:41",
-		"testRatherSlowStrategyGetSuggestionsFor" : "lb 5/22/2018 14:41",
-		"testSimpleStrategyGetSuggestionsFor" : "lb 5/18/2018 13:55",
-		"testSlowStrategyGetSuggestionsFor" : "lb 5/18/2018 13:55",
-		"testSmartStrategyGetSuggestionsFor" : "NK 5/24/2018 09:57",
+		"testRatherSlowStrategyGetSuggestionsFor" : "NK 6/2/2018 14:25",
+		"testSimpleStrategyGetSuggestionsFor" : "NK 6/2/2018 14:26",
+		"testSlowStrategyGetSuggestionsFor" : "NK 6/2/2018 14:27",
+		"testSmartStrategyGetSuggestionsFor" : "NK 6/2/2018 14:28",
 		"testSmartStrategyGetSuggestionsForPreferablyFrom" : "NK 5/25/2018 12:11",
-		"testStrategyCompletionClassesGetSuggestionsFor" : "lb 5/18/2018 13:55",
-		"testStrategyCompletionDefaultGetSuggestionsFor" : "lb 5/18/2018 13:55",
+		"testStrategyCompletionClassesGetSuggestionsFor" : "NK 6/2/2018 14:29",
+		"testStrategyCompletionDefaultGetSuggestionsFor" : "NK 6/2/2018 14:30",
 		"testStrategyGetSuggestionsFor" : "lb 5/18/2018 13:55",
 		"testStrategyList" : "lb 5/18/2018 13:55",
-		"testSuperSlowStrategyGetSuggestionsFor" : "lb 5/18/2018 13:55" } }
+		"testSuperSlowStrategyGetSuggestionsFor" : "NK 6/2/2018 14:31" } }

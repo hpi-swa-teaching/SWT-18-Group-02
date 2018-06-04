@@ -74,13 +74,9 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 		ifTrue: [menuMorph pageDown. ^ true].
 
 	(space and:  [ACSystemIntegration spaceCorrection])
-		ifTrue: [ self lastSpaceChange: theEditor wordAtCaret.
-				self lastSpaceChangeTime: DateAndTime now.
-				menuMorph insertSelected. 
-				 ^false].
-			
-	(cmd and: [aKeyboardEvent keyValue = 122])	
-		ifTrue: [self halt].
+		ifTrue: [	editor closeTypeIn; openTypeIn.
+				menuMorph insertSelected.
+				 ^true].
 
 	(colon | up | down | tab | del) 
 		ifFalse: [self retract; closeMenu. ^ false].

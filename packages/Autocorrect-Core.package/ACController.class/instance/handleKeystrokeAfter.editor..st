@@ -5,7 +5,7 @@ handleKeystrokeAfter: aKeyboardEvent editor: anEditor
 	[ self retract.
 	^ self closeMenu].
 	self model: anEditor model.
-	self acmodel context narrowWith: anEditor wordAtCaret.
+	self context narrowWith: anEditor wordAtCaret.
 	self acmodel narrowString: anEditor wordAtCaret.
 	self acmodel generateEntries.
 	self openMenuFor: anEditor.		

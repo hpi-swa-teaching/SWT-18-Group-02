@@ -1,15 +1,17 @@
 testcases
 testRatherSlowStrategyGetSuggestionsFor
-	|suggestions|
-	suggestions:= (ACRatherSlowStrategy  registerTo: model) getSuggestionsFor:'ACSlowStrtegy'.	
+	|suggestions strategy|
+	strategy := ACRatherSlowStrategy  registerTo: model.
+	model registerToStrategies: context.
+	suggestions:= (strategy) getSuggestionsFor:'ACSlowStrtegy'.	
 	self assert: (suggestions at: 1) key equals: 'ACSlowStrategy'.	
-	suggestions:= (ACRatherSlowStrategy  registerTo: model) getSuggestionsFor:'defaltStrategy'.	
+	suggestions:= (strategy) getSuggestionsFor:'defaltStrategy'.	
 	self assert: (suggestions at: 1) key equals: 'defaultStrategy'.
-	suggestions:= (ACRatherSlowStrategy  registerTo: model) getSuggestionsFor:'xdefaultStrategyx'.	
+	suggestions:= (strategy) getSuggestionsFor:'xdefaultStrategyx'.	
 	self assert: (suggestions at: 1) key equals: 'defaultStrategy' .
-	suggestions:= (ACRatherSlowStrategy  registerTo: model) getSuggestionsFor:'acmenumorp'.	
+	suggestions:= (strategy) getSuggestionsFor:'acmenumorp'.	
 	self assert: (suggestions at: 1) key equals: 'ACMenuMorph' .
-suggestions:= (ACRatherSlowStrategy  registerTo: model) getSuggestionsFor:'CAMenuMorph'.	
+suggestions:= (strategy) getSuggestionsFor:'CAMenuMorph'.	
 	self assert: (suggestions at: 1) key equals: 'ACMenuMorph' 
 	
 	

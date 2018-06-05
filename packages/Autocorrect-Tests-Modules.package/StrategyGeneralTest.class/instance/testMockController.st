@@ -1,7 +1,9 @@
 testcases
 testMockController
-	|suggestions|
-	suggestions:= (ACSlowStrategy  registerTo: model) getSuggestionsFor:'Array'.	
+	|suggestions strategy|
+	strategy := ACSlowStrategy  registerTo: model.
+	model registerToStrategies: context.
+	suggestions:= (strategy) getSuggestionsFor:'Array'.	
 	self assert:((suggestions at: 1) key = 'Array') not.
-	suggestions:= (ACSlowStrategy  registerTo: model) getSuggestionsFor:'list'.	
+	suggestions:= (strategy) getSuggestionsFor:'list'.	
 	self assert:((suggestions at: 1) key = 'list') not

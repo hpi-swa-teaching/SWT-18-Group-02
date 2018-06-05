@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"classesStrategy" : "NK 5/24/2018 10:03",
+		"calculateSuggestions" : "lb 6/5/2018 14:21",
+		"classesStrategy" : "lb 6/5/2018 14:36",
 		"classesStrategy:" : "az 5/11/2018 10:58",
-		"defaultStrategy" : "NK 5/24/2018 10:03",
+		"defaultStrategy" : "lb 6/5/2018 14:36",
 		"defaultStrategy:" : "az 5/11/2018 10:58",
-		"getNewList" : "NK 5/24/2018 10:00",
-		"getSuggestionsFor:" : "NK 5/15/2018 11:05" } }
+		"getNewList" : "NK 5/24/2018 10:00" } }

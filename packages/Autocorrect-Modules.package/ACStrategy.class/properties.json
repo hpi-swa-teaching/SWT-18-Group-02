@@ -8,7 +8,9 @@
 	"instvars" : [
 		"list",
 		"suggestions",
-		"controller" ],
+		"model",
+		"context",
+		"requested" ],
 	"name" : "ACStrategy",
 	"pools" : [
 		 ],

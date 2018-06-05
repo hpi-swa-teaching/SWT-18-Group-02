@@ -2,16 +2,16 @@
 	"class" : {
 		"lastStoredRun" : "lb 4/21/2018 17:47" },
 	"instance" : {
-		"setUp" : "lb 5/22/2018 15:05",
+		"setUp" : "lb 6/5/2018 16:45",
 		"testEditDistance" : "lb 5/22/2018 15:05",
-		"testMockController" : "lb 5/22/2018 14:41",
-		"testRatherSlowStrategyGetSuggestionsFor" : "lb 5/22/2018 14:41",
-		"testSimpleStrategyGetSuggestionsFor" : "lb 5/18/2018 13:55",
-		"testSlowStrategyGetSuggestionsFor" : "lb 5/18/2018 13:55",
-		"testSmartStrategyGetSuggestionsFor" : "NK 5/24/2018 09:57",
-		"testSmartStrategyGetSuggestionsForPreferablyFrom" : "NK 5/25/2018 12:11",
-		"testStrategyCompletionClassesGetSuggestionsFor" : "lb 5/18/2018 13:55",
-		"testStrategyCompletionDefaultGetSuggestionsFor" : "lb 5/18/2018 13:55",
-		"testStrategyGetSuggestionsFor" : "lb 5/18/2018 13:55",
+		"testMockController" : "lb 6/5/2018 16:46",
+		"testRatherSlowStrategyGetSuggestionsFor" : "lb 6/5/2018 16:47",
+		"testSimpleStrategyGetSuggestionsFor" : "lb 6/5/2018 16:48",
+		"testSlowStrategyGetSuggestionsFor" : "lb 6/5/2018 16:48",
+		"testSmartStrategyGetSuggestionsFor" : "lb 6/5/2018 16:58",
+		"testSmartStrategyGetSuggestionsForPreferablyFrom" : "lb 6/5/2018 16:49",
+		"testStrategyCompletionClassesGetSuggestionsFor" : "lb 6/5/2018 16:49",
+		"testStrategyCompletionDefaultGetSuggestionsFor" : "lb 6/5/2018 16:50",
+		"testStrategyGetSuggestionsFor" : "lb 6/5/2018 16:50",
 		"testStrategyList" : "lb 5/18/2018 13:55",
-		"testSuperSlowStrategyGetSuggestionsFor" : "lb 5/18/2018 13:55" } }
+		"testSuperSlowStrategyGetSuggestionsFor" : "lb 6/5/2018 16:51" } }

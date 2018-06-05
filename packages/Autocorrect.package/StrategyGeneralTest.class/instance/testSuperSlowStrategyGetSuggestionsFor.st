@@ -1,9 +1,11 @@
 testcases
 testSuperSlowStrategyGetSuggestionsFor
-	|suggestions|
-	suggestions:= (ACSuperSlowStrategy  registerTo: model) getSuggestionsFor:'ACSlowStrtegy'.	
+	|suggestions strategy|
+	strategy := ACSuperSlowStrategy  registerTo: model.
+	model registerToStrategies: context.
+	suggestions:= (strategy) getSuggestionsFor:'ACSlowStrtegy'.	
 	self assert: (suggestions at: 1) key equals: 'ACSlowStrategy'.	
-	suggestions:= (ACSuperSlowStrategy  registerTo: model) getSuggestionsFor:'defaltStrategy'.	
+	suggestions:= (strategy) getSuggestionsFor:'defaltStrategy'.	
 	self assert: (suggestions at: 1) key equals: 'defaultStrategy'.
-	suggestions:= (ACSuperSlowStrategy  registerTo: model) getSuggestionsFor:'xdefaultStrategyx'.	
+	suggestions:= (strategy) getSuggestionsFor:'xdefaultStrategyx'.	
 	self assert: (suggestions at: 1) key equals: 'defaultStrategy'

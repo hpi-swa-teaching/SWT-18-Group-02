@@ -2,8 +2,6 @@ as yet unclassified
 generateEntries
 	| result suggestions alreadyAdded|
 	
-	(self context calculatePossibleSuggestions = nil) ifFalse: [
-		^ self generateTypedEntries].
 	suggestions := self getSuggestionsFor: narrowString.
 	alreadyAdded := Set new.
 	result := OrderedCollection new.	

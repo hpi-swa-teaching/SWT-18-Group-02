@@ -1,5 +1,13 @@
 testcases
 testStrategyGetSuggestionsFor
-	self assert: ((ACStrategyCompletionClasses registerTo: model) getSuggestionsFor: 'Mor') class equals: SortedCollection.
-	self assert: ((ACStrategyCompletionDefault registerTo: model) getSuggestionsFor: 'ifT') class equals: SortedCollection 
+	|strategy|
+	strategy := ACStrategyCompletionClasses  registerTo: model.
+	model registerToStrategies: context.
+	
+	self assert: ((strategy) getSuggestionsFor: 'Mor') class equals: SortedCollection.
+	
+	strategy := ACStrategyCompletionDefault  registerTo: model.
+	model registerToStrategies: context.
+	
+	self assert: ((strategy) getSuggestionsFor: 'ifT') class equals: SortedCollection 
 	

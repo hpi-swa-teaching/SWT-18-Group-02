@@ -4,6 +4,7 @@ testGetSuggestionsFor
 	| suggestions currentConfidenceRating mockModel |
 	
 	mockModel := ACMockModel new.
+	mockModel registerToStrategies: (ACContext class: nil source: ''  position: 0).
 	self assert: (mockModel respondsTo: #getSuggestionsFor:).
 	
 	suggestions := mockModel getSuggestionsFor: 'Mor'.

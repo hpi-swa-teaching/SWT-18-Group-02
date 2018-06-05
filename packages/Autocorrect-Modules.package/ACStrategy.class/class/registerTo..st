@@ -1,8 +1,8 @@
 as yet unclassified
-registerTo: aController
+registerTo: aModel
 	|strategy|
 
 	strategy := self new.
-	strategy controller: aController.
-	aController addStrategy: strategy.
+	strategy model: aModel.
+	aModel addStrategy: strategy.
 	^ strategy

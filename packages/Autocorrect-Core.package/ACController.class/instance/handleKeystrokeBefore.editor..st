@@ -20,7 +20,7 @@ handleKeystrokeBefore: aKeyboardEvent editor: theEditor
 			self closeMenu.
 			theEditor text ifEmpty: [^ false].  
 			theEditor selection ifNotEmpty: [theEditor replaceSelectionWith: ''].
-			self acmodel initializeContextFor: theEditor.
+			self initializeContextFor: theEditor.
 			self acmodel narrowString: (theEditor wordAtCaret , aKeyboardEvent keyCharacter).
 			self acmodel generateEntries.
 			

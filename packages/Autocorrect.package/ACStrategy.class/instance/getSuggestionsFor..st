@@ -1,4 +1,7 @@
 as yet unclassified
 getSuggestionsFor: aString
 
-	^ self subclassResponsibility
+	requested := aString.
+	self calculateSuggestions.
+	self checkContext.
+	^ self suggestions

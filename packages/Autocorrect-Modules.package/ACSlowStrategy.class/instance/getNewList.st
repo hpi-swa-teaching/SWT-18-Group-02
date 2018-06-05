@@ -1,3 +1,3 @@
 as yet unclassified
 getNewList 
-	self list: (self controller getListOfType: #ACSlowList)
+	self list: (self model getListOfType: #ACSlowList)

@@ -1,10 +1,12 @@
 testcases
 testSimpleStrategyGetSuggestionsFor
-	|suggestions|
-	suggestions:= (ACSimpleStrategy  registerTo: model) getSuggestionsFor:'Mor'.	
+	|suggestions strategy|
+	strategy := ACSimpleStrategy  registerTo: model.
+	model registerToStrategies: context.
+	suggestions:= (strategy) getSuggestionsFor:'Mor'.	
 	self assert: (suggestions at: 1) key equals: 'Morph'.
-	suggestions:= (ACSimpleStrategy  registerTo: model) getSuggestionsFor:'Moroh'.	
+	suggestions:= (strategy) getSuggestionsFor:'Moroh'.	
 	self assert: (suggestions at: 1) key equals: 'Morph'.
-	suggestions:= (ACSimpleStrategy  registerTo: model) getSuggestionsFor:'ifTure'.	
+	suggestions:= (strategy) getSuggestionsFor:'ifTure'.	
 	self assert: (suggestions at: 1) key equals: 'ifTrue:'
 	

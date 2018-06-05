@@ -6,6 +6,6 @@ testInsertCompletion
 	editor := ACMockEditor new.
 	controller editor: editor.
 	menu setController: controller position: (20 @ 20).
-	menu model: ACModel new.
+	menu model: controller model.
 	
 	menu insertCompletion: 'test' asString.

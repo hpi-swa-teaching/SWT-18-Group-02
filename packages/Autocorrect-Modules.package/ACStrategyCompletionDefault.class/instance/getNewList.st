@@ -1,3 +1,3 @@
 as yet unclassified
 getNewList 
-	self list: (self controller getListOfType: #OTableDefault)
+	self list: (self model getListOfType: #OTableDefault)

@@ -1,4 +1,6 @@
 accessing
 classesStrategy
 	^ classesStrategy ifNil:
-			[classesStrategy := ACStrategyCompletionClasses registerTo: controller]
+			[classesStrategy := ACStrategyCompletionClasses registerTo: model.
+			classesStrategy context: context.
+			^ classesStrategy ]

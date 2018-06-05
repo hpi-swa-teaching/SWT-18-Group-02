@@ -1,7 +1,7 @@
 as yet unclassified
-use: aController
+use: aModel
 	|strategy|
 
 	strategy := self new.
-	strategy controller: aController.
+	strategy model: aModel.
 	^ strategy

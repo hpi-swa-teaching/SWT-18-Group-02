@@ -2,9 +2,6 @@ as yet unclassified
 calculatePossibleSuggestions
 	|possibleSuggestions excludedClasses|
 	
-	receiverType = #newStatement ifTrue: [
-		possibleSuggestions := self listOfClasses.].
-	
 	(({#cascade . #object . #class} asOrderedCollection includes: receiverType) 
 		and: [receiverClass notNil])
 		ifTrue: [	possibleSuggestions := OrderedCollection new.

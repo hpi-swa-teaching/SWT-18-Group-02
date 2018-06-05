@@ -1,4 +1,6 @@
 accessing
 strategy
 	^ strategy ifNil:
-			[strategy := ACRatherSlowStrategy use: controller]
+			[strategy := ACRatherSlowStrategy use: model.
+			strategy context: context.
+			^ strategy]

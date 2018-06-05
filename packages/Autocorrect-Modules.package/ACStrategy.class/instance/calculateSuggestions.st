@@ -1,0 +1,4 @@
+suggestionCalculation
+calculateSuggestions
+
+	^ self subclassResponsibility

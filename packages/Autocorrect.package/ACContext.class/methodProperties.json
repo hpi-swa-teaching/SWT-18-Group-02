@@ -4,7 +4,9 @@
 	"instance" : {
 		"calculatePossibleSuggestions" : "lb 5/25/2018 12:17",
 		"completionToken" : "lb 5/10/2018 10:07",
-		"compute" : "lb 6/5/2018 10:25",
+		"compute" : "lb 6/5/2018 11:33",
+		"computeReceiverClass" : "lb 6/5/2018 10:46",
+		"computeReceiverType" : "lb 6/5/2018 11:31",
 		"createModel" : "jah 5/15/2018 12:24",
 		"createRanges" : "lb 6/5/2018 10:30",
 		"position" : "lb 5/26/2018 13:55",

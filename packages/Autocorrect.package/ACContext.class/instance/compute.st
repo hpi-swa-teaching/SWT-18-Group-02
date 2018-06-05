@@ -1,5 +1,7 @@
-as yet unclassified
+private
 compute
-	"this is where the magic happens in the superclass"
-
-	^ super compute.
+	
+	completionIndex := self computeIndexOfPosition.
+	receiverType := self computeReceiverType.
+	({#cascade . #object . #class} asOrderedCollection includes: receiverType)
+		ifTrue: [	receiverClass := self computeReceiverClass]

@@ -5,6 +5,6 @@ createRanges
 	ranges := parser 
 				rangesIn: source
 				classOrMetaClass: theClass
-				workspace: nil
+				workspace: workspace
 				environment: nil.
 	ranges := ranges select: [:each | each type ~= #comment]

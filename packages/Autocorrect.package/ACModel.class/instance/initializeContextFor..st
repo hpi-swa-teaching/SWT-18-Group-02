@@ -13,4 +13,4 @@ initializeContextFor: anEditor
 		source: anEditor text string
 		position: anEditor startIndex - 1.
 		
-	context compute.
+	context compute.	

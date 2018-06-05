@@ -19,4 +19,7 @@ computeReceiverType
 					ifFalse: 
 						[self configureSelectorsOnly .
 						^#selector]].
+	previous type = #tempVar
+		ifTrue: [ ^ #tempVar].
+	
 	^#class

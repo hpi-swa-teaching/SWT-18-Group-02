@@ -8,4 +8,5 @@ handleKeystrokeAfter: aKeyboardEvent editor: anEditor
 	self acmodel context narrowWith: anEditor wordAtCaret.
 	self acmodel narrowString: anEditor wordAtCaret.
 	self acmodel generateEntries.
-	self openMenuFor: anEditor.		
+	
+	[self openMenuFor: anEditor] on: Error do: [:err | ]

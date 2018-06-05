@@ -32,7 +32,8 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 
 	del
 		ifTrue: [theEditor isCaretBehindChar not
-					ifTrue: [self closeMenu].
+					ifTrue: [self closeMenu]
+					ifFalse: [ "ToDo: Implement Async waiting" ^false].
 				^ false].
 		
 	(tab and: [theEditor wordAtCaret notEmpty]) ifTrue: [

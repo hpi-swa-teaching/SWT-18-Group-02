@@ -1,4 +1,4 @@
-preference
+enabling/disabling
 enableFastModules: aBoolean
 	enableFastModules := aBoolean.
 	

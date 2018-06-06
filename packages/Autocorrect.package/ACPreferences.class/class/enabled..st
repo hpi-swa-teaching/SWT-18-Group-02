@@ -1,9 +1,9 @@
-preference
+enabling/disabling
 enabled: aBoolean
 	enabled := aBoolean.
 	
-	aBoolean  ifTrue: [self setAsDefault. 
+	aBoolean  ifTrue: [ACSystemIntegration setAsDefault. 
 						self completionDefault: ECPreferences  enabled.
 						ECPreferences enabled: false]
-		ifFalse: [self resetDefault.
+		ifFalse: [ACSystemIntegration resetDefault.
 				ECPreferences enabled:  (self completionDefault ifNil: [true])]

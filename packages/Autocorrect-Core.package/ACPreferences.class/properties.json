@@ -1,14 +1,15 @@
 {
 	"category" : "Autocorrect-Core",
 	"classinstvars" : [
-		 ],
+		"enabled",
+		"enableFastModules",
+		"completionDefault" ],
 	"classvars" : [
-		"OldDefault",
-		"SupressMessages" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ACSystemIntegration",
+	"name" : "ACPreferences",
 	"pools" : [
 		 ],
 	"super" : "Object",

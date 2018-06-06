@@ -4,5 +4,4 @@ getSuggestionsFor: aString
 		ifTrue:[self calculateFastSuggestionsFor: aString]
 		ifFalse:[self suggestions: (self strategy getSuggestionsFor: aString)].
 	self lastString: aString.
-	self fillSuggestions.
 	^ self suggestions

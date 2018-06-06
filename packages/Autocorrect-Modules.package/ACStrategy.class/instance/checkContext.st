@@ -1,4 +1,4 @@
-as yet unclassified
+context-handling
 checkContext
 
 	self perform: context adviceNextAction

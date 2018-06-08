@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"suggestion:faults:date:" : "NK 6/2/2018 15:35" },
+	"instance" : {
+		"<=" : "NK 6/2/2018 15:40",
+		"date" : "NK 6/2/2018 15:32",
+		"date:" : "NK 6/2/2018 15:32",
+		"faults" : "NK 6/2/2018 15:32",
+		"faults:" : "NK 6/2/2018 15:32",
+		"suggestion" : "NK 6/2/2018 15:32",
+		"suggestion:" : "NK 6/2/2018 15:32" } }

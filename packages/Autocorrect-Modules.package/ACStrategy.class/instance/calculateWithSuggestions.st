@@ -3,4 +3,4 @@ calculateWithSuggestions
 	|possibleSuggestions|
 	
 	possibleSuggestions := context calculatePossibleSuggestions.
-	possibleSuggestions ifNotNil: [self calculateSuggestionsPreferablyFrom: possibleSuggestions]
+	possibleSuggestions ifNotNil: [self filterSuggestionsPrefering: possibleSuggestions]

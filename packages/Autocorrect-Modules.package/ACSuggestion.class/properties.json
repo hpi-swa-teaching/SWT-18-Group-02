@@ -1,0 +1,16 @@
+{
+	"category" : "Autocorrect-Modules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"suggestion",
+		"date",
+		"faults" ],
+	"name" : "ACSuggestion",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

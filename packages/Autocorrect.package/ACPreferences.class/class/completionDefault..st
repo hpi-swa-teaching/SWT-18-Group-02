@@ -1,3 +1,3 @@
-preference
+accessing
 completionDefault: aBoolean
 	completionDefault := aBoolean

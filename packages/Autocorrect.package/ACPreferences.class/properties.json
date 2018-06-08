@@ -1,0 +1,16 @@
+{
+	"category" : "Autocorrect-Core",
+	"classinstvars" : [
+		"enabled",
+		"enableFastModules",
+		"completionDefault" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ACPreferences",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

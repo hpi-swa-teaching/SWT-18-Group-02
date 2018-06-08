@@ -4,6 +4,8 @@ calculateFastSuggestionsFor: aString
 	oldSuggestions:= self suggestions copy.
 	self suggestions removeAll.
 	oldSuggestions do: [ :entry |
-		entry value <= self maxMistakes ifTrue:[
-		self suggestions add: ((Association key: entry key
-		value: (self compare: aString to: entry key)))]].
+		entry faults <= self maxMistakes ifTrue:[
+		self suggestions add: ((ACSuggestion
+			suggestion:  entry suggestion
+			faults: (self compare: aString to: entry suggestion)
+			date: entry date))]].

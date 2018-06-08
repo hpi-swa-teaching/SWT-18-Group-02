@@ -1,3 +1,3 @@
 as yet unclassified
 itemsCount
-	^ 3
+	^ model entryCount min: 3

@@ -4,4 +4,3 @@ calculateSuggestions
 		ifTrue:[self calculateFastSuggestionsFor: requested]
 		ifFalse:[self suggestions: (self strategy calculateSuggestionsFor: requested)].
 	self lastString: requested.
-	self fillSuggestions.

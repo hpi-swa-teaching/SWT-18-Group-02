@@ -2,6 +2,6 @@ suggestionCalculation
 calculateForNewStatement
 	
 	self suggestions do: [:each |
-		((each key at: 1) isUppercase or: [each key = 'self'] or: [each key = 'super']) ifFalse:[
-			each value: each value + self contextImportance]].
+		((each suggestion at: 1) isUppercase or: [each suggestion = 'self'] or: [each suggestion = 'super']) ifFalse:[
+			each faults: each faults + self contextImportance]].
 	self suggestions reSort.

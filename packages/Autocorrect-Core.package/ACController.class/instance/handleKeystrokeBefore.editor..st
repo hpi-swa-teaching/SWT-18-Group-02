@@ -17,7 +17,8 @@ handleKeystrokeBefore: aKeyboardEvent editor: theEditor
 	
 	(ctrl not & cmd not & alphanum) 
 		ifTrue: [ 
-			self closeMenu.
+			"this seems to be no longer needed"
+			"self closeMenu."
 			theEditor text ifEmpty: [^ false].  
 			theEditor selection ifNotEmpty: [theEditor replaceSelectionWith: ''].
 			self initializeContextFor: theEditor.

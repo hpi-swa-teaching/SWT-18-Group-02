@@ -2,4 +2,7 @@ as yet unclassified
 calculateSuggestions	
 	self suggestions removeAll.
 	self list collection do: [ :entry |
-		self suggestions add: ((Association key: entry value: (self compare: requested to: entry)))].
+		self suggestions add: ((ACSuggestion 
+			suggestion: entry contents asString
+			faults: (self compare: requested to: entry contents asString)
+			date: entry date))].

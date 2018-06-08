@@ -2,10 +2,7 @@ keyboard
 handleControlEvent: aKeyboardEvent editor: theEditor
 	"Returns a boolean. true when the event was handled and no futher processing is needed by the caller."
 	
-	| keyValue ctrl cmd tab enter colon del down esc up left right pageDown pageUp end home space|
-	
-	self isMenuOpen
-		ifFalse: [^ false].
+	| keyValue ctrl cmd tab enter colon del down esc up left right pageDown pageUp end home space lastIndex |
 		
 	keyValue := aKeyboardEvent keyValue.
 	ctrl := aKeyboardEvent controlKeyPressed.
@@ -24,7 +21,16 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 	down := keyValue = 31.
 	space := keyValue = 32.
 	colon := aKeyboardEvent keyCharacter = $:.
-	
+
+	(cmd and: [aKeyboardEvent keyCharacter  = $z] and: [theEditor history previous notNil] and: [theEditor history previous type = #Autocorrection])
+		ifTrue: [theEditor undo. 
+				lastIndex :=  theEditor history previous intervalBetween last + 1. 
+				theEditor selectInterval: (lastIndex to: lastIndex - 1).
+				^true].
+		
+	self isMenuOpen
+		ifFalse: [^ false].
+		
 	"del ifTrue: [ self smartBackspace ]."
 	"self expanded ifTrue: [ ^ super handleKeystrokeBefore: aKeyboardEvent editor: theEditor ]."
 	
@@ -74,10 +80,9 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 		ifTrue: [menuMorph pageDown. ^ true].
 
 	(space and:  [ACSystemIntegration spaceCorrection])
-		ifTrue: [	editor closeTypeIn; openTypeIn.
-				menuMorph insertSelected.
+		ifTrue: [	menuMorph insertSelected.
 				 ^true].
-			
+	
 	(enter and: [ACSystemIntegration enableEnterInsertion] and: [theEditor wordAtCaret notEmpty])
 		 ifTrue: [(self acmodel notEmpty and: [menuMorph selected > 0]) 
 				ifTrue: [menuMorph insertSelected 

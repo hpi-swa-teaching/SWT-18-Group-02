@@ -1,7 +1,12 @@
 {
 	"category" : "Autocorrect-Core",
 	"classinstvars" : [
-		 ],
+		"enabled",
+		"enableFastModules",
+		"completionDefault",
+		"spaceCorrection",
+		"enableEnterInsertion",
+		"enableTabInsertion" ],
 	"classvars" : [
 		"OldDefault",
 		"SupressMessages" ],

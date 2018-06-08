@@ -12,7 +12,8 @@
 		"model",
 		"editor",
 		"context",
-		"contextClass" ],
+		"contextClass",
+		"correctionTimestamp" ],
 	"name" : "ACController",
 	"pools" : [
 		 ],

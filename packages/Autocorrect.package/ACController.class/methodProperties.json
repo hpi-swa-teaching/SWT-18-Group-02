@@ -16,7 +16,7 @@
 		"expand" : "jah 5/25/2018 12:18",
 		"expanded" : "jah 5/25/2018 11:13",
 		"handleControlEvent:editor:" : "jah 5/20/2018 15:36",
-		"handleKeystrokeAfter:editor:" : "az 6/8/2018 14:04",
+		"handleKeystrokeAfter:editor:" : "az 6/8/2018 14:37",
 		"handleKeystrokeBefore:editor:" : "lb 6/8/2018 10:21",
 		"initialize" : "lb 6/5/2018 13:37",
 		"initializeContextFor:" : "lb 6/5/2018 14:12",
@@ -30,4 +30,4 @@
 		"openMenuFor:" : "lb 6/5/2018 13:55",
 		"openXMenuFor:" : "jah 5/27/2018 21:48",
 		"retract" : "jah 5/25/2018 12:19",
-		"tryAutocorrect:" : "az 6/8/2018 14:20" } }
+		"tryAutocorrect:" : "az 6/8/2018 14:41" } }

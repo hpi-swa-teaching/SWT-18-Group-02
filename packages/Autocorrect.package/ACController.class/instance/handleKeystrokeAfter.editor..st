@@ -15,5 +15,6 @@ handleKeystrokeAfter: aKeyboardEvent editor: anEditor
 	del
 		ifTrue: [
 			(self future: 500) tryAutocorrect: anEditor.
+			self closeMenu.
 			]
 	ifFalse:[self autocorrectIn: anEditor]

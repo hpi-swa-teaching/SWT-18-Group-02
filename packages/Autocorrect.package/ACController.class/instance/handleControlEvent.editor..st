@@ -77,6 +77,11 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 		ifTrue: [	editor closeTypeIn; openTypeIn.
 				menuMorph insertSelected.
 				 ^true].
+			
+	(enter and: [ACSystemIntegration enableEnterInsertion] and: [theEditor wordAtCaret notEmpty])
+		 ifTrue: [(self acmodel notEmpty and: [menuMorph selected > 0]) 
+				ifTrue: [menuMorph insertSelected 
+					ifTrue: [ ^ true ]]].
 
 	(colon | up | down | tab | del) 
 		ifFalse: [self retract; closeMenu. ^ false].

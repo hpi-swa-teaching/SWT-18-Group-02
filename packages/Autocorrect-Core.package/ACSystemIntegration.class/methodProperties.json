@@ -2,6 +2,8 @@
 	"class" : {
 		"completionDefault" : "HB 5/18/2018 11:11",
 		"completionDefault:" : "HB 5/18/2018 11:12",
+		"enableEnterInsertion" : "HB 6/8/2018 10:22",
+		"enableEnterInsertion:" : "HB 6/8/2018 10:22",
 		"enableFastModules" : "lb 5/22/2018 11:38",
 		"enableFastModules:" : "lb 5/29/2018 11:10",
 		"enabled" : "lb 5/22/2018 14:30",
@@ -11,7 +13,7 @@
 		"oldDefault:" : "lb 5/9/2018 13:01",
 		"resetDefault" : "lb 5/23/2018 15:08",
 		"setAsDefault" : "lb 5/23/2018 15:01",
-		"spaceCorrection" : "HB 5/25/2018 10:48",
+		"spaceCorrection" : "HB 6/8/2018 10:37",
 		"spaceCorrection:" : "HB 5/25/2018 10:48",
 		"supressMessages" : "lb 5/11/2018 16:40",
 		"supressMessages:" : "lb 5/11/2018 16:41" },

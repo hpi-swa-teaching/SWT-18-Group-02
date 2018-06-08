@@ -1,9 +1,9 @@
 preference
 spaceCorrection
 	
-	<preference: 'Insert best suggestion on hitting space'
+	<preference: 'Space Insertion'
 		category: 'Autocorrection'
-		description: 'Enable automatic insertion of best suggestion when the user hits space'
+		description: 'Enable insertion by hitting space'
 		type: #Boolean>
 		
 	^spaceCorrection ifNil: [false]

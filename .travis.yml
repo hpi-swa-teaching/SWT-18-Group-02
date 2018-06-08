@@ -6,4 +6,6 @@ os:
   - osx
 
 smalltalk:
+  - Squeak-6.0
+  - Squeak-5.2
   - Squeak-5.1

@@ -8,6 +8,5 @@ testInsertCompletion
 	editor openTypeIn.
 	controller editor: editor.
 	menu setController: controller position: (20 @ 20).
-	menu model: ACModel new.
 	
-	menu insertCompletion: 'test' asString.
+	menu insertCompletion: 'test' asString

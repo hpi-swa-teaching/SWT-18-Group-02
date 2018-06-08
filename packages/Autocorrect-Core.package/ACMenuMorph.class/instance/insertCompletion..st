@@ -6,13 +6,13 @@ insertCompletion: aString
 	editor closeTypeIn; 
 			openTypeIn.
 	startIndex := editor startIndex.
-	oldSelectionInterval := startIndex - self model completionToken size to: startIndex - 1.
+	oldSelectionInterval := startIndex - self controller completionToken size to: startIndex - 1.
 	editor selectInvisiblyFrom: oldSelectionInterval first to: oldSelectionInterval last.  
 	editor replaceSelectionWith: aString.
 	
 	cmd := editor history previous.
 	cmd type: #Autocorrection.
-	cmd contentsBefore: self model completionToken.
+	cmd contentsBefore: self controller completionToken.
 	cmd contentsAfter: aString.
 	cmd intervalBetween: (oldSelectionInterval first to: oldSelectionInterval first + aString size).
 	cmd intervalBefore: oldSelectionInterval.

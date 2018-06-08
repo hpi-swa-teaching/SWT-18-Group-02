@@ -5,7 +5,8 @@
 		"enableFastModules",
 		"completionDefault",
 		"spaceCorrection",
-		"enableEnterInsertion" ],
+		"enableEnterInsertion",
+		"enableTabInsertion" ],
 	"classvars" : [
 		"OldDefault",
 		"SupressMessages" ],

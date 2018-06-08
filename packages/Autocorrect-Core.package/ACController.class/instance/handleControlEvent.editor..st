@@ -36,7 +36,7 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 					ifTrue: [self closeMenu].
 				^ false].
 		
-	(tab and: [theEditor wordAtCaret notEmpty]) ifTrue: [
+	(tab and: [theEditor wordAtCaret notEmpty] and: [ACSystemIntegration enableTabInsertion]) ifTrue: [
 		(self acmodel notEmpty and: [menuMorph selected > 0]) 
 				ifTrue: [menuMorph insertSelected 
 					ifTrue: [ ^ true ] ]

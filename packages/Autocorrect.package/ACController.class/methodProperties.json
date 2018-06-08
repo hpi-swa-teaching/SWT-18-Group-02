@@ -4,16 +4,19 @@
 	"instance" : {
 		"acmodel" : "jah 5/15/2018 14:26",
 		"acmodel:" : "jah 5/15/2018 14:26",
+		"autocorrectIn:" : "az 6/8/2018 13:38",
 		"closeMenu" : "jah 5/27/2018 21:51",
 		"completionToken" : "lb 6/5/2018 13:54",
 		"context" : "lb 6/5/2018 15:08",
 		"contextClass" : "jah 5/15/2018 12:05",
+		"correctionTimestamp" : "az 6/8/2018 14:21",
+		"defferAutocorrect" : "az 6/8/2018 14:21",
 		"editor" : "jah 5/25/2018 11:36",
 		"editor:" : "jah 5/25/2018 11:36",
 		"expand" : "jah 5/25/2018 12:18",
 		"expanded" : "jah 5/25/2018 11:13",
-		"handleControlEvent:editor:" : "az 6/8/2018 12:17",
-		"handleKeystrokeAfter:editor:" : "lb 6/5/2018 13:47",
+		"handleControlEvent:editor:" : "jah 5/20/2018 15:36",
+		"handleKeystrokeAfter:editor:" : "az 6/8/2018 14:04",
 		"handleKeystrokeBefore:editor:" : "lb 6/8/2018 10:21",
 		"initialize" : "lb 6/5/2018 13:37",
 		"initializeContextFor:" : "lb 6/5/2018 14:12",
@@ -26,4 +29,5 @@
 		"model:" : "jah 5/25/2018 11:16",
 		"openMenuFor:" : "lb 6/5/2018 13:55",
 		"openXMenuFor:" : "jah 5/27/2018 21:48",
-		"retract" : "jah 5/25/2018 12:19" } }
+		"retract" : "jah 5/25/2018 12:19",
+		"tryAutocorrect:" : "az 6/8/2018 14:20" } }

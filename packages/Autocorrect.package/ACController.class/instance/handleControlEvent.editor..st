@@ -31,7 +31,8 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 		ifTrue: [self retract; closeMenu. ^ true].
 
 	del
-		ifTrue: [self closeMenu.
+		ifTrue: [theEditor isCaretBehindChar not
+					ifTrue: [self closeMenu].
 				^ false].
 		
 	(tab and: [theEditor wordAtCaret notEmpty]) ifTrue: [

@@ -1,4 +1,4 @@
 accessing
 lastString
 	^ lastString ifNil:
-			[lastString := '']
+			[lastString := 'abcdefghij']

@@ -6,6 +6,6 @@ calculateSuggestions
 	[self suggestions isEmpty] whileTrue:[ 
 		subString := (requested first:((requested size) - counter)).
 		subString first isUppercase 
-			ifFalse:[self suggestions: (self defaultStrategy getSuggestionsFor: subString)] 
-			ifTrue:[self suggestions: (self classesStrategy getSuggestionsFor: subString)].
+			ifFalse:[self suggestions: (self defaultStrategy calculateSuggestionsFor: subString)] 
+			ifTrue:[self suggestions: (self classesStrategy calculateSuggestionsFor: subString)].
 		counter := counter + 1].

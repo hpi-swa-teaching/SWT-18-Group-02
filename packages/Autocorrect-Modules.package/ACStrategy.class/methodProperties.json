@@ -5,6 +5,7 @@
 	"instance" : {
 		"calculateForNewStatement" : "lb 6/6/2018 16:21",
 		"calculateSuggestions" : "lb 6/5/2018 14:16",
+		"calculateSuggestionsFor:" : "lb 6/8/2018 10:05",
 		"calculateSuggestionsPreferablyFrom:" : "lb 6/7/2018 11:06",
 		"calculateWithSuggestions" : "lb 6/5/2018 14:47",
 		"checkContext" : "lb 6/6/2018 11:08",
@@ -19,6 +20,8 @@
 		"maxMistakes" : "NK 5/24/2018 10:36",
 		"model" : "lb 6/5/2018 14:00",
 		"model:" : "lb 6/5/2018 14:01",
+		"requested" : "lb 6/8/2018 10:03",
+		"requested:" : "lb 6/8/2018 10:03",
 		"suggestions" : "NK 5/5/2018 18:23",
 		"suggestions:" : "NK 5/5/2018 18:06",
 		"updateContextWith:" : "lb 6/6/2018 11:12" } }

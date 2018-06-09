@@ -4,9 +4,6 @@ handleKeystrokeBefore: aKeyboardEvent editor: theEditor
 	"events completing started Syntax are handled here, as well as navigation through the completion menu"
 	
 	| ctrl cmd alphanum |
-	
-	"self editor: theEditor.
-	self setModel: theEditor model."
 
 	ctrl := aKeyboardEvent controlKeyPressed.
 	cmd := aKeyboardEvent commandKeyPressed.
@@ -17,16 +14,12 @@ handleKeystrokeBefore: aKeyboardEvent editor: theEditor
 	
 	(ctrl not & cmd not & alphanum) 
 		ifTrue: [ 
-			"this seems to be no longer needed"
-			"self closeMenu."
 			theEditor text ifEmpty: [^ false].  
 			theEditor selection ifNotEmpty: [theEditor replaceSelectionWith: ''].
 			self initializeContextFor: theEditor.
 			self acmodel narrowString: (theEditor wordAtCaret , aKeyboardEvent keyCharacter).
-			self acmodel generateEntries.
-			
+			"still need to re-open it, otherwise the handleKeystrokeAfter: will not do anything"
 			self isMenuOpen ifFalse: [ self openMenuFor: theEditor].
-			theEditor text ifNotNil: [ menuMorph changed ]. 
 			^ false]
 		ifFalse: [	
 			^ self handleControlEvent: aKeyboardEvent editor: theEditor]

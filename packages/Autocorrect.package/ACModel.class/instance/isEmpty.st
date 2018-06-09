@@ -1,3 +1,3 @@
 accessing
 isEmpty
-	^ entries isEmpty
+	^ self entries isEmpty

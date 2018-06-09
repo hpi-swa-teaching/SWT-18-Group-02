@@ -3,7 +3,10 @@
 	"classinstvars" : [
 		"enabled",
 		"enableFastModules",
-		"completionDefault" ],
+		"completionDefault",
+		"spaceCorrection",
+		"enableEnterInsertion",
+		"enableTabInsertion" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

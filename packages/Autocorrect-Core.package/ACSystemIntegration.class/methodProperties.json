@@ -1,16 +1,10 @@
 {
 	"class" : {
-		"enableEnterInsertion" : "HB 6/8/2018 10:22",
-		"enableEnterInsertion:" : "HB 6/8/2018 10:22",
-		"enableTabInsertion" : "HB 6/8/2018 12:05",
-		"enableTabInsertion:" : "HB 6/8/2018 12:03",
 		"initialize" : "lb 5/15/2018 10:28",
 		"oldDefault" : "lb 5/7/2018 17:22",
 		"oldDefault:" : "lb 5/9/2018 13:01",
 		"resetDefault" : "lb 5/23/2018 15:08",
 		"setAsDefault" : "lb 5/23/2018 15:01",
-		"spaceCorrection" : "HB 6/8/2018 10:37",
-		"spaceCorrection:" : "HB 5/25/2018 10:48",
 		"supressMessages" : "lb 5/11/2018 16:40",
 		"supressMessages:" : "lb 5/11/2018 16:41" },
 	"instance" : {

@@ -42,7 +42,7 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 					ifTrue: [self closeMenu].
 				^ false].
 		
-	(tab and: [theEditor wordAtCaret notEmpty] and: [ACSystemIntegration enableTabInsertion]) ifTrue: [
+	(tab and: [theEditor wordAtCaret notEmpty] and: [ACPreferences enableTabInsertion]) ifTrue: [
 		(self acmodel notEmpty and: [menuMorph selected > 0]) 
 				ifTrue: [menuMorph insertSelected 
 					ifTrue: [ ^ true ] ]
@@ -79,11 +79,11 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 	pageDown 
 		ifTrue: [menuMorph pageDown. ^ true].
 
-	(space and:  [ACSystemIntegration spaceCorrection])
+	(space and:  [ACPreferences spaceCorrection])
 		ifTrue: [	menuMorph insertSelected.
 				 ^true].
 	
-	(enter and: [ACSystemIntegration enableEnterInsertion] and: [theEditor wordAtCaret notEmpty])
+	(enter and: [ACPreferences enableEnterInsertion] and: [theEditor wordAtCaret notEmpty])
 		 ifTrue: [(self acmodel notEmpty and: [menuMorph selected > 0]) 
 				ifTrue: [menuMorph insertSelected 
 					ifTrue: [ ^ true ]]].

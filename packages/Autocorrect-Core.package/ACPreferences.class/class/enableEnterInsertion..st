@@ -1,3 +1,3 @@
-preference
+keybinds
 enableEnterInsertion: aBoolean
 	enableEnterInsertion := aBoolean

@@ -1,3 +1,3 @@
-preference
+keybinds
 spaceCorrection: aBoolean
 	spaceCorrection := aBoolean

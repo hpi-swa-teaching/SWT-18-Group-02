@@ -2,9 +2,8 @@ private
 computeReceiverType
 	| previous found |
 	recurseCount := 0.
-	((completionIndex = 1) or: 
-		[(ranges at: completionIndex - 1) type = #statementSeparator]) 
-			ifTrue: [^#newStatement].
+	(self currentlyNewStatement) 
+		ifTrue: [^#newStatement].
 	found := self checkImpossibleReceiver.
 	found ifTrue: [^#impossibleReceiver].
 	previous := ranges at: completionIndex - 1.

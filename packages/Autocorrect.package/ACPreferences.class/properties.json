@@ -6,7 +6,9 @@
 		"completionDefault",
 		"spaceCorrection",
 		"enableEnterInsertion",
-		"enableTabInsertion" ],
+		"enableTabInsertion",
+		"updateThreshold",
+		"feedback" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

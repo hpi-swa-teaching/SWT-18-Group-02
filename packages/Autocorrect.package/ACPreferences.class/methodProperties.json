@@ -10,7 +10,11 @@
 		"enableTabInsertion:" : "HB 6/8/2018 12:03",
 		"enabled" : "lb 6/8/2018 12:18",
 		"enabled:" : "lb 6/6/2018 16:06",
+		"feedback" : "HB 6/15/2018 12:09",
+		"feedback:" : "HB 6/15/2018 12:03",
 		"spaceCorrection" : "lb 6/9/2018 23:44",
-		"spaceCorrection:" : "HB 5/25/2018 10:48" },
+		"spaceCorrection:" : "HB 5/25/2018 10:48",
+		"updateThreshold" : "HB 6/15/2018 11:48",
+		"updateThreshold:" : "HB 6/15/2018 11:42" },
 	"instance" : {
 		 } }

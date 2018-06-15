@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 actionSubmit
 	self actionTitle ifEmpty: [self error: 'No title provided.'].
 	self actionMessage ifEmpty: [self error: 'No message provided.'].

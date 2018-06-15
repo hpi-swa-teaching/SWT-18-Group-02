@@ -4,11 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"title",
+		"message",
+		"author" ],
 	"name" : "ACFeedback",
 	"pools" : [
 		 ],
-	"super" : "SquitFeedback",
+	"super" : "Model",
 	"type" : "normal" }

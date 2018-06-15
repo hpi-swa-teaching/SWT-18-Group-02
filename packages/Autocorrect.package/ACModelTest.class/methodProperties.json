@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "jah 5/15/2018 11:56",
+		"setUp" : "lb 6/15/2018 11:42",
 		"testAddAndRemoveStrategy" : "jah 5/15/2018 11:59",
+		"testCompletionAt" : "lb 6/15/2018 11:56",
 		"testDefaultModuleDeployment" : "jah 5/15/2018 12:00",
 		"testGenerateEntries" : "lb 6/5/2018 16:53",
 		"testGetSuggestionsFor" : "lb 6/8/2018 10:34",

@@ -1,0 +1,17 @@
+{
+	"category" : "Autocorrect-Modules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"maxMistakes",
+		"string",
+		"table",
+		"contextFaults" ],
+	"name" : "ACExtendedSuggestion",
+	"pools" : [
+		 ],
+	"super" : "ACSuggestion",
+	"type" : "normal" }

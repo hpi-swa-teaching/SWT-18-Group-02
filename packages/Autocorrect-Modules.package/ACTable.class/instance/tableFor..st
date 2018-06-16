@@ -1,4 +1,4 @@
-as yet unclassified
+lookUp access
 tableFor: aString
 	aString size < 2
 		ifTrue:[^self tableAt: '']

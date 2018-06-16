@@ -1,3 +1,3 @@
-accessing
+as yet unclassified
 addString: aString
-	self collection add: (ACDatedEntry contents: aString date: DateAndTime now)
+	self addEntry: (ACDatedEntry contents: aString date: DateAndTime now)

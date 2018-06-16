@@ -6,6 +6,8 @@ getListOfType: aType
 		ifTrue: [^ self mockOCompletionTableDefault].
 	(aType = #ACSlowList )
 		ifTrue: [^ super getListOfType: aType ].
+	(aType = #ACTable )
+		ifTrue: [^ ACMockTable].
 		
 	^ self error: 'There is no reference to a List of Type: #', aType
 

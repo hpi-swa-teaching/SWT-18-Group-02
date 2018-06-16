@@ -1,0 +1,15 @@
+{
+	"category" : "Autocorrect-Modules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"contents",
+		"date" ],
+	"name" : "ACDatedEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -5,6 +5,7 @@
 		"assert:corrects:to:" : "lb 6/8/2018 10:43",
 		"setUp" : "lb 6/5/2018 16:45",
 		"testEditDistance" : "lb 5/22/2018 15:05",
+		"testExtendedStrategyGetSuggestionsFor" : "NK 6/17/2018 15:09",
 		"testMockController" : "lb 6/8/2018 10:40",
 		"testRatherSlowStrategyGetSuggestionsFor" : "NK 6/2/2018 14:25",
 		"testSimpleStrategyGetSuggestionsFor" : "lb 6/8/2018 10:40",

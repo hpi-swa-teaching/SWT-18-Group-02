@@ -10,13 +10,17 @@
 		"alphabetNotFInalDontUse" : "NK 6/10/2018 22:52",
 		"at:ifAbsent:" : "NK 6/16/2018 17:43",
 		"at:ifPresent:ifAbsent:" : "NK 6/16/2018 17:46",
+		"at:ifPresent:ifAbsentPut:" : "NK 6/17/2018 13:58",
 		"at:put:" : "NK 6/16/2018 17:47",
 		"collection" : "NK 6/10/2018 22:48",
 		"collection:" : "NK 6/10/2018 22:44",
 		"entriesStartingWith:" : "NK 6/16/2018 17:30",
 		"fillCollectionWithClasses" : "NK 6/16/2018 17:09",
 		"fillCollectionWithMethods" : "NK 6/16/2018 17:10",
+		"first:" : "NK 6/17/2018 15:26",
+		"getEntryFor:" : "NK 6/17/2018 14:03",
 		"lookupTable" : "NK 6/16/2018 16:37",
 		"lookupTable:" : "NK 6/16/2018 16:36",
+		"oldestDate" : "NK 6/17/2018 14:04",
 		"tableAt:" : "NK 6/16/2018 17:22",
-		"tableFor:" : "NK 6/16/2018 17:19" } }
+		"tableFor:" : "NK 6/17/2018 14:47" } }

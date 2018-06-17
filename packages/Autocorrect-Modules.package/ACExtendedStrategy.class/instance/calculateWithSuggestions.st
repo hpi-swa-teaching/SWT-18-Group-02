@@ -1,7 +1,7 @@
 as yet unclassified
 calculateWithSuggestions
 	|entry|
-	context calculateAllPossibleSuggestions do:[:string |
+	context calculatePossibleSuggestions do:[:string |
 		entry:= self list default getEntryFor: string.
 		self suggestions at: string put: (ACExtendedSuggestion
 				suggestion: entry contents

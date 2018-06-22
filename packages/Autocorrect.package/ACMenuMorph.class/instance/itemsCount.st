@@ -1,3 +1,3 @@
 as yet unclassified
 itemsCount
-	^ model entryCount min: 3
+	^ self model entryCount min: 3

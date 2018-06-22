@@ -5,18 +5,18 @@ testSelectedEntry
 	model := ACModel new.
 	model entries: {Morph . ACController . ACMenuMorph} asOrderedCollection.
 	
-	menu model: model.
-	menu show.
+	self menu model: model.
+	self menu show.
 	
-	self assert: menu selected notNil.
-	menu selected: 2.
-	self assert: 2 equals: (menu selected).
-	menu selected: 4.
-	self assert: 2 equals: (menu selected).
+	self assert: self menu selected notNil.
+	self menu selected: 2.
+	self assert: 2 equals: (self menu selected).
+	self menu selected: 4.
+	self assert: 2 equals: (self menu selected).
 	
 	counter := 1.
 	model entries do: [ :entry |
-		menu selected: counter.
-		self assert: entry equals: (menu selectedEntry).
+		self menu selected: counter.
+		self assert: entry equals: (self menu selectedEntry).
 		counter := counter + 1]
 	

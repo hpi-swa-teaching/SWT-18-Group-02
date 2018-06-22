@@ -1,4 +1,4 @@
 context-handling
 checkIfLocalVarOrArg: aString
 
-	^ (context currentlyRelevant includes: aString)
+	^ (self context currentlyRelevant includes: aString)

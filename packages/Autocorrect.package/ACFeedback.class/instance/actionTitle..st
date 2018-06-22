@@ -1,4 +1,4 @@
 actions
 actionTitle: aTitle
-	title := aTitle asString.
+	self title: aTitle asString.
 	self changed: #actionTitle

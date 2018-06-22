@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "lb 6/15/2018 11:42",
-		"testAddAndRemoveStrategy" : "jah 5/15/2018 11:59",
-		"testCompletionAt" : "lb 6/15/2018 11:56",
-		"testDefaultModuleDeployment" : "jah 5/15/2018 12:00",
-		"testGenerateEntries" : "lb 6/5/2018 16:53",
+		"model" : "az 6/22/2018 13:42",
+		"model:" : "az 6/22/2018 13:42",
+		"setUp" : "az 6/22/2018 13:41",
+		"testAddAndRemoveStrategy" : "az 6/22/2018 13:41",
+		"testCompletionAt" : "az 6/22/2018 13:41",
+		"testDefaultModuleDeployment" : "az 6/22/2018 13:42",
+		"testGenerateEntries" : "az 6/22/2018 13:42",
 		"testGetSuggestionsFor" : "lb 6/8/2018 10:34",
-		"testProvideListOfGivenType" : "lb 5/22/2018 14:22" } }
+		"testProvideListOfGivenType" : "az 6/22/2018 13:42" } }

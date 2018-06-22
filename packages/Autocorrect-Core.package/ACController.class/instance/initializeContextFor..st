@@ -7,11 +7,11 @@ initializeContextFor: anEditor
 		ifTrue: [ class := self model selectedClassOrMetaClass ]
 		ifFalse: [ class := nil ].
 		
-	context := self contextClass 
+	self context: (self contextClass 
 		class: class
 		source: anEditor text string
-		position: anEditor startIndex - 1.
+		position: anEditor startIndex - 1).
 		
-	context compute.	
+	self context compute.	
 		
-	self acmodel registerToStrategies: context.
+	self acmodel registerToStrategies: self context.

@@ -3,9 +3,9 @@ calculateSuggestions
 	|match|
 	
 	self suggestions removeAll.
-	(self list entriesMatching: requested) do: [ :entry |
+	(self list entriesMatching: self requested) do: [ :entry |
 		match:= entry contents asString.
 		self suggestions add: (ACSuggestion 
 			suggestion: match 
-			faults: match size - requested size
+			faults: match size - self requested size
 			date: entry date)].

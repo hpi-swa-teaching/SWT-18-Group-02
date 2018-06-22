@@ -1,5 +1,5 @@
 as yet unclassified
 updateContextWith: aContext
 
-	context := aContext.
+	self context: aContext.
 	self strategy updateContextWith: aContext.

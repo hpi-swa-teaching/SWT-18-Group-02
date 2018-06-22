@@ -10,7 +10,7 @@ handleKeystrokeBefore: aKeyboardEvent editor: theEditor
 	alphanum := aKeyboardEvent keyCharacter isAlphaNumeric.
 	
 	self isMenuOpen 
-		ifTrue: [menuMorph stillActive].
+		ifTrue: [self menuMorph stillActive].
 	
 	(ctrl not & cmd not & alphanum) 
 		ifTrue: [ 

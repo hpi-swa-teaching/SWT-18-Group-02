@@ -1,6 +1,6 @@
 running
 setUp
 	
-	model := ACMockModel new.
-	context := ACContext class: nil source: ''  position: 0. 
+	self model: ACMockModel new.
+	self context: (ACContext class: nil source: ''  position: 0). 
 	

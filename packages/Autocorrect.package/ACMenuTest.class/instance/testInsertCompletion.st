@@ -7,6 +7,6 @@ testInsertCompletion
 	editor history: TextEditorCommandHistory new.
 	editor openTypeIn.
 	controller editor: editor.
-	menu setController: controller position: (20 @ 20).
+	self menu setController: controller position: (20 @ 20).
 	
-	menu insertCompletion: 'test' asString
+	self menu insertCompletion: 'test' asString

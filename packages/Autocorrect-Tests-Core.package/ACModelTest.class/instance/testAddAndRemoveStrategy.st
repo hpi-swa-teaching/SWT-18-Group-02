@@ -2,9 +2,9 @@ testcases
 testAddAndRemoveStrategy 
 	|strategiesBeforeTest|
 	
-	strategiesBeforeTest := model strategies.
-	model addStrategy: #abc.
-	self assert: (model strategies includes: #abc).
+	strategiesBeforeTest := self model strategies.
+	self model addStrategy: #abc.
+	self assert: (self model strategies includes: #abc).
 	
-	model removeStrategy: #abc.
-	self assert: (model strategies) equals: strategiesBeforeTest
+	self model removeStrategy: #abc.
+	self assert: (self model strategies) equals: strategiesBeforeTest

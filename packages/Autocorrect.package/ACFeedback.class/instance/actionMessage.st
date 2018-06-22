@@ -1,3 +1,3 @@
 actions
 actionMessage
-	^ message ifNil: [message := '']
+	^ self message ifNil: [self message: '']

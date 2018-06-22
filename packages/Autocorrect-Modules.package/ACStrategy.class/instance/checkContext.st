@@ -1,4 +1,4 @@
 context-handling
 checkContext
 
-	self perform: context adviceNextAction
+	self perform: self context adviceNextAction

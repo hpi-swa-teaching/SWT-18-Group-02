@@ -1,4 +1,4 @@
 private
 itemsCount 
 
-	^ (model entryCount min: 21)
+	^ (self model entryCount min: 21)

@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "lb 5/24/2018 10:12",
-		"testInsertCompletion" : "jah 6/8/2018 14:01",
-		"testInsertSelection" : "lb 5/29/2018 11:21",
-		"testInstanceInitialization" : "lb 5/24/2018 10:16",
-		"testItemCount" : "lb 6/6/2018 11:35",
-		"testSelectedEntry" : "lb 5/24/2018 10:36" } }
+		"menu" : "az 6/22/2018 13:38",
+		"menu:" : "az 6/22/2018 13:38",
+		"setUp" : "az 6/22/2018 13:03",
+		"testInsertCompletion" : "az 6/22/2018 13:38",
+		"testInsertSelection" : "az 6/22/2018 13:38",
+		"testInstanceInitialization" : "az 6/22/2018 13:38",
+		"testItemCount" : "az 6/22/2018 13:39",
+		"testSelectedEntry" : "az 6/22/2018 13:39" } }

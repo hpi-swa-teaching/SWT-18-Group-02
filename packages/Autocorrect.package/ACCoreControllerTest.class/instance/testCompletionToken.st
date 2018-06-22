@@ -1,5 +1,5 @@
 as yet unclassified
 testCompletionToken
 	
-	controller context.
-	self assert: controller context completionToken equals: controller completionToken
+	self controller context.
+	self assert: self controller context completionToken equals: self controller completionToken

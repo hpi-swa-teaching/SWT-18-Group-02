@@ -4,6 +4,6 @@ testInsertSelection
 	
 	model := ACModel new.
 	model entries: OrderedCollection new.
-	menu model: model.
+	self menu model: model.
 	
-	self assert: false equals: menu insertSelected.
+	self assert: false equals: self menu insertSelected.

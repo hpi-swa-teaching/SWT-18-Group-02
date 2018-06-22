@@ -10,4 +10,4 @@ openMenuFor: anEditor
 		position: (anEditor selectionPosition: self completionToken).
 	theMenu model: self acmodel.
 	theMenu open.
-	menuMorph := theMenu
+	self menuMorph: theMenu

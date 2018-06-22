@@ -1,3 +1,3 @@
 UI
 retract
-	expanded := false
+	self expanded: false

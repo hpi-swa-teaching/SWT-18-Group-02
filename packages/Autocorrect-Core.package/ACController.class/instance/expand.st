@@ -1,3 +1,3 @@
 UI
 expand
-	expanded := true
+	self expanded: true

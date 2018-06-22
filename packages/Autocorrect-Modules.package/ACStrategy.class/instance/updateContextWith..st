@@ -1,4 +1,4 @@
 context-handling
 updateContextWith: aContext
 	
-	context := aContext.
+	self context: aContext.

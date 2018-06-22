@@ -1,3 +1,3 @@
 UI
 isMenuOpen
-	^menuMorph notNil and: [menuMorph itemsCount > 0 ifTrue: [true] ifFalse: [self closeMenu. false]]
+	^self menuMorph notNil and: [self menuMorph itemsCount > 0 ifTrue: [true] ifFalse: [self closeMenu. false]]

@@ -1,5 +1,5 @@
 UI
 closeMenu
-	menuMorph ifNotNil: [
-		menuMorph delete.
-		menuMorph := nil ]
+	self menuMorph ifNotNil: [
+		self menuMorph delete.
+		self menuMorph: nil ]

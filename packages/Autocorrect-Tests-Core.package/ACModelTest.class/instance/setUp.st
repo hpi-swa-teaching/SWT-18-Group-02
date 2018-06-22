@@ -1,3 +1,3 @@
 setUp
 setUp 
-	model := ACModel new
+	self model: ACModel new

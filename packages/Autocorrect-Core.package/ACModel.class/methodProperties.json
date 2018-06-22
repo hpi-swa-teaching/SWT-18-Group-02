@@ -8,10 +8,10 @@
 		"entries" : "lb 6/10/2018 00:24",
 		"entries:" : "jah 5/12/2018 14:37",
 		"entryCount" : "jah 5/25/2018 12:11",
-		"generateEntries" : "lb 6/8/2018 10:20",
+		"generateEntries" : "az 6/22/2018 13:40",
 		"getListOfType:" : "lb 5/22/2018 14:21",
 		"getSuggestionsFor:" : "NK 6/2/2018 16:18",
-		"initialize" : "lb 6/5/2018 13:43",
+		"initialize" : "az 6/22/2018 13:41",
 		"initializeSlowList" : "lb 5/22/2018 14:47",
 		"isEmpty" : "lb 6/10/2018 00:16",
 		"lookupTables" : "lb 5/22/2018 13:56",
@@ -21,4 +21,5 @@
 		"notEmpty" : "jah 5/25/2018 12:15",
 		"registerToStrategies:" : "lb 6/6/2018 11:15",
 		"removeStrategy:" : "jah 5/5/2018 20:28",
-		"strategies" : "jah 5/5/2018 20:22" } }
+		"strategies" : "jah 5/5/2018 20:22",
+		"strategies:" : "az 6/22/2018 13:41" } }

@@ -2,13 +2,13 @@ model creation
 createRanges
 	| parser |
 	parser := SHParserST80 new.
-	ranges := parser 
-				rangesIn: source
-				classOrMetaClass: theClass
+	self ranges: (parser 
+				rangesIn: self source
+				classOrMetaClass: self theClass
 				workspace: nil
-				environment: nil.
-	(ranges notEmpty and: [((ranges at: 1) type = #undefinedIdentifier) or: [(ranges at: 1) type = #excessCode]])
-				ifTrue: [ranges := self createRangesForMethod].
-	ranges := ranges select: [:each | each type ~= #comment].
+				environment: nil).
+	(self ranges notEmpty and: [((self ranges at: 1) type = #undefinedIdentifier) or: [(self ranges at: 1) type = #excessCode]])
+				ifTrue: [self ranges: self createRangesForMethod].
+	self ranges: (self ranges select: [:each | each type ~= #comment]).
 
 	

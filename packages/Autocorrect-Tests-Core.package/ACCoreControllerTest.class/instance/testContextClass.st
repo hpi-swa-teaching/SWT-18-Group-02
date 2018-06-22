@@ -1,4 +1,4 @@
 as yet unclassified
 testContextClass
 	
-	self assert: ACContext equals: controller contextClass
+	self assert: ACContext equals: self controller contextClass

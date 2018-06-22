@@ -7,8 +7,8 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 	keyValue := aKeyboardEvent keyValue.
 	ctrl := aKeyboardEvent controlKeyPressed.
 	cmd := aKeyboardEvent commandKeyPressed.
-	tab := aKeyboardEvent keyCharacter = Character tab.
-	enter := aKeyboardEvent keyCharacter = Character cr.
+	tab := aKeyboardEvent keyCharacter = self Character tab.
+	enter := aKeyboardEvent keyCharacter = self Character cr.
 	home := keyValue = 1.
 	end := keyValue = 4.
 	del := keyValue = 8.
@@ -43,19 +43,19 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 				^ false].
 		
 	(tab and: [theEditor wordAtCaret notEmpty] and: [ACPreferences enableTabInsertion]) ifTrue: [
-		(self acmodel notEmpty and: [menuMorph selected > 0]) 
-				ifTrue: [menuMorph insertSelected 
+		(self acmodel notEmpty and: [self menuMorph selected > 0]) 
+				ifTrue: [self menuMorph insertSelected 
 					ifTrue: [ ^ true ] ]
 				ifFalse: [enter 
 					ifFalse: [self openXMenuFor: theEditor. ^true]]].	
 
 	up
-		ifTrue:  [menuMorph moveUp. ^ true]. 	
+		ifTrue:  [self menuMorph moveUp. ^ true]. 	
 			
 	down
 		ifTrue: [
-			menuMorph selected = 3 ifTrue: [self openXMenuFor: theEditor].
-			menuMorph moveDown.
+			self menuMorph selected = 3 ifTrue: [self openXMenuFor: theEditor].
+			self menuMorph moveDown.
 			^ true ].
 		
 	"home 
@@ -65,27 +65,27 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 		ifTrue: [menuMorph end. ^ true]."
 		
 	(del and: [ctrl]) 
-		ifTrue: [menuMorph help. ^true].
+		ifTrue: [self menuMorph help. ^true].
 
 	(right and: [self expanded])
-		ifTrue: [menuMorph showDetail. ^ true].
+		ifTrue: [self menuMorph showDetail. ^ true].
 
 	(left and: [self expanded])
-		ifTrue: [menuMorph hideDetail. ^ true].
+		ifTrue: [self menuMorph hideDetail. ^ true].
 
 	pageUp
-		ifTrue: [menuMorph pageUp. ^ true].
+		ifTrue: [self menuMorph pageUp. ^ true].
 
 	pageDown 
-		ifTrue: [menuMorph pageDown. ^ true].
+		ifTrue: [self menuMorph pageDown. ^ true].
 
 	(space and:  [ACPreferences spaceCorrection])
-		ifTrue: [	menuMorph insertSelected.
+		ifTrue: [self menuMorph insertSelected.
 				 ^true].
 	
 	(enter and: [ACPreferences enableEnterInsertion] and: [theEditor wordAtCaret notEmpty])
-		 ifTrue: [(self acmodel notEmpty and: [menuMorph selected > 0]) 
-				ifTrue: [menuMorph insertSelected 
+		 ifTrue: [(self acmodel notEmpty and: [self menuMorph selected > 0]) 
+				ifTrue: [self menuMorph insertSelected 
 					ifTrue: [ ^ true ]]].
 
 	(colon | up | down | tab | del) 

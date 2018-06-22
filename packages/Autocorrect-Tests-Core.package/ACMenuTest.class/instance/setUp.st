@@ -1,4 +1,4 @@
 running
 setUp
 
-	menu := ACMenuMorph new
+	self menu: ACMenuMorph new

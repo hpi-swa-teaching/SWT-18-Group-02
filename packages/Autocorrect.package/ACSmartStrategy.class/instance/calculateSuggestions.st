@@ -1,6 +1,6 @@
 as yet unclassified
 calculateSuggestions
-	(self canUseOldSuggestionsFor: requested) 
-		ifTrue:[self calculateFastSuggestionsFor: requested]
-		ifFalse:[self suggestions: (self strategy calculateSuggestionsFor: requested)].
-	self lastString: requested.
+	(self canUseOldSuggestionsFor: self requested) 
+		ifTrue:[self calculateFastSuggestionsFor: self requested]
+		ifFalse:[self suggestions: (self strategy calculateSuggestionsFor: self requested)].
+	self lastString: self requested.

@@ -2,7 +2,7 @@ as yet unclassified
 insertCompletion: aString 
 
 	| startIndex oldSelectionInterval editor cmd |
-	editor := controller editor.
+	editor := self controller editor.
 	editor closeTypeIn; 
 			openTypeIn.
 	startIndex := editor startIndex.

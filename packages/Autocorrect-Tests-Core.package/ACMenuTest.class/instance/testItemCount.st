@@ -4,6 +4,6 @@ testItemCount
 
 	model := ACModel new.
 	model entries: OrderedCollection new.
-	menu model: model.
+	self menu model: model.
 	
-	self assert: 3 >= menu itemsCount
+	self assert: 3 >= self menu itemsCount

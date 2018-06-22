@@ -3,10 +3,10 @@ createRangesForMethod
 	| parser |
 	parser := SHParserST80 new.
 	parser parseAMethod: true.
-	ranges := parser 
-				rangesIn: source
-				classOrMetaClass: theClass
+	self ranges: (parser 
+				rangesIn: self source
+				classOrMetaClass: self theClass
 				workspace: nil
-				environment: nil.
-	^ ranges
+				environment: nil).
+	^ self ranges
 	

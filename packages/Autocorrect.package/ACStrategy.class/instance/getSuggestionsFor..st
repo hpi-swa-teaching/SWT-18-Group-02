@@ -1,7 +1,7 @@
 as yet unclassified
 getSuggestionsFor: aString
 
-	requested := aString.
+	self requested: aString.
 	self calculateSuggestions.
 	self checkContext.
 	^ self suggestions

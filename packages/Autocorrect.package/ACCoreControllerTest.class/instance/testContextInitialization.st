@@ -1,5 +1,5 @@
 as yet unclassified
 testContextInitialization
 	
-	self assert: controller context notNil.
-	self assert: ACContext equals: controller context class
+	self assert: self controller context notNil.
+	self assert: ACContext equals: self controller context class

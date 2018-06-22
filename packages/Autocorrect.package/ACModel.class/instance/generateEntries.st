@@ -2,7 +2,7 @@ as yet unclassified
 generateEntries
 	| result suggestions alreadyAdded|
 	
-	suggestions := self getSuggestionsFor: narrowString.
+	suggestions := self getSuggestionsFor: self narrowString.
 	alreadyAdded := Set new.
 	result := OrderedCollection new.	
 	suggestions
@@ -10,7 +10,7 @@ generateEntries
 			(alreadyAdded includes: suggestion suggestion) ifFalse: [
 				alreadyAdded add: suggestion suggestion.
 				result add: (ODatedEntry contents: suggestion suggestion type: #selector)]].
-	entries := result.
+	self entries: result.
 	^ result
 
 	"|testEntry1 testEntry2 testEntry3 result|

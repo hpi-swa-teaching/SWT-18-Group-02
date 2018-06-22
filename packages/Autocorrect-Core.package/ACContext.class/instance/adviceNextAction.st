@@ -2,7 +2,7 @@ as yet unclassified
 adviceNextAction
 
 		
-	receiverType = #newStatement 
+	self receiverType = #newStatement 
 		ifTrue: [	^#calculateForNewStatement]
 		ifFalse: [^#calculateWithSuggestions].
 	

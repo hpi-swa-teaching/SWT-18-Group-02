@@ -1,3 +1,3 @@
 UI
 menuClosed
-	menuMorph := nil
+	self menuMorph: nil

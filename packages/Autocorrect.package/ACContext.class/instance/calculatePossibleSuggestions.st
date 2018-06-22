@@ -2,11 +2,12 @@ as yet unclassified
 calculatePossibleSuggestions
 	|possibleSuggestions excludedClasses allSelectorsOfReceiver upperThreshold lowerThreshold|
 	
-	(({#cascade . #object . #class} asOrderedCollection includes: self receiverType) 
-		and: [self receiverClass notNil])
-		ifTrue: [possibleSuggestions := OrderedCollection new.
+	possibleSuggestions := OrderedCollection new.
+	(({#cascade . #object . #class} asOrderedCollection includes: receiverType) 
+		and: [receiverClass notNil])
+		ifTrue: [	
 			excludedClasses := Object withAllSuperclasses.
-			allSelectorsOfReceiver := self receiverClass allSelectorsForCompletionWithout: excludedClasses.
+			allSelectorsOfReceiver := receiverClass allSelectorsForCompletionWithout: excludedClasses.
 			
 		"we want to not have to check against every possible selector for objects like Morph, so we trim the suggestions down a bit"
 			(allSelectorsOfReceiver size <= 150) 

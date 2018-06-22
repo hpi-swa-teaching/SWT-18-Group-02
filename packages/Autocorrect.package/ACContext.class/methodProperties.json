@@ -3,7 +3,8 @@
 		"class:source:position:" : "lb 6/5/2018 13:22" },
 	"instance" : {
 		"adviceNextAction" : "az 6/22/2018 12:34",
-		"calculatePossibleSuggestions" : "az 6/22/2018 12:36",
+		"calculateAllPossibleSuggestions" : "NK 6/19/2018 10:38",
+		"calculatePossibleSuggestions" : "NK 6/19/2018 10:38",
 		"completionIndex" : "az 6/22/2018 12:38",
 		"completionIndex:" : "az 6/22/2018 12:38",
 		"completionToken" : "lb 5/10/2018 10:07",

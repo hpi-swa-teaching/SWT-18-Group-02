@@ -17,8 +17,8 @@
 		"expand" : "az 6/22/2018 12:51",
 		"expanded" : "jah 5/25/2018 11:13",
 		"expanded:" : "az 6/22/2018 12:51",
-		"handleControlEvent:editor:" : "az 6/22/2018 12:53",
-		"handleKeystrokeAfter:editor:" : "az 6/22/2018 12:51",
+		"handleControlEvent:editor:" : "NK 6/22/2018 15:42",
+		"handleKeystrokeAfter:editor:" : "NK 6/22/2018 11:50",
 		"handleKeystrokeBefore:editor:" : "az 6/22/2018 12:53",
 		"initialize" : "az 6/22/2018 12:53",
 		"initializeContextFor:" : "az 6/22/2018 12:54",
@@ -31,5 +31,4 @@
 		"model:" : "jah 5/25/2018 11:16",
 		"openMenuFor:" : "az 6/22/2018 12:54",
 		"openXMenuFor:" : "az 6/22/2018 12:54",
-		"retract" : "az 6/22/2018 12:55",
-		"tryAutocorrect:" : "az 6/8/2018 14:41" } }
+		"retract" : "az 6/22/2018 12:55" } }

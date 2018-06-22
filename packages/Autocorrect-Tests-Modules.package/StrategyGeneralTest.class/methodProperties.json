@@ -11,6 +11,7 @@
 		"model:" : "az 6/22/2018 13:55",
 		"setUp" : "az 6/22/2018 13:53",
 		"testEditDistance" : "az 6/22/2018 13:53",
+		"testExtendedStrategyGetSuggestionsFor" : "NK 6/17/2018 15:09",
 		"testMockController" : "az 6/22/2018 13:53",
 		"testRatherSlowStrategyGetSuggestionsFor" : "NK 6/2/2018 14:25",
 		"testSimpleStrategyGetSuggestionsFor" : "lb 6/8/2018 10:40",

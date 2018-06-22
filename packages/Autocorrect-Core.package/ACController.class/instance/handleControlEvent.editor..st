@@ -7,8 +7,8 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 	keyValue := aKeyboardEvent keyValue.
 	ctrl := aKeyboardEvent controlKeyPressed.
 	cmd := aKeyboardEvent commandKeyPressed.
-	tab := aKeyboardEvent keyCharacter = self Character tab.
-	enter := aKeyboardEvent keyCharacter = self Character cr.
+	tab := aKeyboardEvent keyCharacter = Character tab.
+	enter := aKeyboardEvent keyCharacter = Character cr.
 	home := keyValue = 1.
 	end := keyValue = 4.
 	del := keyValue = 8.

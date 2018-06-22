@@ -1,0 +1,16 @@
+{
+	"category" : "Autocorrect-Modules",
+	"classinstvars" : [
+		"classes",
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"collection",
+		"lookupTable" ],
+	"name" : "ACTable",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

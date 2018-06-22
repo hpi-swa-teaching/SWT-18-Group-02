@@ -1,3 +1,3 @@
 accessing
 requested
-	^ requested
+	^ requested ifNil: [requested:= '']

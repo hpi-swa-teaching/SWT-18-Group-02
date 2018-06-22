@@ -2,9 +2,10 @@ as yet unclassified
 calculatePossibleSuggestions
 	|possibleSuggestions excludedClasses allSelectorsOfReceiver upperThreshold lowerThreshold|
 	
+	possibleSuggestions := OrderedCollection new.
 	(({#cascade . #object . #class} asOrderedCollection includes: receiverType) 
 		and: [receiverClass notNil])
-		ifTrue: [	possibleSuggestions := OrderedCollection new.
+		ifTrue: [	
 			excludedClasses := Object withAllSuperclasses.
 			allSelectorsOfReceiver := receiverClass allSelectorsForCompletionWithout: excludedClasses.
 			

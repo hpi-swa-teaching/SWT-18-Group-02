@@ -1,12 +1,13 @@
 as yet unclassified
 calculateWithSuggestions
-	|entry|
-	context calculatePossibleSuggestions do:[:string |
-		entry:= self list default getEntryFor: string.
-		self suggestions at: string put: (ACExtendedSuggestion
+	|entry list|
+	list:= self context calculatePossibleSuggestions.
+	list do:[:symbol |
+		entry:= self list default getEntryFor: symbol asString.
+		self suggestions at: symbol asString put: (ACExtendedSuggestion
 				suggestion: entry contents
 				contextFaults: 0
 				date: entry date
 				maxMistakes: self maxMistakes)].
-	self addFirst: 500 classesWithContextFaults: self contextImportance.
-	self addFirst: 1000 methodsWithContextFaults: self contextImportance 
+	self addFirst: ((2500 - list size / 3) asInteger max: 0) classesWithContextFaults: self contextImportance.
+	self addFirst: ((2500 - list size *2 / 3) asInteger max: 0) methodsWithContextFaults: self contextImportance 

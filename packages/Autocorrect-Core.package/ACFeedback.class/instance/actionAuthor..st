@@ -1,4 +1,4 @@
 actions
 actionAuthor: anAuthor
-	self author: anAuthor asString.
+	author := anAuthor asString.
 	self changed: #actionAuthor

@@ -1,4 +1,4 @@
 actions
 actionMessage: aMessage
-	self message: aMessage asString.
+	message := aMessage asString.
 	self changed: #actionMessage

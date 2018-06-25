@@ -1,3 +1,3 @@
 actions
 actionTitle
-	^ self title ifNil: [self title: '']
+	^ title ifNil: [title := '']

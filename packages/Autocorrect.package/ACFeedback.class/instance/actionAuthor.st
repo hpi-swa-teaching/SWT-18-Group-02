@@ -1,3 +1,3 @@
 actions
 actionAuthor
-	^ self author ifNil: [self author: GitStamp defaultName]
+	^ author ifNil: [author := GitStamp defaultName]

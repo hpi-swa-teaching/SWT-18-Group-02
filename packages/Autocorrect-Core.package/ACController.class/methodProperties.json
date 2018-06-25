@@ -12,13 +12,14 @@
 		"contextClass" : "jah 5/15/2018 12:05",
 		"contextClass:" : "az 6/22/2018 12:53",
 		"correctionTimestamp" : "az 6/8/2018 14:21",
+		"defferAutocorrect" : "lb 6/25/2018 10:15",
 		"editor" : "jah 5/25/2018 11:36",
 		"editor:" : "jah 5/25/2018 11:36",
 		"expand" : "az 6/22/2018 12:51",
 		"expanded" : "jah 5/25/2018 11:13",
 		"expanded:" : "az 6/22/2018 12:51",
 		"handleControlEvent:editor:" : "NK 6/22/2018 15:42",
-		"handleKeystrokeAfter:editor:" : "NK 6/22/2018 11:50",
+		"handleKeystrokeAfter:editor:" : "lb 6/25/2018 10:16",
 		"handleKeystrokeBefore:editor:" : "az 6/22/2018 12:53",
 		"initialize" : "az 6/22/2018 12:53",
 		"initializeContextFor:" : "az 6/22/2018 12:54",
@@ -31,4 +32,5 @@
 		"model:" : "jah 5/25/2018 11:16",
 		"openMenuFor:" : "az 6/22/2018 12:54",
 		"openXMenuFor:" : "az 6/22/2018 12:54",
-		"retract" : "az 6/22/2018 12:55" } }
+		"retract" : "az 6/22/2018 12:55",
+		"tryAutocorrect:" : "lb 6/25/2018 10:15" } }

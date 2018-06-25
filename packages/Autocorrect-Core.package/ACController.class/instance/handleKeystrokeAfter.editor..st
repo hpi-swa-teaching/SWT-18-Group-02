@@ -10,4 +10,12 @@ handleKeystrokeAfter: aKeyboardEvent editor: anEditor
 	self model: anEditor model.
 	self context narrowWith: anEditor wordAtCaret.
 	self acmodel narrowString: anEditor wordAtCaret.
-	self autocorrectIn: anEditor
+	"self autocorrectIn: anEditor"
+	
+	self defferAutocorrect.
+	del
+		ifTrue: [
+			(self future: 500) tryAutocorrect: anEditor.
+			self closeMenu.
+			]
+	ifFalse:[self autocorrectIn: anEditor]

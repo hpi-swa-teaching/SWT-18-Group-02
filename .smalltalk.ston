@@ -6,11 +6,5 @@ SmalltalkCISpec {
       #directory : 'packages',
       #load : [ 'tests' ]
     }
-  ],
-  #testing : {
-    ...
-    #coverage : {
-      #packages : [ 'Autocorrect.*' ]
-    }
-  }
+  ]
 }

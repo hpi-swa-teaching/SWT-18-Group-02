@@ -4,3 +4,5 @@ contents: aString date: aDate
 		contents: aString;
 		date: aDate;
 		yourself
+		
+		

@@ -2,6 +2,8 @@
 	"class" : {
 		"classes" : "NK 6/15/2018 11:23",
 		"default" : "NK 6/15/2018 11:23",
+		"initialize" : "lb 7/6/2018 11:14",
+		"methodChanged:" : "lb 7/6/2018 11:26",
 		"resetClasses" : "NK 6/16/2018 15:34",
 		"resetDefault" : "NK 6/16/2018 15:35" },
 	"instance" : {
@@ -11,14 +13,19 @@
 		"at:ifAbsent:" : "NK 6/16/2018 17:43",
 		"at:ifPresent:ifAbsent:" : "NK 6/16/2018 17:46",
 		"at:put:" : "NK 6/16/2018 17:47",
+		"classesInCategory:" : "lb 7/6/2018 11:08",
 		"collection" : "NK 6/10/2018 22:48",
+		"compiled:in:date:" : "lb 7/6/2018 11:03",
 		"entriesStartingWith:" : "NK 6/16/2018 17:30",
 		"fillCollectionWithClasses" : "NK 6/16/2018 17:09",
 		"fillCollectionWithMethods" : "NK 6/16/2018 17:10",
 		"first:" : "NK 6/17/2018 15:26",
 		"getEntryFor:" : "NK 6/17/2018 15:53",
+		"justCompiled:in:" : "lb 7/6/2018 10:59",
 		"lookupTable" : "NK 6/16/2018 16:37",
 		"lookupTable:" : "NK 6/16/2018 16:36",
 		"oldestDate" : "NK 6/17/2018 14:04",
+		"quickFillWithCategoryOf:" : "lb 7/6/2018 11:05",
+		"quickFillWithClass:" : "lb 7/6/2018 11:06",
 		"tableAt:" : "NK 6/16/2018 17:22",
 		"tableFor:" : "NK 6/17/2018 14:47" } }

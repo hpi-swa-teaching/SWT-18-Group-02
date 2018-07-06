@@ -3,6 +3,7 @@
 		"class:source:position:" : "lb 6/5/2018 13:22" },
 	"instance" : {
 		"adviceNextAction" : "az 6/22/2018 12:34",
+		"autocorrectionDisabled" : "jah 7/6/2018 12:00",
 		"calculateAllPossibleSuggestions" : "NK 6/22/2018 16:47",
 		"calculatePossibleSuggestions" : "NK 6/22/2018 16:35",
 		"completionIndex" : "az 6/22/2018 12:38",
@@ -12,7 +13,7 @@
 		"computeArgsAndLocalVars" : "az 6/22/2018 12:39",
 		"computeReceiverClass" : "az 6/22/2018 12:49",
 		"computeReceiverType" : "az 6/22/2018 12:49",
-		"createRanges" : "az 6/22/2018 12:49",
+		"createRanges" : "jah 7/6/2018 12:11",
 		"createRangesForMethod" : "az 6/22/2018 12:44",
 		"currentlyNewStatement" : "az 6/22/2018 12:45",
 		"currentlyRelevant" : "lb 6/12/2018 11:14",

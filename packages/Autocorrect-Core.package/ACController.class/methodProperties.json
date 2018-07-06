@@ -4,7 +4,7 @@
 	"instance" : {
 		"acmodel" : "jah 5/15/2018 14:26",
 		"acmodel:" : "jah 5/15/2018 14:26",
-		"autocorrectIn:" : "az 6/8/2018 13:38",
+		"autocorrectIn:" : "jah 7/6/2018 12:10",
 		"closeMenu" : "az 6/22/2018 12:50",
 		"completionToken" : "lb 6/5/2018 13:54",
 		"context" : "lb 6/5/2018 15:08",
@@ -20,7 +20,7 @@
 		"expanded:" : "az 6/22/2018 12:51",
 		"handleControlEvent:editor:" : "NK 6/22/2018 15:42",
 		"handleKeystrokeAfter:editor:" : "lb 6/25/2018 10:16",
-		"handleKeystrokeBefore:editor:" : "az 6/22/2018 12:53",
+		"handleKeystrokeBefore:editor:" : "jah 7/6/2018 11:10",
 		"initialize" : "az 6/22/2018 12:53",
 		"initializeContextFor:" : "az 6/22/2018 12:54",
 		"isMenuOpen" : "az 6/22/2018 12:54",

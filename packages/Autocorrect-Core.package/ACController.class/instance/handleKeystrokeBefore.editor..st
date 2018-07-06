@@ -19,7 +19,8 @@ handleKeystrokeBefore: aKeyboardEvent editor: theEditor
 			self initializeContextFor: theEditor.
 			self acmodel narrowString: (theEditor wordAtCaret , aKeyboardEvent keyCharacter).
 			"still need to re-open it, otherwise the handleKeystrokeAfter: will not do anything"
-			self isMenuOpen ifFalse: [ self openMenuFor: theEditor].
+			self context autocorrectionDisabled 
+				ifFalse: [self isMenuOpen ifFalse: [ self openMenuFor: theEditor]].
 			^ false]
 		ifFalse: [	
 			^ self handleControlEvent: aKeyboardEvent editor: theEditor]

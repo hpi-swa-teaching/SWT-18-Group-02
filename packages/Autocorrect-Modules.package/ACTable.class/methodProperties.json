@@ -2,7 +2,7 @@
 	"class" : {
 		"classes" : "NK 6/15/2018 11:23",
 		"default" : "NK 6/15/2018 11:23",
-		"initialize" : "lb 7/6/2018 11:14",
+		"ensureRegisteredToSystem" : "lb 7/6/2018 11:46",
 		"methodChanged:" : "lb 7/6/2018 11:26",
 		"resetClasses" : "NK 6/16/2018 15:34",
 		"resetDefault" : "NK 6/16/2018 15:35" },

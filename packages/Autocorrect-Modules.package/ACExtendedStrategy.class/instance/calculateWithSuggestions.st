@@ -1,7 +1,7 @@
 as yet unclassified
 calculateWithSuggestions
 	|entry list|
-	list:= self context calculateAllPossibleSuggestions.
+	list:= self context calculatePossibleSuggestions.
 	list do:[:symbol |
 		entry:= self list default getEntryFor: symbol asString.
 		self suggestions at: symbol asString put: (ACExtendedSuggestion

@@ -1,5 +1,5 @@
 as yet unclassified
 loadFromOTable
 	
-	default fillCollectionWithMethods.
-	classes fillCollectionWithClasses
+	self default fillCollectionWithMethods.
+	self classes fillCollectionWithClasses

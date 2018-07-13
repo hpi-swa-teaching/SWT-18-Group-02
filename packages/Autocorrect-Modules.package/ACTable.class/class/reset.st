@@ -1,5 +1,5 @@
 as yet unclassified
 reset
-	classes := nil.
-	default := nil
+	self classes: nil.
+	self default: nil
 	

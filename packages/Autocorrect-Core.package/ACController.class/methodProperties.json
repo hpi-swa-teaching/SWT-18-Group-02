@@ -11,6 +11,7 @@
 		"context:" : "az 6/22/2018 12:53",
 		"contextClass" : "jah 5/15/2018 12:05",
 		"contextClass:" : "az 6/22/2018 12:53",
+		"correctionDelayAfterDelete" : "HB 7/13/2018 11:59",
 		"correctionTimestamp" : "az 6/8/2018 14:21",
 		"correctionTimestamp:" : "HB 7/13/2018 11:06",
 		"defferAutocorrect" : "HB 7/13/2018 11:06",
@@ -20,7 +21,7 @@
 		"expanded" : "jah 5/25/2018 11:13",
 		"expanded:" : "az 6/22/2018 12:51",
 		"handleControlEvent:editor:" : "HB 7/13/2018 11:03",
-		"handleKeystrokeAfter:editor:" : "lb 6/25/2018 10:16",
+		"handleKeystrokeAfter:editor:" : "HB 7/13/2018 11:59",
 		"handleKeystrokeBefore:editor:" : "jah 7/6/2018 11:10",
 		"initialize" : "az 6/22/2018 12:53",
 		"initializeContextFor:" : "az 6/22/2018 12:54",
@@ -34,4 +35,4 @@
 		"openMenuFor:" : "az 6/22/2018 12:54",
 		"openXMenuFor:" : "az 6/22/2018 12:54",
 		"retract" : "az 6/22/2018 12:55",
-		"tryAutocorrect:" : "lb 6/25/2018 10:15" } }
+		"tryAutocorrect:" : "HB 7/13/2018 12:02" } }

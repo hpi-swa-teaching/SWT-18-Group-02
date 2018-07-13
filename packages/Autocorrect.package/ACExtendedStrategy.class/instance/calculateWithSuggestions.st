@@ -9,5 +9,5 @@ calculateWithSuggestions
 				contextFaults: 0
 				date: entry date
 				maxMistakes: self maxMistakes)].
-	self addFirst: ((2200 - list size / 3) asInteger max: 0) classesWithContextFaults: self contextImportance.
-	self addFirst: ((2200 - list size *2 / 3) asInteger max: 0) methodsWithContextFaults: self contextImportance 
+	self addFirst: ((self targetListSize - (list size / 3)) asInteger max: 0) classesWithContextFaults: self contextImportance.
+	self addFirst: ((self targetListSize - (list size * 2 / 3)) asInteger max: 0) methodsWithContextFaults: self contextImportance 

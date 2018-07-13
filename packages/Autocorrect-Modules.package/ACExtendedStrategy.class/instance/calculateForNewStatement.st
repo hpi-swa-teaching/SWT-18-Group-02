@@ -1,4 +1,4 @@
 as yet unclassified
 calculateForNewStatement
-	self addFirst: 2000 classesWithContextFaults: 0.
-	self addFirst: 1000 methodsWithContextFaults: self contextImportance 
+	self addFirst: self numberClassesToUse classesWithContextFaults: 0.
+	self addFirst: self numberMethodsToUse methodsWithContextFaults: self contextImportance 

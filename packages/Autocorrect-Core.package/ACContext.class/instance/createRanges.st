@@ -7,7 +7,7 @@ createRanges
 				classOrMetaClass: self theClass
 				workspace: nil
 				environment: nil).
-	(self ranges notEmpty and: [((self ranges at: 1) type = #undefinedIdentifier) or: [(self ranges at: 1) type = #excessCode]])
+	(self ranges notEmpty and: [(self ranges first type = #undefinedIdentifier) or: [self ranges first type = #excessCode]])
 				ifTrue: [self ranges: self createRangesForMethod]
 
 	

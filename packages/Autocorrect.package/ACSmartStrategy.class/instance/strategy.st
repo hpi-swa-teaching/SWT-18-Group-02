@@ -1,6 +1,6 @@
 accessing
 strategy
 	strategy ifNil:
-		[strategy := ACRatherSlowStrategy use: model.
-		strategy context: context].
+		[strategy := ACRatherSlowStrategy use: self model.
+		strategy context: self context].
 	^ strategy

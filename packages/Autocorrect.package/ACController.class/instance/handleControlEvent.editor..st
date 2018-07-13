@@ -27,13 +27,10 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 				lastIndex :=  theEditor history previous intervalBetween last + 1. 
 				theEditor selectInterval: (lastIndex to: lastIndex - 1).
 				^true].
-		
+	
 	self isMenuOpen
 		ifFalse: [^ false].
-		
-	"del ifTrue: [ self smartBackspace ]."
-	"self expanded ifTrue: [ ^ super handleKeystrokeBefore: aKeyboardEvent editor: theEditor ]."
-	
+
 	esc 
 		ifTrue: [self retract; closeMenu. ^ true].
 
@@ -57,12 +54,6 @@ handleControlEvent: aKeyboardEvent editor: theEditor
 			self menuMorph selected = 3 ifTrue: [self openXMenuFor: theEditor].
 			self menuMorph moveDown.
 			^ true ].
-		
-	"home 
-		ifTrue: [menuMorph home. ^ true].
-
-	(end and: [ctrl not])
-		ifTrue: [menuMorph end. ^ true]."
 		
 	(del and: [ctrl]) 
 		ifTrue: [self menuMorph help. ^true].

@@ -1,3 +1,3 @@
 as yet unclassified
 resetClasses 
-	classes := nil
+	self classes: nil

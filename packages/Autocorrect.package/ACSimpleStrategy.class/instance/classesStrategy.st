@@ -1,6 +1,6 @@
 accessing
 classesStrategy
 	classesStrategy ifNil:
-		[classesStrategy := ACStrategyCompletionClasses registerTo: model.
-		classesStrategy context: context].
+		[classesStrategy := ACStrategyCompletionClasses registerTo: self model.
+		classesStrategy context: self context].
 	^ classesStrategy

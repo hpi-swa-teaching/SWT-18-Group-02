@@ -1,3 +1,3 @@
 as yet unclassified
 resetDefault 
-	default := nil
+	self default: nil

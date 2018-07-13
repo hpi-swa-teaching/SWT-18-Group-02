@@ -3,7 +3,7 @@
 		"registerTo:" : "lb 6/5/2018 14:02",
 		"use:" : "lb 6/5/2018 14:03" },
 	"instance" : {
-		"calculateForNewStatement" : "lb 6/12/2018 11:48",
+		"calculateForNewStatement" : "HB 7/13/2018 10:54",
 		"calculateSuggestions" : "lb 6/5/2018 14:16",
 		"calculateSuggestionsFor:" : "NK 6/17/2018 15:11",
 		"calculateSuggestionsFromVars" : "az 6/22/2018 13:49",
@@ -13,7 +13,7 @@
 		"context" : "NK 6/22/2018 12:31",
 		"context:" : "lb 6/5/2018 14:13",
 		"contextImportance" : "lb 6/6/2018 16:21",
-		"editDistanceBetween:and:" : "az 5/18/2018 12:14",
+		"editDistanceBetween:and:" : "HB 7/13/2018 10:47",
 		"filterSuggestionsPrefering:" : "lb 6/8/2018 10:47",
 		"getNewList" : "lb 5/9/2018 15:38",
 		"getSuggestionsFor:" : "NK 6/17/2018 14:16",

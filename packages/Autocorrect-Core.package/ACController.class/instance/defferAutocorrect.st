@@ -1,3 +1,3 @@
 as yet unclassified
 defferAutocorrect
-	correctionTimestamp := TimeStamp now.
+	self correctionTimestamp: TimeStamp now.

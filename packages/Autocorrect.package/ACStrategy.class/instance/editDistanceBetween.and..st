@@ -1,5 +1,6 @@
 as yet unclassified
 editDistanceBetween: aString1 and: aString2
+	"Computes the Levenshtein Edit Distance between String1 and String2"
 	|v0 v1 v_1 capitalizationCost swapCost deletionCost insertionCost substitutionCost|
 	v0 := Array new: aString2 size + 1.
 	v1 := Array new: aString2 size + 1.

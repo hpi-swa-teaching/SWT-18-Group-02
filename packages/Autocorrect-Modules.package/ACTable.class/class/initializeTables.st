@@ -1,12 +1,21 @@
 as yet unclassified
 initializeTables
 
-	UIManager default 
-		informUser: 'We are currently initializing your correction tables. 
-			This may take a moment, but will never happen again.'
-		during: [
-			default := self new.
-			classes := self new.
-			self initializeWithPackages.
-			self initializeWithInlinedMessages.
-			self fillCompletionTable.].
+	default := self new.
+	classes := self new.
+	(UIManager default 
+		confirm: 
+'Do you want to load your currently saved completion recommendations (recommended) 
+											OR
+load your most current work from the changes file for the initial corrections (this may take a few minutes)?'
+		title: 'How should we load?'
+		trueChoice: 'Use existing tables'
+		falseChoice: 'Load from changes' )
+			ifTrue: [
+				default fillCollectionWithMethods.
+				classes fillCollectionWithClasses.
+				]
+			ifFalse: [
+				self initializeWithPackages.
+				self initializeWithInlinedMessages.
+				self fillCompletionTable.].

@@ -1,4 +1,4 @@
-as yet unclassified
+ToolSetIntegration
 setAsDefault
 
 	self oldDefault: ToolSet default.

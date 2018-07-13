@@ -1,6 +1,5 @@
-as yet unclassified
+interface
 adviceNextAction
-
 		
 	self receiverType = #newStatement 
 		ifTrue: [	^#calculateForNewStatement]

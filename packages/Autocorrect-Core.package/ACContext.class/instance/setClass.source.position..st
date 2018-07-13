@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 setClass: aClass source: aString position: anInteger
 
 	self theClass: aClass.

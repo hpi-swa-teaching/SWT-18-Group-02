@@ -1,4 +1,4 @@
-UI
+viewHandling
 closeMenu
 	self menuMorph ifNotNil: [
 		self menuMorph delete.

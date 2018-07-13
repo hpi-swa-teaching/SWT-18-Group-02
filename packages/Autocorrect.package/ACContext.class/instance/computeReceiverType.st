@@ -1,4 +1,4 @@
-private
+computation
 computeReceiverType
 	| previous found |
 	self recurseCount: 0.

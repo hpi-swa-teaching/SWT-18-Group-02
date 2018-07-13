@@ -1,4 +1,4 @@
-as yet unclassified
+ToolSetIntegration
 resetDefault
 
 	(ToolSet default = (Smalltalk at: #ACToolSet))

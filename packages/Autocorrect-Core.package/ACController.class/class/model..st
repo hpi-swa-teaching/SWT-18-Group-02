@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 model: aStringHolder 
 	^self new model: aStringHolder

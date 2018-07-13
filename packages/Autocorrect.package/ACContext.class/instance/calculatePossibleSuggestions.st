@@ -1,4 +1,4 @@
-as yet unclassified
+interface
 calculatePossibleSuggestions
 	|possibleSuggestions excludedClasses allSelectorsOfReceiver upperThreshold lowerThreshold|
 	

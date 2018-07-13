@@ -1,4 +1,4 @@
-UI
+viewHandling
 openMenuFor: anEditor
 
 	| theMenu |

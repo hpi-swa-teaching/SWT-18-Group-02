@@ -1,4 +1,4 @@
-as yet unclassified
+computation
 currentlyNewStatement
 
 	^ (((self completionIndex = 1) 

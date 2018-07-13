@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 class: aClass source: aString position: anInteger
 
 	^ self basicNew initialize 

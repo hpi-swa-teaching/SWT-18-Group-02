@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarking
 benchmarkCurrentPerformance
 |model collection strat context|
 	collection := Dictionary new.

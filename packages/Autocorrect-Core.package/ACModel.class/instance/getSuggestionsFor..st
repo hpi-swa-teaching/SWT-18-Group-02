@@ -1,6 +1,5 @@
-as yet unclassified
+calculation
 getSuggestionsFor: aString
-
 	| suggestions|
 	
 	suggestions := SortedCollection new 

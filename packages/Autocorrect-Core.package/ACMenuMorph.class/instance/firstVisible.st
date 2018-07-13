@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 firstVisible
 	^firstVisible min: self model entryCount

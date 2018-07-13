@@ -1,4 +1,4 @@
-as yet unclassified
+tableAccess
 addEntriesMatching: aString
 	((self list default entriesStartingWith: aString) union: (self list classes entriesStartingWith: aString))
 		do: [:entry |

@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 justCompiled: selector in: class 
 	| date |
 	date := DateAndTime now.

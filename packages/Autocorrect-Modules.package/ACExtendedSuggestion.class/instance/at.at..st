@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 at: row at: column
 	row = 0 ifTrue: [^column].
 	column = 0 ifTrue: [^row].

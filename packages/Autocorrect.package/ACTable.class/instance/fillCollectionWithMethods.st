@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 fillCollectionWithMethods 
 	|string|
 	self alphabetNotFInalDontUse do: [:letter1 |

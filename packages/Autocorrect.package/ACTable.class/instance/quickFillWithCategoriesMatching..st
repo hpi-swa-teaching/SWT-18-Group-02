@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 quickFillWithCategoriesMatching: pattern
 	(Smalltalk organization categoriesMatching: pattern) do: [:category | 
 		(self classesInCategory: category) do: [:e | self quickFillWithClass: e]]

@@ -1,4 +1,4 @@
-as yet unclassified
+context-handling
 updateContext
 	self context calculateAllPossibleSuggestions do:[:symbol |
 		self suggestions at: symbol asString ifPresent: [:entry |

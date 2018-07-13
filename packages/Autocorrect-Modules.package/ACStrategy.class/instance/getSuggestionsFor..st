@@ -1,4 +1,4 @@
-as yet unclassified
+suggestionCalculation
 getSuggestionsFor: aString
 
 	self requested: aString.

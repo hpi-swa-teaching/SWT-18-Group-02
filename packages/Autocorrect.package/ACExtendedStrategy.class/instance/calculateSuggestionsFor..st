@@ -1,4 +1,4 @@
-as yet unclassified
+suggestionCalculation
 calculateSuggestionsFor: aString
 
 	^self getSuggestionsFor: aString

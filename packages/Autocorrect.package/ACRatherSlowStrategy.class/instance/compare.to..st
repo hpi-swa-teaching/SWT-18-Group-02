@@ -1,4 +1,4 @@
-as yet unclassified
+math
 compare: firstString to: secondString
 
 	firstString size >= secondString size ifTrue: [^ self editDistanceBetween: firstString and: secondString].

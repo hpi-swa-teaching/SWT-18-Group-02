@@ -1,4 +1,4 @@
-as yet unclassified
+suggestionCalculation
 calculateWithSuggestions
 	|entry list|
 	list:= self context calculatePossibleSuggestions.

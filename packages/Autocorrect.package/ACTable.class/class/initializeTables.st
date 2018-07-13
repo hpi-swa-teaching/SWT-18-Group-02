@@ -12,13 +12,6 @@ load your most current work from the changes file for the initial corrections (t
 			title: 'How should we load?'
 			trueChoice: 'Use existing tables'
 			falseChoice: 'Load from changes' )
-				ifTrue: [
-					default fillCollectionWithMethods.
-					classes fillCollectionWithClasses]
-				ifFalse: [
-					self initializeWithPackages.
-					self initializeWithInlinedMessages.
-					self fillCompletionTable.]]
-		ifTrue: [
-			default fillCollectionWithMethods.
-			classes fillCollectionWithClasses].
+				ifTrue: [	self loadFromOTable]
+				ifFalse: [self loadKernelCollectionAndChanges]]
+		ifTrue: [	self loadFromOTable].

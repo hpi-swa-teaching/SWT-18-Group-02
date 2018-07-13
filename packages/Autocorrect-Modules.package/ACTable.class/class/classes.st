@@ -1,3 +1,4 @@
 as yet unclassified
 classes 
-	^ classes ifNil: [classes := self new fillCollectionWithClasses ]
+	classes ifNil: [self initializeTables].
+	^ classes

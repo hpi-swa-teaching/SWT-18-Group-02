@@ -1,6 +1,5 @@
 {
 	"class" : {
-		 },
+		"initializeTables" : "NK 7/6/2018 15:46" },
 	"instance" : {
-		"fillCollectionWithClasses" : "NK 6/15/2018 12:09",
-		"fillCollectionWithMethods" : "NK 6/15/2018 12:10" } }
+		 } }

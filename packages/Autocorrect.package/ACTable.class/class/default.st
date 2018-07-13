@@ -1,3 +1,4 @@
 as yet unclassified
 default 
-	^ default ifNil: [default := self new fillCollectionWithMethods ]
+	default ifNil: [self initializeTables].
+	^ default

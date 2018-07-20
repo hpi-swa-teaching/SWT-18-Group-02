@@ -1,12 +1,14 @@
 {
 	"class" : {
 		"classes" : "lb 7/6/2018 12:16",
+		"classes:" : "HB 7/20/2018 10:57",
 		"default" : "lb 7/6/2018 12:16",
+		"default:" : "HB 7/20/2018 10:57",
 		"ensureRegisteredToSystem" : "lb 7/6/2018 11:46",
 		"ensureTablesInitialized" : "HB 7/13/2018 11:16",
 		"fillCompletionTable" : "lb 7/6/2018 12:08",
 		"fillWithRecord:" : "lb 7/6/2018 12:08",
-		"initializeTables" : "HB 7/13/2018 11:16",
+		"initializeTables" : "HB 7/20/2018 11:03",
 		"initializeWithInlinedMessages" : "lb 7/6/2018 14:41",
 		"initializeWithPackages" : "lb 7/6/2018 12:22",
 		"loadFromOTable" : "HB 7/13/2018 11:17",

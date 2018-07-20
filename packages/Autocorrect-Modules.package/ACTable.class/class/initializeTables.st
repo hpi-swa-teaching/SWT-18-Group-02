@@ -3,8 +3,8 @@ initializeTables
 
 	default := self new.
 	classes := self new.
-	self Smalltalk isHeadless ifFalse: [
-		(self UIManager default 
+	Smalltalk isHeadless ifFalse: [
+		(UIManager default 
 			confirm: 
 '		Do you want to load your currently saved completion recommendations (recommended) 
 											        OR

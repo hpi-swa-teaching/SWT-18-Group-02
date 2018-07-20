@@ -1,4 +1,4 @@
-as yet unclassified
+tableAccess
 updateTableFor: aString
 	|size|
 	size := aString size min: self requested size.

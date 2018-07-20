@@ -1,4 +1,3 @@
 accessing
 theClass: anObject
-
-	theClass  := anObject
+	theClass := anObject

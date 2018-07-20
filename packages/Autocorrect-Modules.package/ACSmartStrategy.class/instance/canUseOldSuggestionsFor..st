@@ -1,4 +1,4 @@
-as yet unclassified
+suggestionCalculation
 canUseOldSuggestionsFor: aString
 	aString size <= self maxMistakes ifTrue: [^ false].
 	^ (aString size >= self lastString size 

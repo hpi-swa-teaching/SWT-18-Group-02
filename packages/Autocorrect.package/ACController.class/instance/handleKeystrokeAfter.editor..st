@@ -1,4 +1,4 @@
-event handling
+keyHandling
 handleKeystrokeAfter: aKeyboardEvent editor: anEditor 
 |keyValue del|
 	keyValue := aKeyboardEvent keyValue.

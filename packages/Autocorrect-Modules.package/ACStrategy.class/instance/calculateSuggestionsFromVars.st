@@ -1,4 +1,4 @@
-as yet unclassified
+suggestionCalculation
 calculateSuggestionsFromVars
 
 	self context currentlyRelevant do: [ :entry |

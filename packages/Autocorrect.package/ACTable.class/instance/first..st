@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 first: aNumber
 	self collection size <= aNumber
 		ifTrue:[^self collection]

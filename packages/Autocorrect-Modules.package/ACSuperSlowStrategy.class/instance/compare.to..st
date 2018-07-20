@@ -1,4 +1,4 @@
-as yet unclassified
+math
 compare: firstString to: secondString
 	|aSet dif|
 	firstString size >= secondString size ifTrue: [^ self editDistanceBetween: firstString and: secondString].

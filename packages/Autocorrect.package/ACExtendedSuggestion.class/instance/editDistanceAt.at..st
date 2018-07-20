@@ -1,4 +1,4 @@
-as yet unclassified
+math
 editDistanceAt: row at: column
 	|capitalizationCost swapCost deletionCost insertionCost substitutionCost|
 	capitalizationCost := (self string at: row)asUppercase = (self suggestion at: column)asUppercase

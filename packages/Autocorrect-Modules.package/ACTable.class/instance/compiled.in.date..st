@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 compiled: selector in: class date: date
 	"this is only called for the default instance of ACTable"
 	| method |

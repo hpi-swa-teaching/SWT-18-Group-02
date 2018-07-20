@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 collection
 	^ collection ifNil:
 			[collection := Set new]

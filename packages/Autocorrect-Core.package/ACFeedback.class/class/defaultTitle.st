@@ -1,3 +1,3 @@
 as yet unclassified
 defaultTitle
-	^ 'Git Feedback Tool'
+	^ 'Autocorrect Feedback Tool'

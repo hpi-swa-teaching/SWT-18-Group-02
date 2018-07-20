@@ -1,3 +1,3 @@
-UI
+accessing
 expanded
 	^ expanded ifNil: [expanded := false]

@@ -1,6 +1,5 @@
-as yet unclassified
+drawing
 open
-
 	| model |
 	self selected: 0.
 	self firstVisible: 1.

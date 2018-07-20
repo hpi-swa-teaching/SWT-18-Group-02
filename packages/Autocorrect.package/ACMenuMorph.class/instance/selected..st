@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selected: aNumber 
 	"Set the value of selected"
 	self model notEmpty ifTrue: 

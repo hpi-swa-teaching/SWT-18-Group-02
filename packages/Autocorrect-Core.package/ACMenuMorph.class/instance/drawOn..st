@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawOn: aCanvas 
 	| rectangle model textColor |
 	self model isEmpty ifTrue: [^self].

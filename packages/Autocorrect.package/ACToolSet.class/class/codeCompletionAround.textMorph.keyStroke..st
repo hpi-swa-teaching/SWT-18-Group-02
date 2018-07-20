@@ -1,4 +1,4 @@
-as yet unclassified
+completion
 codeCompletionAround: aBlock textMorph: aTextMorph keyStroke: evt
 	| editor stringHolder |
 	

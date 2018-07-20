@@ -1,4 +1,4 @@
-as yet unclassified
+properties
 backgroundColor
 	"ACMenuMorph backgroundColor"
 	^ self colorSky

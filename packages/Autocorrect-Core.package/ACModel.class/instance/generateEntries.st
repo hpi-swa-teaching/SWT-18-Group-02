@@ -1,4 +1,4 @@
-as yet unclassified
+calculation
 generateEntries
 	| result suggestions alreadyAdded|
 	

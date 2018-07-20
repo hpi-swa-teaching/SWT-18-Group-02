@@ -1,4 +1,4 @@
-keyboard
+keyHandling
 handleControlEvent: aKeyboardEvent editor: theEditor
 	"Returns a boolean. true when the event was handled and no futher processing is needed by the caller."
 	

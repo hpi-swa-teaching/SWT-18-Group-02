@@ -1,4 +1,4 @@
-model creation
+private
 createRangesForMethod
 	| parser |
 	parser := SHParserST80 new.

@@ -1,4 +1,4 @@
-initialization
+contextHandling
 initializeContextFor: anEditor
 	
 	| class |

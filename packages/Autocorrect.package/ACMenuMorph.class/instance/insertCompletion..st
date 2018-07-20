@@ -1,6 +1,5 @@
-as yet unclassified
+recommendationInsertion
 insertCompletion: aString 
-
 	| startIndex oldSelectionInterval editor cmd |
 	editor := self controller editor.
 	editor closeTypeIn; 

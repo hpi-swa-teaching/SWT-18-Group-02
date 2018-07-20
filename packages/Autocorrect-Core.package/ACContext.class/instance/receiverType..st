@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 receiverType: aSymbol
 	receiverType := aSymbol.

@@ -17,7 +17,6 @@
 	"instance" : {
 		"addEntry:" : "NK 6/16/2018 17:57",
 		"addString:" : "NK 6/16/2018 16:28",
-		"alphabetNotFInalDontUse" : "NK 6/10/2018 22:52",
 		"at:ifAbsent:" : "NK 6/16/2018 17:43",
 		"at:ifPresent:ifAbsent:" : "NK 6/16/2018 17:46",
 		"at:put:" : "NK 6/16/2018 17:47",
@@ -25,8 +24,8 @@
 		"collection" : "NK 6/10/2018 22:48",
 		"compiled:in:date:" : "lb 7/6/2018 11:03",
 		"entriesStartingWith:" : "NK 6/16/2018 17:30",
-		"fillCollectionWithClasses" : "NK 6/16/2018 17:09",
-		"fillCollectionWithMethods" : "NK 6/16/2018 17:10",
+		"fillCollectionWithClasses" : "NK 7/13/2018 22:25",
+		"fillCollectionWithMethods" : "NK 7/13/2018 22:25",
 		"first:" : "NK 6/17/2018 15:26",
 		"getEntryFor:" : "NK 6/17/2018 15:53",
 		"justCompiled:in:" : "lb 7/6/2018 10:59",

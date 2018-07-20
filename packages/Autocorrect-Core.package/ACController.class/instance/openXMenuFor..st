@@ -1,4 +1,4 @@
-UI
+viewHandling
 openXMenuFor: anEditor 
 	self expand.
 	self openMenuFor: anEditor.

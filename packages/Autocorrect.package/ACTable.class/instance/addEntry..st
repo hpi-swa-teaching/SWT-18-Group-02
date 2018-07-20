@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 addEntry: aDatedEntry
 	self at: (aDatedEntry contents) 
 		ifPresent: [:entry | entry date: aDatedEntry date.

@@ -1,4 +1,4 @@
-as yet unclassified
+tableAccess
 setupNewTable
 	self resetSuggestions.
 	self checkContext

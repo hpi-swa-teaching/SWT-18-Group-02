@@ -1,4 +1,4 @@
-as yet unclassified
+suggestionCalculation
 calculateSuggestions
 	(self canUseOldSuggestionsFor: self requested) 
 		ifTrue:[self calculateFastSuggestionsFor: self requested]

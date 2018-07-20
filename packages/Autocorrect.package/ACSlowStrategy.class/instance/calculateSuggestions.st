@@ -1,4 +1,4 @@
-as yet unclassified
+suggestionCalculation
 calculateSuggestions	
 	self suggestions removeAll.
 	self collection do: [ :entry |

@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "NK 7/25/2018 00:57",
 	"instvars" : [
 		 ],
 	"name" : "ACRatherSlowStrategy",
 	"pools" : [
 		 ],
-	"super" : "ACSlowStrategy",
+	"super" : "ACStrategy",
 	"type" : "normal" }

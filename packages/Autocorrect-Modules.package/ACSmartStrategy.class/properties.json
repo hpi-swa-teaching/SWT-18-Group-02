@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "NK 7/25/2018 01:00",
 	"instvars" : [
 		"strategy",
 		"lastString" ],

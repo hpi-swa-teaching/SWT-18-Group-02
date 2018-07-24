@@ -1,3 +1,0 @@
-accessing
-fillCollection 
-	^ self subclassResponsibility 

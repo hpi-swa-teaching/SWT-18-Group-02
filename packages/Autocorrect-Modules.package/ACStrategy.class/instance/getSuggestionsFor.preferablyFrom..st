@@ -5,4 +5,5 @@ getSuggestionsFor: aString preferablyFrom: aCollection
 		(aCollection includes: each suggestion) ifFalse:[
 			each faults: each faults + self contextImportance]].
 	self suggestions reSort.
+	
 	^ self suggestions

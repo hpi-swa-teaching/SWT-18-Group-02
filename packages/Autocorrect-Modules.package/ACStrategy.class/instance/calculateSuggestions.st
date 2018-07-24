@@ -1,4 +1,3 @@
 suggestionCalculation
 calculateSuggestions
-
 	^ self subclassResponsibility

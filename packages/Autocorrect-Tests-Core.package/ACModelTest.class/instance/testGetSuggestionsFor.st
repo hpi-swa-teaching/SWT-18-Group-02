@@ -1,6 +1,5 @@
 testcases
 testGetSuggestionsFor
-
 	| suggestions currentSuggestion mockModel context|
 	
 	mockModel := ACMockModel new.

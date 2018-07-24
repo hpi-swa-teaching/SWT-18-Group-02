@@ -1,6 +1,7 @@
 accessing
 string: aString
 	|size|
+	
 	[size:= self string size min: aString size.
 	(self string first: size) = (aString first: size)]
 		whileFalse: [self deleteRow: self string size.

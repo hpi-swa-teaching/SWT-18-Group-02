@@ -1,6 +1,7 @@
 accessing
 fillCollection 
 	|string|
+	
 	Character alphabet do: [:letter |
 		string := letter asString.
 		 ((self controller getListOfType: #OTableClasses) entriesMatching: string) do:[:entry |

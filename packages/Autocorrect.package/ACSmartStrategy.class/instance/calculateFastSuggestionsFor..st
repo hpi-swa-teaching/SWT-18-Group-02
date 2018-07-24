@@ -1,6 +1,7 @@
 suggestionCalculation
 calculateFastSuggestionsFor: aString
 	|oldSuggestions|
+	
 	oldSuggestions:= self suggestions copy.
 	self suggestions removeAll.
 	oldSuggestions do: [ :entry |

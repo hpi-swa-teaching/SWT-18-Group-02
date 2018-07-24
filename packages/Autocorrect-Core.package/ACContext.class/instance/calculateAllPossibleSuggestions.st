@@ -8,6 +8,7 @@ calculateAllPossibleSuggestions
 		ifTrue: [	
 			excludedClasses := Object withAllSuperclasses.
 			possibleSuggestions addAll: (self receiverClass allSelectorsForCompletionWithout: excludedClasses)].
-		^ possibleSuggestions
+		
+	^ possibleSuggestions
 			
 		 

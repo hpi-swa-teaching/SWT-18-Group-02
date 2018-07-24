@@ -1,6 +1,5 @@
 viewHandling
 openMenuFor: anEditor
-
 	| theMenu |
 
 	self closeMenu.

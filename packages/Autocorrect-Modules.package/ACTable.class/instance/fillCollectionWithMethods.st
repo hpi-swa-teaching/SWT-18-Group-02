@@ -1,6 +1,7 @@
 updating
 fillCollectionWithMethods 
 	|string|
+	
 	Character alphabet do: [:letter1 |
 		Character alphabet do: [:letter2 |
 			string := letter1 asString, letter2 asString.

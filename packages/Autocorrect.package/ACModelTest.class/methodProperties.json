@@ -5,9 +5,9 @@
 		"model" : "az 6/22/2018 13:42",
 		"model:" : "az 6/22/2018 13:42",
 		"setUp" : "az 6/22/2018 13:41",
-		"testAddAndRemoveStrategy" : "az 6/22/2018 13:41",
+		"testAddAndRemoveStrategy" : "lb 7/24/2018 19:12",
 		"testCompletionAt" : "az 6/22/2018 13:41",
 		"testDefaultModuleDeployment" : "az 6/22/2018 13:42",
 		"testGenerateEntries" : "az 6/22/2018 13:42",
-		"testGetSuggestionsFor" : "lb 6/8/2018 10:34",
-		"testProvideListOfGivenType" : "az 6/22/2018 13:42" } }
+		"testGetSuggestionsFor" : "lb 7/24/2018 19:12",
+		"testProvideListOfGivenType" : "lb 7/24/2018 19:12" } }

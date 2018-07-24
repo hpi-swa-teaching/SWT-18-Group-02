@@ -1,6 +1,7 @@
 keyHandling
 handleKeystrokeAfter: aKeyboardEvent editor: anEditor 
-|keyValue del|
+	|keyValue del|
+	
 	keyValue := aKeyboardEvent keyValue.
 	del := keyValue = 8.
 	(anEditor isNil or:[self isMenuOpen not]) ifTrue:[^self].

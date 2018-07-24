@@ -1,3 +1,3 @@
 accessing
 oldestDate
-	^self collection last date
+	^ self collection last date

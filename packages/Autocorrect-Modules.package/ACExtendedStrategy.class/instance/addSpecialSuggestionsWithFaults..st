@@ -5,4 +5,4 @@ addSpecialSuggestionsWithFaults: aNumber
 				suggestion: entry contents
 				contextFaults: aNumber
 				date: DateAndTime now
-				maxMistakes: self maxMistakes ]] 
+				maxMistakes: self maxMistakes]] 

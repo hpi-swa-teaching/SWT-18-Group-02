@@ -1,6 +1,5 @@
 ToolSetIntegration
 resetDefault
-
 	(ToolSet default = (Smalltalk at: #ACToolSet))
 		ifTrue: [
 			ToolSet default: self oldDefault.

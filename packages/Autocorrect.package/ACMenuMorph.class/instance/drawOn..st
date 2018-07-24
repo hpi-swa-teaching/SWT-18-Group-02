@@ -1,9 +1,8 @@
 drawing
 drawOn: aCanvas 
 	| rectangle model textColor |
-	self model isEmpty ifTrue: [^self].
 	
-	"super drawOn: aCanvas."
+	self model isEmpty ifTrue: [^self].
 	rectangle := self bounds copy.
 	rectangle bottom: rectangle top + self class itemHeight.
 	rectangle := rectangle left: rectangle left + 20.

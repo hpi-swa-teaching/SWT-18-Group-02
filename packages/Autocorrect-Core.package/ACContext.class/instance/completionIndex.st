@@ -1,3 +1,3 @@
 accessing
 completionIndex
-	^completionIndex
+	^ completionIndex

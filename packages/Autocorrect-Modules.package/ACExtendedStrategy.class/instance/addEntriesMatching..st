@@ -6,6 +6,6 @@ addEntriesMatching: aString
 				suggestion: entry contents
 				contextFaults: self contextImportance
 				date: entry date
-				maxMistakes: self maxMistakes ]]
+				maxMistakes: self maxMistakes]]
 	
 	

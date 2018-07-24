@@ -5,4 +5,5 @@ initialize
 	self lookupTables: Dictionary new.
 	self class defaultModules do: [
 		:module | module registerTo: self].
+	
 	^ self

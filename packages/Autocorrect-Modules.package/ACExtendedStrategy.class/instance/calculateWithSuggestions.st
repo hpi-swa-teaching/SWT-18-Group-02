@@ -1,6 +1,7 @@
 suggestionCalculation
 calculateWithSuggestions
 	|entry list|
+	
 	list:= self context calculatePossibleSuggestions.
 	list do:[:symbol |
 		entry:= self list default getEntryFor: symbol asString.

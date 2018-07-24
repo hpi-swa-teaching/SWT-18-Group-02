@@ -1,8 +1,8 @@
 contextHandling
-initializeContextFor: anEditor
-	
-	| class |
+initializeContextFor: anEditor	
 	"Check if the method exist, to prevent a crash each time a key is pressed"
+	| class |
+	
 	(self class respondsTo: #selectedClassOrMetaClass)
 		ifTrue: [ class := self model selectedClassOrMetaClass ]
 		ifFalse: [ class := nil ].
@@ -13,5 +13,4 @@ initializeContextFor: anEditor
 		position: anEditor startIndex - 1).
 		
 	self context compute.	
-		
 	self acmodel registerToStrategies: self context.

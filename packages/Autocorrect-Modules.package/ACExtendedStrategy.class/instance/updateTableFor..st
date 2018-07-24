@@ -1,6 +1,7 @@
 tableAccess
 updateTableFor: aString
 	|size|
+	
 	size := aString size min: self requested size.
 	(aString first: size) = (self requested first: size) ifFalse: [self setupNewTable].
 	((aString notEmpty ) and: [self requested isEmpty]) ifTrue: [self setupNewTable].

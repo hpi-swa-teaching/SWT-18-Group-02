@@ -5,4 +5,4 @@ addFirst: aNumber methodsWithContextFaults: faults
 				suggestion: entry contents
 				contextFaults: faults
 				date: entry date
-				maxMistakes: self maxMistakes ]] 
+				maxMistakes: self maxMistakes]] 

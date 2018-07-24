@@ -1,6 +1,5 @@
 as yet unclassified
 initializeTables
-
 	default := self new.
 	classes := self new.
 	Smalltalk isHeadless ifFalse: [

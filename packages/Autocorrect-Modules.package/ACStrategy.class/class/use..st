@@ -4,4 +4,5 @@ use: aModel
 
 	strategy := self new.
 	strategy model: aModel.
+	
 	^ strategy

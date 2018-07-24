@@ -1,19 +1,19 @@
 {
 	"class" : {
 		"backgroundColor" : "lb 5/25/2018 10:11",
-		"colorSky" : "lb 5/25/2018 10:11" },
+		"colorSky" : "lb 7/24/2018 19:48" },
 	"instance" : {
 		"controller" : "az 6/22/2018 13:02",
 		"controller:" : "az 6/22/2018 13:02",
-		"drawOn:" : "jah 5/18/2018 11:46",
-		"firstVisible" : "jah 5/18/2018 11:34",
-		"firstVisible:" : "lb 5/29/2018 11:17",
-		"insertCompletion:" : "lb 7/13/2018 11:38",
-		"insertSelected" : "jah 5/18/2018 14:13",
+		"drawOn:" : "lb 7/24/2018 19:48",
+		"firstVisible" : "lb 7/24/2018 19:48",
+		"firstVisible:" : "lb 7/24/2018 19:48",
+		"insertCompletion:" : "lb 7/24/2018 19:48",
+		"insertSelected" : "lb 7/24/2018 19:48",
 		"itemsCount" : "az 6/22/2018 12:59",
 		"model" : "jah 5/18/2018 11:23",
 		"model:" : "jah 5/18/2018 11:23",
-		"open" : "lb 7/13/2018 11:38",
+		"open" : "lb 7/24/2018 19:48",
 		"selected:" : "jah 5/18/2018 11:22",
 		"selectedEntry" : "az 6/22/2018 12:59",
 		"setController:position:" : "az 6/22/2018 12:59" } }

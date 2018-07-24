@@ -2,6 +2,7 @@ math
 editDistanceBetween: aString1 and: aString2
 	"Computes the Levenshtein Edit Distance between String1 and String2"
 	|v0 v1 v_1 capitalizationCost swapCost deletionCost insertionCost substitutionCost|
+	
 	v0 := Array new: aString2 size + 1.
 	v1 := Array new: aString2 size + 1.
 	v_1 :=Array new: aString2 size +1.
@@ -26,5 +27,6 @@ editDistanceBetween: aString1 and: aString2
 			v1 at: j + 2 put: {deletionCost . insertionCost . substitutionCost . capitalizationCost . swapCost} min].
 		v_1 := v0 copy.
 		v0 := v1 copy].
+	
 	^ v0 at: aString2 size + 1
 	

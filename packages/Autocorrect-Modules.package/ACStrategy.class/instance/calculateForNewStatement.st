@@ -1,6 +1,5 @@
 suggestionCalculation
 calculateForNewStatement
-	
 	self calculateSuggestionsFromVars.
 	self suggestions do: [:each |
 		(each suggestion first isUppercase 

@@ -1,6 +1,5 @@
 computation
 currentlyNewStatement
-
 	^ (((self completionIndex = 1) 
 		or: [(self ranges at: self completionIndex - 1) type = #statementSeparator]
 		or: [(self ranges at: self completionIndex - 1) type = #binary]

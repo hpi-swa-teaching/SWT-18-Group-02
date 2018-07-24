@@ -1,4 +1,3 @@
 suggestionCalculation
 calculateSuggestionsFor: aString
-
-	^self getSuggestionsFor: aString
+	^ self getSuggestionsFor: aString

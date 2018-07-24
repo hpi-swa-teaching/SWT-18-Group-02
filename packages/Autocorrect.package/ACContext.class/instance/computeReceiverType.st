@@ -1,6 +1,7 @@
 computation
 computeReceiverType
 	| previous found |
+	
 	self recurseCount: 0.
 	(self currentlyNewStatement) 
 		ifTrue: [^#newStatement].

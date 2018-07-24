@@ -1,6 +1,7 @@
 private
 createRanges
 	| parser |
+	
 	parser := SHParserST80 new.
 	self ranges: (parser 
 				rangesIn: self source

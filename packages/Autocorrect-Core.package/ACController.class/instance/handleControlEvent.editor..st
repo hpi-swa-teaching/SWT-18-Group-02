@@ -1,7 +1,6 @@
 keyHandling
 handleControlEvent: aKeyboardEvent editor: theEditor
 	"Returns a boolean. true when the event was handled and no futher processing is needed by the caller."
-	
 	| keyValue ctrl cmd tab enter colon del down esc up left right pageDown pageUp end home space lastIndex |
 		
 	keyValue := aKeyboardEvent keyValue.

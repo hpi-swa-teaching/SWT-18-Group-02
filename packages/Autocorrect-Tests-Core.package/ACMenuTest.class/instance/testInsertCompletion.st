@@ -8,5 +8,4 @@ testInsertCompletion
 	editor openTypeIn.
 	controller editor: editor.
 	self menu setController: controller position: (20 @ 20).
-	
 	self menu insertCompletion: 'test' asString

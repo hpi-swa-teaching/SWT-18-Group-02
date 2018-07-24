@@ -5,4 +5,5 @@ registerTo: aModel
 	strategy := self new.
 	strategy model: aModel.
 	aModel addStrategy: strategy.
+	
 	^ strategy

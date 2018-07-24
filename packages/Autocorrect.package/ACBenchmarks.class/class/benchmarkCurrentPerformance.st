@@ -1,6 +1,7 @@
 benchmarking
 benchmarkCurrentPerformance
 |model collection strat context testString|
+
 	collection := Dictionary new.
 	model := ACModel new.
 	ACModel defaultModules do: [:strategy |

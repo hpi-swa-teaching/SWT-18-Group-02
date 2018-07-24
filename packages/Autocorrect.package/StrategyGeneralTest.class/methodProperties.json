@@ -2,18 +2,18 @@
 	"class" : {
 		"lastStoredRun" : "lb 4/21/2018 17:47" },
 	"instance" : {
-		"assert:corrects:to:" : "az 6/22/2018 13:53",
+		"assert:corrects:to:" : "lb 7/24/2018 19:05",
 		"context" : "az 6/22/2018 13:55",
 		"context:" : "az 6/22/2018 13:55",
 		"corrector" : "az 6/22/2018 13:55",
 		"corrector:" : "az 6/22/2018 13:55",
 		"model" : "az 6/22/2018 13:55",
 		"model:" : "az 6/22/2018 13:55",
-		"setUp" : "az 6/22/2018 13:53",
+		"setUp" : "lb 7/24/2018 19:05",
 		"testEditDistance" : "az 6/22/2018 13:53",
 		"testExtendedStrategyGetSuggestionsFor" : "NK 6/17/2018 15:09",
-		"testMockController" : "az 6/22/2018 13:53",
+		"testMockController" : "lb 7/24/2018 19:05",
 		"testRatherSlowStrategyGetSuggestionsFor" : "NK 6/2/2018 14:25",
 		"testSlowStrategyGetSuggestionsFor" : "NK 6/2/2018 14:27",
 		"testSmartStrategyGetSuggestionsFor" : "NK 6/2/2018 14:52",
-		"testSmartStrategyGetSuggestionsForPreferablyFrom" : "az 6/22/2018 13:54" } }
+		"testSmartStrategyGetSuggestionsForPreferablyFrom" : "lb 7/24/2018 19:06" } }

@@ -1,6 +1,7 @@
 as yet unclassified
 readRecentChanges
 	| changeFile end changeList |
+	
 	changeFile := (SourceFiles at: 2) readOnlyCopy setConverterForCode.
 	end := changeFile size.
 	changeList := Cursor read showWhile: [
@@ -8,5 +9,6 @@ readRecentChanges
 			scanFile: changeFile
 			from: (0 max: end - 50000)
 			to: end ].
+		
 	^ (changeList changeList select: [:e | e type = #method])
 	

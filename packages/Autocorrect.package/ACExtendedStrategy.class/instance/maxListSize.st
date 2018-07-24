@@ -1,3 +1,3 @@
 accessing
 maxListSize
-	^2200
+	^ 2200

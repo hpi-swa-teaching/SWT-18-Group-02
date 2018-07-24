@@ -1,6 +1,5 @@
 interface
 getListOfType: aType
-
 	(aType = #OTableClasses)
 		ifTrue: [^ OCompletionTable classes].
 	(aType = #OTableDefault)

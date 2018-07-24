@@ -1,4 +1,3 @@
 accessing
 recurseCount
-
-	^recurseCount
+	^ recurseCount

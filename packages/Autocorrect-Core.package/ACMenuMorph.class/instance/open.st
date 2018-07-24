@@ -1,6 +1,7 @@
 drawing
 open
 	| model |
+	
 	self selected: 0.
 	self firstVisible: 1.
 	model := self model.

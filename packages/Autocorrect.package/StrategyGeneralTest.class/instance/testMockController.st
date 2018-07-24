@@ -1,6 +1,7 @@
 testcases
 testMockController
 	|suggestions strategy|
+	
 	strategy := ACSlowStrategy registerTo: self model.
 	model registerToStrategies: self context.
 	suggestions:= strategy getSuggestionsFor:'Array'.	

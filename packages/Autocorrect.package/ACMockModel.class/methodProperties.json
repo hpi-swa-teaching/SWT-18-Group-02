@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getListOfType:" : "NK 6/15/2018 12:01",
-		"initialize" : "az 5/18/2018 14:27",
-		"mockOCompletionTableClasses" : "az 5/18/2018 14:25",
-		"mockOCompletionTableDefault" : "az 5/18/2018 14:26" } }
+		"getListOfType:" : "lb 7/24/2018 19:05",
+		"initialize" : "lb 7/24/2018 19:08",
+		"mockOCompletionTableClasses" : "lb 7/24/2018 19:05",
+		"mockOCompletionTableDefault" : "lb 7/24/2018 19:05" } }

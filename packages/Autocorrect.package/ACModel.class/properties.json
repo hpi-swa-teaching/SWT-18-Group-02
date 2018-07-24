@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"DefaultModules" ],
-	"commentStamp" : "lb 4/21/2018 17:12",
+	"commentStamp" : "lb 7/24/2018 11:52",
 	"instvars" : [
 		"strategies",
 		"lookupTables",

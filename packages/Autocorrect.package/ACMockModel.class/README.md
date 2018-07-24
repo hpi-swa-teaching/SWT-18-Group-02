@@ -1,0 +1,1 @@
+An ACMockModel is a mock representation of the ACModel used fot testing purposes.

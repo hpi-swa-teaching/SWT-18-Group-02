@@ -1,0 +1,1 @@
+An ACMockEditor is a mock representation of an Editor in Squeak (really simplyfied) for testing purposes.
